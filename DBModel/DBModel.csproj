@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AD49F0E4-C27B-4C02-9520-039CE6AE48F9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DBModel</RootNamespace>
+    <AssemblyName>DBModel</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DBModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Order.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShowDBModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagrams_Result.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagrams.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SysExt.cs" />
+    <Compile Include="UserPack.cs" />
+    <Compile Include="wgs001.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs002.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs003.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs004.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs005.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs006.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs007.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs008.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs009.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs010.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs011.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs012.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs013.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs014.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs015.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs016.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs017.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs018.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs019.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs020.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs021.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs022.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs023.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs024.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs025.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs026.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs027.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs028.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs029.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs030.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs031.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs032.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs033.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs034.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs035.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs036.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs037.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs038.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs039.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs040.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs041.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs042.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs043.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs044.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs045.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs046.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs047.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs048.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs049.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs050.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs051.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs052.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs053.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs054.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs055.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs056.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="wgs057.cs">
+      <DependentUpon>ShowDBModel.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="DBModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>DBModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>DBModel.Context.cs</LastGenOutput>
+      <DependentUpon>DBModel.edmx</DependentUpon>
+    </None>
+    <None Include="DBModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>DBModel.cs</LastGenOutput>
+      <DependentUpon>DBModel.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="ShowDBModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>ShowDBModel.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

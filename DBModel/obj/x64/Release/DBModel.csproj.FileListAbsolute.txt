@@ -1,0 +1,10 @@
+F:\Work Files\WebGameSource\DBModel\bin\x64\Release\DBModel.dll.config
+F:\Work Files\WebGameSource\DBModel\bin\x64\Release\DBModel.dll
+F:\Work Files\WebGameSource\DBModel\bin\x64\Release\DBModel.pdb
+F:\Work Files\WebGameSource\DBModel\bin\x64\Release\EntityFramework.dll
+F:\Work Files\WebGameSource\DBModel\bin\x64\Release\EntityFramework.SqlServer.dll
+F:\Work Files\WebGameSource\DBModel\bin\x64\Release\EntityFramework.xml
+F:\Work Files\WebGameSource\DBModel\bin\x64\Release\EntityFramework.SqlServer.xml
+F:\Work Files\WebGameSource\DBModel\obj\x64\Release\DBModel.csprojResolveAssemblyReference.cache
+F:\Work Files\WebGameSource\DBModel\obj\x64\Release\DBModel.dll
+F:\Work Files\WebGameSource\DBModel\obj\x64\Release\DBModel.pdb

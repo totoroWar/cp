@@ -1,0 +1,246 @@
+﻿@charset "utf-8";
+
+html,
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height:22px;
+	color: #FFF;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(/images/zj2/ui/head_bg.gif);
+	background-position: 7px -7px;
+}
+
+p,ul,li,ol,dd,dt,dl,form{
+	margin: 0px;
+	padding: 0px;
+	font-family: "宋体";
+	list-style-image: none;
+	list-style-type: none;
+}
+img{
+	margin: 0px;
+	padding: 0px;
+	float:left;
+	border:0;
+}
+.clear{ clear:both; height:0; font-size:0; line-height:0;}
+
+a:link,a:visited,a:active,
+a:hover{
+	color:#fff;
+	font-family: "宋体";
+	font-size: 12px;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+
+.commonmain {
+	width: 658px;
+	height: 678px;
+	padding-left: 55px;
+	padding-right: 55px;
+	margin-left: 10px;
+
+	*margin-left: 5px;
+	margin-top: 10px;
+	float: left;
+	background-color: #f0f0f0;
+	color: #666;
+	overflow: auto;
+	text-align: left;
+	padding-top: 55px;
+	padding-bottom: 10px;
+}
+.commonmain_title{
+	font-size: 30px;
+	line-height: 40px;
+	color: #333;
+	text-align: center;
+	font-family: "微软雅黑";
+	margin-bottom: 10px;
+}
+.commonmain_time {
+	font-size: 14px;
+	color: #888;
+	text-align: center;
+}
+.commonmain_text {
+	font-size: 14px;
+	line-height: 24px;
+	padding-top: 40px;
+}
+#membermain_headbg{
+	background-image: url(/images/zj2/ui/login_headbg.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+#membermain_bg{
+	background-image: url(/images/zj2/ui/login_bg02.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+.loginhead {
+	width: auto;
+	height: 55px;
+}
+.loginhead a,
+.loginhead span{
+	float:right;
+	margin-right:12px;
+	margin-top:14px;
+}
+
+.logincomtentmain {
+	height:900px;
+	width: 650px;
+	position: relative;
+	z-index: 10;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.login_logo{
+	position: absolute;
+	z-index: 11;
+	top: 25px;
+	float: left;
+	width:235px;
+	height:89px;
+	display:block;
+	background: url(../images/common/logo.png) no-repeat left top !important;
+	left: -40px;
+	/*background: none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='crop', src=../images/common/logo.png) !important; */
+}
+.login_h1{
+	position: absolute;
+	z-index: 11;
+	top: 170px;
+	left: 0px;
+	float: left;
+	width: 650px;
+	text-align: center;
+	color: #f5be5a;
+	text-shadow: 1px 1px 0px #be0000;
+	font-family: "微软雅黑";
+	font-size: 30px;
+	line-height: 36px;
+}
+.logincomtentmain form {
+	position: absolute;
+	z-index: 11;
+	top: 223px;
+	left: 136px;
+	float: left;
+	width: 505px;
+	background: url(../images/common/logo_form_topbg.png) no-repeat left top !important;
+	padding-top:29px;
+	
+}
+.logincomtent_form{
+	width: 340px;
+	float: left;
+	margin-left:20px;
+	*margin-left:10px;
+	background-image: url(../images/common/logo_form_footbg.png);
+	background-repeat: no-repeat;
+	background-position: -10px bottom;
+	padding-bottom:19px;
+}
+.logincomtent_form dl{
+	width: 340px;
+	float: left;
+	margin-bottom:12px;
+	font-family:'微软雅黑';
+}
+.dlinput340{
+	background-image: url(../images/common/input340.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.dlinput225{
+	background-image: url(../images/common/input225.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.logincomtent_form dl dt {
+	font-size: 12px;
+	line-height: 35px;
+	color: #FFF;
+	float: left;
+	height: 35px;
+	width: 60px;
+	padding-left:16px;
+	background:none;
+}
+.logincomtent_form dl dd {
+	float: left;
+	height: 35px;
+	width: 263px;
+	padding-left:1px;
+	background-image: url(../images/common/input_line.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	display:block;
+}
+.logincomtent_form dl dd input{
+	border:1px solid #100a0a;
+	
+	height: 32px;
+	float: left;
+	padding-left:6px;
+}
+.input250{
+	width:250px;
+}
+.input268{
+	width:268px;
+}
+.input62{
+	width:62px;
+	padding-right:6px;
+}
+.input80{
+	width:80px;
+	padding-right:6px;
+}
+.logincomtent_formyzm{
+	float: left;
+	margin-top: 0px;
+	height: 34px;
+}
+.logincomtent_btnok{
+	float: right;	
+}
+.logincomtent_download {
+	float: left;
+	margin-top: 40px;
+	margin-left: 120px;
+	width: 140px;
+	text-shadow: 1px 1px 0px #640000;
+}
+.logincomtent_download a:link,
+.logincomtent_download a:visited,
+.logincomtent_download a:active,
+.logincomtent_download a:hover {
+	font-size: 22px;
+	font-style: italic;
+	font-weight: bold;
+	color: #e8bc35;
+	display: block;
+	text-shadow: 1px 1px 0px #7b0000;
+}
+.logincomtent_download a:hover{
+	color:#fff;
+	text-decoration:none;
+	font-size: 22px;
+	
+}

@@ -1,0 +1,131 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Services;
+
+/// <summary>
+/// Demo 的摘要说明
+/// </summary>
+[WebService(Namespace = "WAPService")]
+[WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
+[System.Web.Script.Services.ScriptService]
+public class Demo : System.Web.Services.WebService {
+
+    public Demo () {
+    }
+
+    /// <summary>
+    /// 此方法接受POST请求后，直接返回JSON,可输出未做序列化的对象 -ORZ
+    /// </summary>
+   [WebMethod]
+    public void GetMsgToJSON()
+    {
+
+        MyAjaxObj mj = new MyAjaxObj();
+
+
+        try
+        {
+            DBModel.UFHListSum ul = new DBModel.UFHListSum();
+            List<DBModel.UFHListSum> uls = new List<DBModel.UFHListSum>();
+
+            ul.smony = 100;
+            ul.syk = -10;
+            uls.Add(ul);
+
+            ul = new DBModel.UFHListSum();
+            ul.smony = 30;
+            ul.syk = -20;
+            uls.Add(ul);
+
+            mj.Code = "0000";
+            mj.Message = "OK";
+            mj.Temp = "-1";
+            mj.Data = uls;
+
+        }
+        catch
+        {
+            mj.Code = "0000";
+            mj.Message = "Error";
+        }
+
+       WAPHelpers wp = new WAPHelpers();
+       wp.ReWritJSON(mj);
+
+
+    }
+
+
+   /// <summary>
+   /// 直接在.net内引用，只要对自定义对象做过序列化声明，即可由用户在代码内直接声明引用 -ORZ
+   /// </summary>
+   /// <returns></returns>
+   [WebMethod]
+   public List<MyAjaxObj> GetMsgToDotNet()
+   {
+
+        MyAjaxObj mj = new MyAjaxObj();
+        List<MyAjaxObj> uls = new List<MyAjaxObj>();
+
+        mj.Code = "0000";
+        mj.Message = "OK";
+        mj.Temp = "-1";
+        uls.Add(mj);
+
+        mj = new MyAjaxObj();
+        mj.Code = "0001";
+        mj.Message = "Erros";
+        mj.Temp = "-2";
+        uls.Add(mj);
+        
+        return uls;
+
+   }
+
+    /// <summary>
+    /// 列表演示
+    /// </summary>
+    /// <returns></returns>
+   [WebMethod]
+   public MyAjaxObj GetListToDotNet()
+   {
+
+       MyAjaxObj mj = new MyAjaxObj();
+       UserInfoList ul;
+       List<UserInfoList> uls = new List<UserInfoList>();
+
+       ul = new UserInfoList();
+       ul.uID = 1;
+       ul.uMoney = 100.5;
+       ul.userName = "ORZ01";
+       uls.Add(ul);
+
+       ul = new UserInfoList();
+       ul.uID = 2;
+       ul.uMoney = 3000.01;
+       ul.userName = "ORZ02";
+       uls.Add(ul);
+
+       ul = new UserInfoList();
+       ul.uID = 3;
+       ul.uMoney = 9999;
+       ul.userName = "ORZ03";
+       mj.Data = ul;
+
+       mj.Code = "0000";
+       mj.Message = "OK";
+       mj.DataList = uls;
+
+       return mj;
+
+   }
+    
+    
+}
+
+
+
+
+   

@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="/CSS/CSSReset.css" rel="stylesheet" type="text/css" />
+    <link href="/CSS/Default/AM/PageDefalut.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="/Scripts/jquery-easyui/themes/gray/easyui.css" />
+    <script type="text/javascript" src="/Scripts/jquery/jquery.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery/jquery.cookie.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery-easyui/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="/Scripts/ion-sound/ion.sound.min.js"></script>
+    <script type="text/javascript" src="/Scripts/AM/Default/WGSBase.js"></script>
+    <script type="text/javascript">
+        $.ionSound({
+            sounds: [
+                "beer_can_opening",
+                "bell_ring",
+                "branch_break",
+                "water_droplet"
+            ],
+            path: "/Scripts/sounds/",
+            multiPlay: false,
+            volume: "1.0"
+        });
+    </script>
+    <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
+</head>
+<body>
+<div id="cjlsoft-body">
+<noscript><p>Your browser does not support JavaScript!</p><p>您的浏览器不支持JavaScript！</p></noscript>
+<asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+</div>
+</body>
+</html>

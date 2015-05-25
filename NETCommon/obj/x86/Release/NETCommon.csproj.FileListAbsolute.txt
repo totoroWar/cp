@@ -1,0 +1,8 @@
+F:\Course\MyProject\WebGame\NETCommon\bin\x86\Release\NETCommon.dll
+F:\Course\MyProject\WebGame\NETCommon\bin\x86\Release\NETCommon.pdb
+F:\Course\MyProject\WebGame\NETCommon\obj\x86\Release\NETCommon.dll
+F:\Course\MyProject\WebGame\NETCommon\obj\x86\Release\NETCommon.pdb
+C:\GoogleDisk\MyOtherProject\WebGame\NETCommon\bin\x86\Release\NETCommon.dll
+C:\GoogleDisk\MyOtherProject\WebGame\NETCommon\bin\x86\Release\NETCommon.pdb
+C:\GoogleDisk\MyOtherProject\WebGame\NETCommon\obj\x86\Release\NETCommon.dll
+C:\GoogleDisk\MyOtherProject\WebGame\NETCommon\obj\x86\Release\NETCommon.pdb

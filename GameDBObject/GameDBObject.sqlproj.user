@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <StartupScript>(空白)</StartupScript>
+    <StartAction>StartNone</StartAction>
+    <TargetConnectionString>Data Source=PC201410311721\SQLEXPRESS;Initial Catalog=WebGame;Integrated Security=True;Pooling=False</TargetConnectionString>
+    <TargetDatabase>WebGame</TargetDatabase>
+  </PropertyGroup>
+</Project>

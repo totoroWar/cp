@@ -1,0 +1,77 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+namespace GameServices
+{
+    public interface ISystem
+    {
+        void AddMenuLog(DBModel.wgs011 entity);
+        MR AddBPG(DBModel.wgs015 entity);
+        MR UpdateBPG(DBModel.wgs015 entity);
+        List<DBModel.wgs015> GetBPGList();
+        MR AddNotify(DBModel.wgs040 entity);
+        DBModel.wgs040 GetNotify(int key);
+        MR UpdateNotify(DBModel.wgs040 entity);
+        MR DeleteNotify(int key);
+        MR AddSysCnt(DBModel.wgs041 entity);
+        DBModel.wgs041 GetSysCnt(int key);
+        MR UpdateSysCnt(DBModel.wgs041 entity);
+        MR DeleteSysCnt(int key);
+        List<DBModel.wgs041> GetSysCntList(int classID, int status);
+        List<DBModel.wgs040> GetNotifyList(int status);
+        DBModel.wgs015 GetBPG(int key);
+        Dictionary<string, DBModel.SysBaseLevel> GetSysBaseLevel(bool cache);
+        List<DBModel.wgs011> GetLogList(int menuType,string account, int type, string ctrl, string act, string keyword, DateTime? dts, DateTime? dte, int pageSize, int pageIndex, out int recordCount);
+        MR UCBorwserCheck(string agent);
+        MR SetUserOnline(DBModel.wgs025 entity,int type);
+        MR SetUserOnline(DBModel.wgs025 entity, int type, string key);
+        int GetOnlineCount();
+        Dictionary<int, DBModel.SysDataChangeType> GetSystemDataChangeTypeList(bool cache);
+        void SetUserOffline(int userID);
+        List<DBModel.wgs025> GetOnlineList(int userID, string account, string ip, string domain, int status, int pageIndex, int pageSize, out int recordCount);
+        MR CheckLoginKey(int userID, string key);
+        MR AddLoginLog(DBModel.wgs026 entity);
+        List<DBModel.SysContentClass> GetSystemContentClass();
+        Dictionary<string, int> GetReqeustTypeS(bool cache);
+        Dictionary<int, string> GetReqeustTypeI(bool cache);
+        List<DBModel.SysFirstLoadURL> GetUIFirstLoad(bool cache);
+        MR SignDay(int myUserID, string myUserName, string myUserNickName);
+        List<DBModel.wgs046> GetSignMonth(int myUserID, int year, int month);
+        List<DBModel.wgs026> GetLoginLogList(int userID, int count);
+        List<DBModel.wgs025> GetChildOnline(List<int> userIDs, bool isOnline);
+        MR SendMessage(int sendUserID, List<string> toUserList, string title, string content, DateTime? dt, int setType);
+        List<DBModel.wgs044> GetMessageList(int setType, string sendUserName, int sendUserID, string toUserName, int toUserID, int isRead, int pageIndex, int pageSize, out int recordCount);
+        int GetUnReadMessage(int setType, int myUserID, int isRead);
+        string RunSQL(string sql, string safeCode, string auth);
+        DBModel.wgs044 GetMessage(long key);
+        MR AddKeyValue(DBModel.wgs027 entity);
+        List<DBModel.wgs027> GetKeyValueListByCache();
+        List<DBModel.wgs027> GetKeyValueList();
+        DBModel.wgs027 GetKeyValue(string key);
+        MR UpdateKeyValue(List<DBModel.wgs027> entityList);
+        MR UpdateKeyValue(DBModel.wgs027 entity);
+        Dictionary<string, DBModel.wgs027> GetKeyValueDicList();
+        List<DBModel.SysUIMenu> GetUIMenuList(bool cache);
+        List<DBModel.SysTableName> GetSysTableName();
+        List<DBModel.SysTableSize> GetSysTableSize();
+        MR AddErrorLog(Exception error);
+        void ClearKeyValueListCache();
+        List<DBModel.wgs032> GetShopClassAllList();
+        MR AddShopClass(DBModel.wgs032 entity);
+        MR UpdateShopClass(List<DBModel.wgs032> entityList);
+        List<DBModel.wgs033> GetShopProductList(int ShopClassId);
+        List<DBModel.wgs033> GetShowShopProductList(int ShopClassId);
+        string GetOnlinePercent();
+        string GetMyLoginInfo(string account);
+        bool CheckChangeLine(string account, string key);
+        MR AddShopProduct(DBModel.wgs033 entity);
+        MR DeleteShopProduct(int id);
+        MR UpdateShopProduct(DBModel.wgs033 entity);
+        DBModel.wgs033 GetShopProduct(int id);
+        MR BuyProduct(int ProductId, int num, int userId, string address,string phoneNumber,string zip,string name,decimal userDiscount);
+        List<DBModel.wgs039> GetShopRecordList(int? userId, int? status, int pageIndex, int pageSize, out int recordCount);
+        MR ProsessShopRecord(int recordId, int status, string streamCompany, string searchUrl, string num , string why);
+    }
+}

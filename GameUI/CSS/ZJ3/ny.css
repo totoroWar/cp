@@ -1,0 +1,151 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*案例banner*/
+.ny_case_banner{ width:100%; margin:auto;}
+.case_banner{width:100%;position:relative;height:510px;background:#fff; overflow:hidden;}
+.news_banner{width:100%;position:relative;height:320px;background:#fff; overflow:hidden;}
+.case_banner .bd{margin:0 auto;position:relative;z-index:0;overflow:hidden}
+.case_banner .bd ul{width:100%!important}
+.case_banner .bd li{width:100%!important;height:510px;overflow:hidden;text-align:center}
+.case_banner .bd li a{display:block;height:510px}
+.case_banner .hd{width:100%;position:absolute;z-index:1;bottom:0;left:50%; margin-left:-50%;height:30px;line-height:30px;text-align:center;_background:#000;_filter:alpha(opacity=60)}
+.case_banner .hd ul{text-align:center;padding-top:5px;}
+.case_banner .hd ul li{cursor:pointer;display:inline-block;*display:inline;zoom:1;width:25px;height:6px;margin:5px;background:#999; overflow:hidden;line-height:9999px;_filter:alpha(opacity=60); opacity:0.6;}
+.case_banner .hd ul .on{background:#c00;_filter:alpha(opacity=100); opacity:1;}
+.case_banner .prev,.case_banner .next{ position:absolute; left:3%; top:0; display:block; width:33px; height:100%; filter:alpha(opacity=50);opacity:0.5;}
+.case_banner .prev{ background:url(/images/zj3/f_roow_ico.png) no-repeat left center;}
+.case_banner .next{ background:url(/images/zj3/f_roow_ico.png) no-repeat right center; left:auto; right:3%;}
+.case_banner .prev:hover,.case_banner .next:hover{ filter:alpha(opacity=100);opacity:1;  }
+/*内页案例列表*/
+.ny_case_box{ width:1000px; margin:auto;}
+.ny_case_list{ width:1000px;}
+.ny_case_list ul{ width:1050px;}
+.ny_case_list ul li{ margin:15px 39px 15px 0; float:left; _display:inline; width:220px; height:260px; overflow:hidden;}
+.ny_case_list ul li .pic{ text-align:center; }
+.ny_case_list ul li .pic img{ width:220px; height:180px; display:block;}
+.ny_case_list ul li .pic a.avatar{ display:block; overflow:hidden; position:relative;}
+.ny_case_list ul li .pic a.avatar:hover{box-shadow: 0 0 20px gray;}
+.ny_case_list ul li .pic a.avatar:hover img{transform: scale(1.3);transition: all 1s ease 0s;-webkit-transform: scale(1.3);-webkit-transform: all 1s ease 0s;}
+.ny_case_list ul li .title{ padding-top:5px;}
+.ny_case_list ul li .title h4 a{ color:#464546; font:normal 12px/25px Arial, Helvetica, sans-serif;}
+.ny_case_list ul li .title h3 a{ color:#464546; font:bold 14px/20px "Microsoft YaHei";}
+.ny_case_list ul li .title h3 a:hover, .ny_case_list ul li .title h4 a:hover{ color:#CD171B; text-decoration:none;}
+.ny_case_list ul li .title h3 span{ color:#848485; font:normal 12px/20px "Microsoft YaHei"; margin-left:10px;}
+.ny_case_list ul li .title p{ color:#848485; line-height:20px;}
+.ny_case_list ul li .title p.img_descition{ color:#848485; line-height:20px;}
+
+.n_case_t{ border-bottom:1px solid #ccc; height:36px; text-align:center; position:relative;}
+.n_case_t span{ border-bottom:5px solid #969696; color:#272727; font:normal 16px/36px "Microsoft Yahei", "微软雅黑"; padding:6px 10px; position:relative;}
+/*案例01*/
+#main3{background-image:url(/images/zj3/main3.gif);margin:auto;height:550px;width:100%;background-position:center}
+#main3 .main3-top{margin:auto;height:100px;width:100%}
+#main3 .main3-top h2{width:426px;height:100px;margin:auto}
+#main3 .main3-top h2 strong{text-align:center;width:426px;height:100px;display:block;font-family:"微软雅黑";font-size:36px;color:#333;line-height:95px}
+.main3-down{width:1210px;margin:auto;height:400px;background-image:url(/images/zj3/bg3.png)}
+.main3-down dl{float:left;width:455px;height:100px}
+.main3-down dl dt{width:100px;height:100px}
+.main3-down dl dd{width:310px;padding-top:25px;height:50px;font-family:"微软雅黑";font-size:18px;line-height:25px;color:#666}
+.left-1{margin-top:90px;margin-right:110px;margin-left:40px}
+.left-2{margin-top:90px;margin-left:110px;margin-right:40px}
+.left-3{margin-top:20px;margin-right:110px;margin-left:40px}
+.left-4{margin-top:20px;margin-left:110px;margin-right:40px}
+.flat-l{float:left}
+.flat-r{float:right}
+
+.case_list_contxt{ width:1000px; margin-top:20px;}
+.j_title{ color:#272727; font:normal 18px/36px "Microsoft Yahei", "微软雅黑"; padding:10px 0;}
+.j_title font{ color:#e62129; font-size:30px; margin-right:10px;}
+.case_contxt{ color:#494949; font:normal 14px/25px "Microsoft Yahei", "微软雅黑"; margin-top:5px;}
+.case_contxt p{ margin-bottom:10px;}
+/*新闻中心*/
+.ny_news_box{ width:1000px; margin-top:20px;}
+.ny_news_left{ width:760px;}
+.ny_news_right{ width:200px; margin-left:40px;}
+/*当前位置*/
+.current_nav_title{ border-bottom:1px solid #ccc; height:30px;}
+.current_nav_title h3{ color:#333; font:normal 16px/30px "Microsoft Yahei", "微软雅黑";}
+.now_curent{ color:#333; height:35px; line-height:35px;}
+.now_curent a{ color:#333; padding:0 7px;}
+.now_curent a:hover{ color:#e62129;}
+.tit_con{ color:#232323; font-size:16px; font-weight:bold; text-align:center; line-height:30px;}
+.time_a{ border-bottom:1px dashed #ccc; color:#9a9a9a; height:30px; line-height:30px; text-align:center;}
+/*新闻列表*/
+.c_tplist{border-bottom: 1px solid #e9e9e9; clear:both; padding:20px 0px 30px 0px; width:100%; position:relative;}
+.c_tplistinner{ width:100%; position:relative;}
+.c_tplistinner p{ color:#666; padding-bottom:8px; line-height:18px;}
+.c_tph3{ font:normal 20px/20px "Microsoft Yahei", "微软雅黑"; padding-bottom:10px;}
+.c_tph3 a{ color:#333; font:normal 18px/22px "Microsoft Yahei", "微软雅黑"; padding:3px 0px;}
+.c_tph3 a:hover{ /*background:#990c11;*/ color:#990c11;transition: color linear 0.5s;-webkit-transition: color linear 0.5s;-moz-transition: color linear 0.5s; text-decoration:none}
+.c_tph3 span{ float:right; color:#666; font:normal 12px/20px Arial, Helvetica, sans-serif "微软雅黑";}
+.news_pic{float: left; width:205px; height:135px;margin-right:20px;overflow: hidden;display: inline;text-align: center;position: relative;z-index: 100; padding:8px; border:1px solid #ccc; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px;}
+.news_pic img{ width:205px; height:135px;}
+a.avatar{ display:block; overflow:hidden; position:relative;}
+a.avatar:hover{box-shadow: 0 0 20px gray;}
+a.avatar:hover img{transform: scale(1.3);transition: all 1s ease 0s;-webkit-transform: scale(1.3);-webkit-transform: all 1s ease 0s;}
+.news_tag{ margin-top:20px;}
+.news_tag span{ color:#afafaf;}
+.news_tag a{ color:#a00026; padding:3px 2px;}
+.news_tag a:hover{ background:#aaa; color:#a30; text-decoration:none;}
+.news_desc{ white-space:normal;}
+p.new_time{ color:#999;}
+/*右侧栏目*/
+.r_news_nav{ width:100%;}
+.r_news_nav h3{ border-bottom:1px solid #ccc;color:#333; font:bold 16px/30px "Microsoft Yahei", "微软雅黑";}
+.r_news_nav ul{}
+.r_news_nav ul li{ background:#eee; border-bottom:1px solid #d7d7d7; border-right:1px solid #d7d7d7; height:34px; padding-left:20px;}
+.r_news_nav ul li:hover, .r_news_nav ul li.active{ background:#fff; border-right:4px solid #e62129;}
+.r_news_nav ul li:hover a, .r_news_nav ul li.active a{ color:#e62129;}
+.r_news_nav ul li a{ color:#333; font:normal 16px/34px "Microsoft Yahei", "微软雅黑"; text-decoration:none;}
+.r_news_nav ul li a:hover{ color:#e62129;}
+.ny_adv01{ margin-top:20px; width:100%;}
+/*内页主要内容*/
+.ny_main{ border:1px solid #ccc; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; width:738px; min-height:300px; padding:10px 0;}
+
+/*内页新闻列表*/
+.ny_newslist{}
+.ny_newslist ul{ padding:5px 15px 10px 15px;}
+.ny_newslist ul li{ background:url(/images/zj3/n_news_ico01.png) no-repeat 5px center; line-height:30px; padding:2px 15px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.ny_newslist ul li:hover{ background:url(/images/zj3/n_news_ico01.png) no-repeat 5px center #f1f1f1;}
+.ny_newslist ul li a{ color:#555; font-size:13px;}
+.ny_newslist ul li a:hover{color:#34a150;}
+.ny_newslist ul li span{ color:#999; float:right;}
+
+.ny_newslist ul li.odd{background-color: #f1f1f1;} 
+.ny_newslist ul li.odd:hover{}
+.ny_newslist ul li.even { background-color: #fff;} 
+.ny_newslist ul li.even:hover{}
+/*图片列表*/
+.ny_piclist{ overflow:hidden; zoom:1; padding:10px 5px;}
+.ny_piclist ul li{ margin:0 7px; float:left; _display:inline; overflow:hidden; text-align:center;  }
+.ny_piclist ul li .pic{ text-align:center; }
+.ny_piclist ul li .pic img{ width:220px; height:150px; display:block;  padding:3px; border:1px solid #ccc; }
+.ny_piclist ul li .pic a:hover img{border-color:#34a150;  }
+.ny_piclist ul li .title{ line-height:30px;}
+.ny_piclist ul li .title a{ color:#202020; text-decoration:none;}
+.ny_piclist ul li .title a:hover{ color:#34a150;}
+
+/*详细页*/
+.h1_title{ font:normal 20px/40px "Microsoft Yahei", "微软雅黑"; text-align:center;}
+.ny_content{ padding:15px; overflow:hidden;}
+.content{}
+.news_content{ padding:10px;}
+.news_content p{margin-bottom:9px;font-size: 16px;line-height: 28px;}
+.page_title{ border-bottom:1px dashed #ccc; color:#202020; font:bold 18px/35px Arial, Helvetica, sans-serif "宋体"; text-align:center; line-height:35px;}
+.page_content{ margin-top:10px; line-height:2;}
+.page_content p{ margin:3px 0;}
+.tit_con{ color:#232323; font-size:16px; font-weight:bold; text-align:center; line-height:30px;}
+/*上一页 下一页*/
+.pageNavi {clear:both; padding-bottom:25px; margin: 20px auto 0px; width: 98%; padding-top:15px; TEXT-ALIGN: center
+}
+.pageleft, .pageright{ color:#666;OVERFLOW: hidden; WIDTH: 300px; font-size:12px; line-HEIGHT: 24px; HEIGHT: 24px}
+.pageleft {	PADDING-LEFT: 10px; FLOAT: left; TEXT-ALIGN: left}
+.pageright {PADDING-RIGHT: 10px; FLOAT: right; TEXT-ALIGN: right}
+.pageleft a, .pageright a{ color:#666;}
+.pageleft a:hover, .pageright a:hover{ color:#34a150;}
+.pageleft span, .pageright span{ font-size:12px;}
+
+/*分页*/
+.wp-pagenavi{}
+.wp-pagenavi a{ background:#ddd; border:1px solid #aaa; color:#222; font:normal 14px/30px Arial, Helvetica, sans-serif "微软雅黑"; padding:5px 12px; margin:2px 3px;}
+.wp-pagenavi a:hover, .wp-pagenavi span:hover{ background:#B10000; color:#fff; cursor:pointer; text-decoration:none;}
+.wp-pagenavi span{ background:#B10000; color:#fff; cursor:pointer; font:normal 14px/30px Arial, Helvetica, sans-serif "微软雅黑"; padding:5px 12px; margin:2px 3px; text-decoration:none;}

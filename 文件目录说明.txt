@@ -1,0 +1,27 @@
+文件目录说明：
+20150518000000.bak为数据库备份
+DBase
+Entity Unit，实际注入都在这里。通俗算是一个SQLHelper，由GameServices实际逻辑调用
+
+DBModel
+数据库所有表对象，表映射对象
+
+GameCompute
+派奖WinForm，有随机开奖，随机开奖针对非官方彩种
+
+GameDBObject
+SQL Server CLR层，派奖后派钱都在这里。（结合数据字典对应表理解相应功能，有存储过程、触发器），具体有几项，充值触发，提现触发，账变，下单时订单备份，等级刷新
+
+GameLibrary
+游戏模块，游戏逻辑（注数、判断是否中奖）
+
+GameServices
+实际逻辑，相当于与UI交接的逻辑
+
+GameUI
+UI，界面看到到的东西都在这里
+Default、ZJ1、ZJ2这些都是主题
+
+控制器
+AM是管理
+UI是用户

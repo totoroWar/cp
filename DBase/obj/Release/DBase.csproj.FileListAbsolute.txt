@@ -1,0 +1,122 @@
+E:\Course\MyProject\WebGame\DBase\bin\Release\DBase.dll.config
+E:\Course\MyProject\WebGame\DBase\bin\Release\DBase.dll
+E:\Course\MyProject\WebGame\DBase\bin\Release\DBase.pdb
+E:\Course\MyProject\WebGame\DBase\bin\Release\DBModel.dll
+E:\Course\MyProject\WebGame\DBase\bin\Release\EntityFramework.dll
+E:\Course\MyProject\WebGame\DBase\bin\Release\EntityFramework.SqlServer.dll
+E:\Course\MyProject\WebGame\DBase\bin\Release\DBModel.pdb
+E:\Course\MyProject\WebGame\DBase\bin\Release\EntityFramework.xml
+E:\Course\MyProject\WebGame\DBase\bin\Release\EntityFramework.SqlServer.xml
+E:\Course\MyProject\WebGame\DBase\bin\Release\zh-Hans\EntityFramework.resources.dll
+E:\Course\MyProject\WebGame\DBase\bin\Release\zh-Hans\EntityFramework.SqlServer.resources.dll
+E:\Course\MyProject\WebGame\DBase\obj\Release\DBase.csprojResolveAssemblyReference.cache
+E:\Course\MyProject\WebGame\DBase\obj\Release\DBase.dll
+E:\Course\MyProject\WebGame\DBase\obj\Release\DBase.pdb
+F:\Course\MyProject\WebGame\DBase\bin\Release\DBase.dll.config
+F:\Course\MyProject\WebGame\DBase\bin\Release\DBase.dll
+F:\Course\MyProject\WebGame\DBase\bin\Release\DBase.pdb
+F:\Course\MyProject\WebGame\DBase\bin\Release\DBModel.dll
+F:\Course\MyProject\WebGame\DBase\bin\Release\EntityFramework.dll
+F:\Course\MyProject\WebGame\DBase\bin\Release\EntityFramework.SqlServer.dll
+F:\Course\MyProject\WebGame\DBase\bin\Release\DBModel.pdb
+F:\Course\MyProject\WebGame\DBase\bin\Release\EntityFramework.xml
+F:\Course\MyProject\WebGame\DBase\bin\Release\EntityFramework.SqlServer.xml
+F:\Course\MyProject\WebGame\DBase\obj\Release\DBase.csprojResolveAssemblyReference.cache
+F:\Course\MyProject\WebGame\DBase\obj\Release\DBase.dll
+F:\Course\MyProject\WebGame\DBase\obj\Release\DBase.pdb
+C:\GoogleDisk\MyOtherProject\WebGame\DBase\bin\Release\DBase.dll.config
+C:\GoogleDisk\MyOtherProject\WebGame\DBase\bin\Release\DBase.dll
+C:\GoogleDisk\MyOtherProject\WebGame\DBase\bin\Release\DBase.pdb
+C:\GoogleDisk\MyOtherProject\WebGame\DBase\bin\Release\DBModel.dll
+C:\GoogleDisk\MyOtherProject\WebGame\DBase\bin\Release\EntityFramework.dll
+C:\GoogleDisk\MyOtherProject\WebGame\DBase\bin\Release\EntityFramework.SqlServer.dll
+C:\GoogleDisk\MyOtherProject\WebGame\DBase\bin\Release\DBModel.pdb
+C:\GoogleDisk\MyOtherProject\WebGame\DBase\bin\Release\EntityFramework.xml
+C:\GoogleDisk\MyOtherProject\WebGame\DBase\bin\Release\EntityFramework.SqlServer.xml
+C:\GoogleDisk\MyOtherProject\WebGame\DBase\obj\Release\DBase.csprojResolveAssemblyReference.cache
+C:\GoogleDisk\MyOtherProject\WebGame\DBase\obj\Release\DBase.dll
+C:\GoogleDisk\MyOtherProject\WebGame\DBase\obj\Release\DBase.pdb
+D:\GoogleDisk\MyOtherProject\WebGame\DBase\bin\Release\DBase.dll.config
+D:\GoogleDisk\MyOtherProject\WebGame\DBase\bin\Release\DBase.dll
+D:\GoogleDisk\MyOtherProject\WebGame\DBase\bin\Release\DBase.pdb
+D:\GoogleDisk\MyOtherProject\WebGame\DBase\bin\Release\DBModel.dll
+D:\GoogleDisk\MyOtherProject\WebGame\DBase\bin\Release\EntityFramework.dll
+D:\GoogleDisk\MyOtherProject\WebGame\DBase\bin\Release\EntityFramework.SqlServer.dll
+D:\GoogleDisk\MyOtherProject\WebGame\DBase\bin\Release\DBModel.pdb
+D:\GoogleDisk\MyOtherProject\WebGame\DBase\bin\Release\EntityFramework.xml
+D:\GoogleDisk\MyOtherProject\WebGame\DBase\bin\Release\EntityFramework.SqlServer.xml
+D:\GoogleDisk\MyOtherProject\WebGame\DBase\obj\Release\DBase.csprojResolveAssemblyReference.cache
+D:\GoogleDisk\MyOtherProject\WebGame\DBase\obj\Release\DBase.dll
+D:\GoogleDisk\MyOtherProject\WebGame\DBase\obj\Release\DBase.pdb
+C:\Work\MyOtherProject\WebGame\DBase\bin\Release\DBase.dll.config
+C:\Work\MyOtherProject\WebGame\DBase\bin\Release\DBase.dll
+C:\Work\MyOtherProject\WebGame\DBase\bin\Release\DBase.pdb
+C:\Work\MyOtherProject\WebGame\DBase\bin\Release\DBModel.dll
+C:\Work\MyOtherProject\WebGame\DBase\bin\Release\EntityFramework.dll
+C:\Work\MyOtherProject\WebGame\DBase\bin\Release\EntityFramework.SqlServer.dll
+C:\Work\MyOtherProject\WebGame\DBase\bin\Release\DBModel.pdb
+C:\Work\MyOtherProject\WebGame\DBase\bin\Release\EntityFramework.xml
+C:\Work\MyOtherProject\WebGame\DBase\bin\Release\EntityFramework.SqlServer.xml
+C:\Work\MyOtherProject\WebGame\DBase\obj\Release\DBase.csprojResolveAssemblyReference.cache
+C:\Work\MyOtherProject\WebGame\DBase\obj\Release\DBase.dll
+C:\Work\MyOtherProject\WebGame\DBase\obj\Release\DBase.pdb
+F:\Temp\WebGameSource\DBase\bin\Release\DBase.dll.config
+F:\Temp\WebGameSource\DBase\bin\Release\DBase.dll
+F:\Temp\WebGameSource\DBase\bin\Release\DBase.pdb
+F:\Temp\WebGameSource\DBase\bin\Release\DBModel.dll
+F:\Temp\WebGameSource\DBase\bin\Release\EntityFramework.dll
+F:\Temp\WebGameSource\DBase\bin\Release\EntityFramework.SqlServer.dll
+F:\Temp\WebGameSource\DBase\bin\Release\DBModel.pdb
+F:\Temp\WebGameSource\DBase\bin\Release\EntityFramework.xml
+F:\Temp\WebGameSource\DBase\bin\Release\EntityFramework.SqlServer.xml
+F:\Temp\WebGameSource\DBase\obj\Release\DBase.csprojResolveAssemblyReference.cache
+F:\Temp\WebGameSource\DBase\obj\Release\DBase.dll
+F:\Temp\WebGameSource\DBase\obj\Release\DBase.pdb
+F:\WebGameSource\DBase\bin\Release\DBase.dll.config
+F:\WebGameSource\DBase\bin\Release\DBase.dll
+F:\WebGameSource\DBase\bin\Release\DBase.pdb
+F:\WebGameSource\DBase\bin\Release\DBModel.dll
+F:\WebGameSource\DBase\bin\Release\EntityFramework.dll
+F:\WebGameSource\DBase\bin\Release\EntityFramework.SqlServer.dll
+F:\WebGameSource\DBase\bin\Release\DBModel.pdb
+F:\WebGameSource\DBase\bin\Release\EntityFramework.xml
+F:\WebGameSource\DBase\bin\Release\EntityFramework.SqlServer.xml
+F:\WebGameSource\DBase\obj\Release\DBase.csprojResolveAssemblyReference.cache
+F:\WebGameSource\DBase\obj\Release\DBase.dll
+F:\WebGameSource\DBase\obj\Release\DBase.pdb
+F:\Work Files\WebGameSource\DBase\bin\Release\DBase.dll.config
+F:\Work Files\WebGameSource\DBase\bin\Release\DBase.dll
+F:\Work Files\WebGameSource\DBase\bin\Release\DBase.pdb
+F:\Work Files\WebGameSource\DBase\bin\Release\DBModel.dll
+F:\Work Files\WebGameSource\DBase\bin\Release\EntityFramework.dll
+F:\Work Files\WebGameSource\DBase\bin\Release\EntityFramework.SqlServer.dll
+F:\Work Files\WebGameSource\DBase\bin\Release\DBModel.pdb
+F:\Work Files\WebGameSource\DBase\bin\Release\EntityFramework.xml
+F:\Work Files\WebGameSource\DBase\bin\Release\EntityFramework.SqlServer.xml
+F:\Work Files\WebGameSource\DBase\obj\Release\DBase.csprojResolveAssemblyReference.cache
+F:\Work Files\WebGameSource\DBase\obj\Release\DBase.dll
+F:\Work Files\WebGameSource\DBase\obj\Release\DBase.pdb
+F:\工作区\WebGameSource\DBase\bin\Release\DBase.dll.config
+F:\工作区\WebGameSource\DBase\bin\Release\DBase.dll
+F:\工作区\WebGameSource\DBase\bin\Release\DBase.pdb
+F:\工作区\WebGameSource\DBase\bin\Release\DBModel.dll
+F:\工作区\WebGameSource\DBase\bin\Release\EntityFramework.dll
+F:\工作区\WebGameSource\DBase\bin\Release\EntityFramework.SqlServer.dll
+F:\工作区\WebGameSource\DBase\bin\Release\DBModel.pdb
+F:\工作区\WebGameSource\DBase\bin\Release\EntityFramework.xml
+F:\工作区\WebGameSource\DBase\bin\Release\EntityFramework.SqlServer.xml
+F:\工作区\WebGameSource\DBase\obj\Release\DBase.csprojResolveAssemblyReference.cache
+F:\工作区\WebGameSource\DBase\obj\Release\DBase.dll
+F:\工作区\WebGameSource\DBase\obj\Release\DBase.pdb
+D:\BaiduYunDownload\Game\DBase\bin\Release\DBase.dll.config
+D:\BaiduYunDownload\Game\DBase\bin\Release\DBase.dll
+D:\BaiduYunDownload\Game\DBase\bin\Release\DBase.pdb
+D:\BaiduYunDownload\Game\DBase\bin\Release\DBModel.dll
+D:\BaiduYunDownload\Game\DBase\bin\Release\EntityFramework.dll
+D:\BaiduYunDownload\Game\DBase\bin\Release\EntityFramework.SqlServer.dll
+D:\BaiduYunDownload\Game\DBase\bin\Release\DBModel.pdb
+D:\BaiduYunDownload\Game\DBase\bin\Release\EntityFramework.xml
+D:\BaiduYunDownload\Game\DBase\bin\Release\EntityFramework.SqlServer.xml
+D:\BaiduYunDownload\Game\DBase\obj\Release\DBase.csprojResolveAssemblyReference.cache
+D:\BaiduYunDownload\Game\DBase\obj\Release\DBase.dll
+D:\BaiduYunDownload\Game\DBase\obj\Release\DBase.pdb

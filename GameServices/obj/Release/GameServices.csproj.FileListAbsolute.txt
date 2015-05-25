@@ -1,0 +1,204 @@
+E:\Course\MyProject\WebGame\GameServices\bin\Release\GameServices.dll.config
+E:\Course\MyProject\WebGame\GameServices\bin\Release\GameServices.dll
+E:\Course\MyProject\WebGame\GameServices\bin\Release\GameServices.pdb
+E:\Course\MyProject\WebGame\GameServices\bin\Release\DBase.dll
+E:\Course\MyProject\WebGame\GameServices\bin\Release\DBModel.dll
+E:\Course\MyProject\WebGame\GameServices\bin\Release\EntityFramework.dll
+E:\Course\MyProject\WebGame\GameServices\bin\Release\EntityFramework.SqlServer.dll
+E:\Course\MyProject\WebGame\GameServices\bin\Release\NETWebCommon.dll
+E:\Course\MyProject\WebGame\GameServices\bin\Release\DBase.pdb
+E:\Course\MyProject\WebGame\GameServices\bin\Release\DBModel.pdb
+E:\Course\MyProject\WebGame\GameServices\bin\Release\NETWebCommon.pdb
+E:\Course\MyProject\WebGame\GameServices\bin\Release\EntityFramework.xml
+E:\Course\MyProject\WebGame\GameServices\bin\Release\EntityFramework.SqlServer.xml
+E:\Course\MyProject\WebGame\GameServices\bin\Release\zh-Hans\EntityFramework.resources.dll
+E:\Course\MyProject\WebGame\GameServices\bin\Release\zh-Hans\EntityFramework.SqlServer.resources.dll
+E:\Course\MyProject\WebGame\GameServices\obj\Release\GameServices.csprojResolveAssemblyReference.cache
+E:\Course\MyProject\WebGame\GameServices\obj\Release\GameServices.dll
+E:\Course\MyProject\WebGame\GameServices\obj\Release\GameServices.pdb
+F:\Course\MyProject\WebGame\GameServices\bin\Release\GameServices.dll.config
+F:\Course\MyProject\WebGame\GameServices\bin\Release\GameServices.dll
+F:\Course\MyProject\WebGame\GameServices\bin\Release\GameServices.pdb
+F:\Course\MyProject\WebGame\GameServices\bin\Release\DBase.dll
+F:\Course\MyProject\WebGame\GameServices\bin\Release\DBModel.dll
+F:\Course\MyProject\WebGame\GameServices\bin\Release\EntityFramework.dll
+F:\Course\MyProject\WebGame\GameServices\bin\Release\EntityFramework.SqlServer.dll
+F:\Course\MyProject\WebGame\GameServices\bin\Release\GameLibrary.dll
+F:\Course\MyProject\WebGame\GameServices\bin\Release\NETCommon.dll
+F:\Course\MyProject\WebGame\GameServices\bin\Release\DBase.pdb
+F:\Course\MyProject\WebGame\GameServices\bin\Release\DBModel.pdb
+F:\Course\MyProject\WebGame\GameServices\bin\Release\GameLibrary.pdb
+F:\Course\MyProject\WebGame\GameServices\bin\Release\NETCommon.pdb
+F:\Course\MyProject\WebGame\GameServices\bin\Release\EntityFramework.xml
+F:\Course\MyProject\WebGame\GameServices\bin\Release\EntityFramework.SqlServer.xml
+F:\Course\MyProject\WebGame\GameServices\obj\Release\GameServices.csprojResolveAssemblyReference.cache
+F:\Course\MyProject\WebGame\GameServices\obj\Release\GameServices.dll
+F:\Course\MyProject\WebGame\GameServices\obj\Release\GameServices.pdb
+C:\GoogleDisk\MyOtherProject\WebGame\GameServices\bin\Release\GameServices.dll.config
+C:\GoogleDisk\MyOtherProject\WebGame\GameServices\bin\Release\GameServices.dll
+C:\GoogleDisk\MyOtherProject\WebGame\GameServices\bin\Release\GameServices.pdb
+C:\GoogleDisk\MyOtherProject\WebGame\GameServices\bin\Release\DBase.dll
+C:\GoogleDisk\MyOtherProject\WebGame\GameServices\bin\Release\DBModel.dll
+C:\GoogleDisk\MyOtherProject\WebGame\GameServices\bin\Release\EntityFramework.dll
+C:\GoogleDisk\MyOtherProject\WebGame\GameServices\bin\Release\EntityFramework.SqlServer.dll
+C:\GoogleDisk\MyOtherProject\WebGame\GameServices\bin\Release\GameLibrary.dll
+C:\GoogleDisk\MyOtherProject\WebGame\GameServices\bin\Release\NETCommon.dll
+C:\GoogleDisk\MyOtherProject\WebGame\GameServices\bin\Release\DBase.pdb
+C:\GoogleDisk\MyOtherProject\WebGame\GameServices\bin\Release\DBModel.pdb
+C:\GoogleDisk\MyOtherProject\WebGame\GameServices\bin\Release\GameLibrary.pdb
+C:\GoogleDisk\MyOtherProject\WebGame\GameServices\bin\Release\NETCommon.pdb
+C:\GoogleDisk\MyOtherProject\WebGame\GameServices\bin\Release\EntityFramework.xml
+C:\GoogleDisk\MyOtherProject\WebGame\GameServices\bin\Release\EntityFramework.SqlServer.xml
+C:\GoogleDisk\MyOtherProject\WebGame\GameServices\obj\Release\GameServices.csprojResolveAssemblyReference.cache
+C:\GoogleDisk\MyOtherProject\WebGame\GameServices\obj\Release\GameServices.dll
+C:\GoogleDisk\MyOtherProject\WebGame\GameServices\obj\Release\GameServices.pdb
+C:\GoogleDisk\MyOtherProject\WebGame\GameServices\bin\Release\MemcachedProviders.dll
+C:\GoogleDisk\MyOtherProject\WebGame\GameServices\bin\Release\Enyim.Caching.dll
+C:\GoogleDisk\MyOtherProject\WebGame\GameServices\bin\Release\log4net.dll
+D:\GoogleDisk\MyOtherProject\WebGame\GameServices\bin\Release\GameServices.dll.config
+D:\GoogleDisk\MyOtherProject\WebGame\GameServices\bin\Release\GameServices.dll
+D:\GoogleDisk\MyOtherProject\WebGame\GameServices\bin\Release\GameServices.pdb
+D:\GoogleDisk\MyOtherProject\WebGame\GameServices\bin\Release\DBase.dll
+D:\GoogleDisk\MyOtherProject\WebGame\GameServices\bin\Release\DBModel.dll
+D:\GoogleDisk\MyOtherProject\WebGame\GameServices\bin\Release\EntityFramework.dll
+D:\GoogleDisk\MyOtherProject\WebGame\GameServices\bin\Release\EntityFramework.SqlServer.dll
+D:\GoogleDisk\MyOtherProject\WebGame\GameServices\bin\Release\GameLibrary.dll
+D:\GoogleDisk\MyOtherProject\WebGame\GameServices\bin\Release\NETCommon.dll
+D:\GoogleDisk\MyOtherProject\WebGame\GameServices\bin\Release\MemcachedProviders.dll
+D:\GoogleDisk\MyOtherProject\WebGame\GameServices\bin\Release\Enyim.Caching.dll
+D:\GoogleDisk\MyOtherProject\WebGame\GameServices\bin\Release\log4net.dll
+D:\GoogleDisk\MyOtherProject\WebGame\GameServices\bin\Release\DBase.pdb
+D:\GoogleDisk\MyOtherProject\WebGame\GameServices\bin\Release\DBModel.pdb
+D:\GoogleDisk\MyOtherProject\WebGame\GameServices\bin\Release\GameLibrary.pdb
+D:\GoogleDisk\MyOtherProject\WebGame\GameServices\bin\Release\NETCommon.pdb
+D:\GoogleDisk\MyOtherProject\WebGame\GameServices\bin\Release\EntityFramework.xml
+D:\GoogleDisk\MyOtherProject\WebGame\GameServices\bin\Release\EntityFramework.SqlServer.xml
+D:\GoogleDisk\MyOtherProject\WebGame\GameServices\obj\Release\GameServices.csprojResolveAssemblyReference.cache
+D:\GoogleDisk\MyOtherProject\WebGame\GameServices\obj\Release\GameServices.dll
+D:\GoogleDisk\MyOtherProject\WebGame\GameServices\obj\Release\GameServices.pdb
+C:\Work\MyOtherProject\WebGame\GameServices\bin\Release\GameServices.dll.config
+C:\Work\MyOtherProject\WebGame\GameServices\bin\Release\GameServices.dll
+C:\Work\MyOtherProject\WebGame\GameServices\bin\Release\GameServices.pdb
+C:\Work\MyOtherProject\WebGame\GameServices\bin\Release\DBase.dll
+C:\Work\MyOtherProject\WebGame\GameServices\bin\Release\DBModel.dll
+C:\Work\MyOtherProject\WebGame\GameServices\bin\Release\EntityFramework.dll
+C:\Work\MyOtherProject\WebGame\GameServices\bin\Release\EntityFramework.SqlServer.dll
+C:\Work\MyOtherProject\WebGame\GameServices\bin\Release\GameLibrary.dll
+C:\Work\MyOtherProject\WebGame\GameServices\bin\Release\NETCommon.dll
+C:\Work\MyOtherProject\WebGame\GameServices\bin\Release\MemcachedProviders.dll
+C:\Work\MyOtherProject\WebGame\GameServices\bin\Release\Enyim.Caching.dll
+C:\Work\MyOtherProject\WebGame\GameServices\bin\Release\log4net.dll
+C:\Work\MyOtherProject\WebGame\GameServices\bin\Release\DBase.pdb
+C:\Work\MyOtherProject\WebGame\GameServices\bin\Release\DBModel.pdb
+C:\Work\MyOtherProject\WebGame\GameServices\bin\Release\GameLibrary.pdb
+C:\Work\MyOtherProject\WebGame\GameServices\bin\Release\NETCommon.pdb
+C:\Work\MyOtherProject\WebGame\GameServices\bin\Release\EntityFramework.xml
+C:\Work\MyOtherProject\WebGame\GameServices\bin\Release\EntityFramework.SqlServer.xml
+C:\Work\MyOtherProject\WebGame\GameServices\obj\Release\GameServices.csprojResolveAssemblyReference.cache
+C:\Work\MyOtherProject\WebGame\GameServices\obj\Release\GameServices.dll
+C:\Work\MyOtherProject\WebGame\GameServices\obj\Release\GameServices.pdb
+F:\Temp\WebGameSource\GameServices\bin\Release\GameServices.dll.config
+F:\Temp\WebGameSource\GameServices\bin\Release\GameServices.dll
+F:\Temp\WebGameSource\GameServices\bin\Release\GameServices.pdb
+F:\Temp\WebGameSource\GameServices\bin\Release\DBase.dll
+F:\Temp\WebGameSource\GameServices\bin\Release\DBModel.dll
+F:\Temp\WebGameSource\GameServices\bin\Release\EntityFramework.dll
+F:\Temp\WebGameSource\GameServices\bin\Release\EntityFramework.SqlServer.dll
+F:\Temp\WebGameSource\GameServices\bin\Release\GameLibrary.dll
+F:\Temp\WebGameSource\GameServices\bin\Release\NETCommon.dll
+F:\Temp\WebGameSource\GameServices\bin\Release\MemcachedProviders.dll
+F:\Temp\WebGameSource\GameServices\bin\Release\Enyim.Caching.dll
+F:\Temp\WebGameSource\GameServices\bin\Release\log4net.dll
+F:\Temp\WebGameSource\GameServices\bin\Release\DBase.pdb
+F:\Temp\WebGameSource\GameServices\bin\Release\DBModel.pdb
+F:\Temp\WebGameSource\GameServices\bin\Release\GameLibrary.pdb
+F:\Temp\WebGameSource\GameServices\bin\Release\NETCommon.pdb
+F:\Temp\WebGameSource\GameServices\bin\Release\EntityFramework.xml
+F:\Temp\WebGameSource\GameServices\bin\Release\EntityFramework.SqlServer.xml
+F:\Temp\WebGameSource\GameServices\obj\Release\GameServices.csprojResolveAssemblyReference.cache
+F:\Temp\WebGameSource\GameServices\obj\Release\GameServices.dll
+F:\Temp\WebGameSource\GameServices\obj\Release\GameServices.pdb
+F:\WebGameSource\GameServices\bin\Release\GameServices.dll.config
+F:\WebGameSource\GameServices\bin\Release\GameServices.dll
+F:\WebGameSource\GameServices\bin\Release\GameServices.pdb
+F:\WebGameSource\GameServices\bin\Release\DBase.dll
+F:\WebGameSource\GameServices\bin\Release\DBModel.dll
+F:\WebGameSource\GameServices\bin\Release\EntityFramework.dll
+F:\WebGameSource\GameServices\bin\Release\EntityFramework.SqlServer.dll
+F:\WebGameSource\GameServices\bin\Release\GameLibrary.dll
+F:\WebGameSource\GameServices\bin\Release\NETCommon.dll
+F:\WebGameSource\GameServices\bin\Release\MemcachedProviders.dll
+F:\WebGameSource\GameServices\bin\Release\Enyim.Caching.dll
+F:\WebGameSource\GameServices\bin\Release\log4net.dll
+F:\WebGameSource\GameServices\bin\Release\DBase.pdb
+F:\WebGameSource\GameServices\bin\Release\DBModel.pdb
+F:\WebGameSource\GameServices\bin\Release\GameLibrary.pdb
+F:\WebGameSource\GameServices\bin\Release\NETCommon.pdb
+F:\WebGameSource\GameServices\bin\Release\EntityFramework.xml
+F:\WebGameSource\GameServices\bin\Release\EntityFramework.SqlServer.xml
+F:\WebGameSource\GameServices\obj\Release\GameServices.csprojResolveAssemblyReference.cache
+F:\WebGameSource\GameServices\obj\Release\GameServices.dll
+F:\WebGameSource\GameServices\obj\Release\GameServices.pdb
+F:\Work Files\WebGameSource\GameServices\bin\Release\GameServices.dll.config
+F:\Work Files\WebGameSource\GameServices\bin\Release\GameServices.dll
+F:\Work Files\WebGameSource\GameServices\bin\Release\GameServices.pdb
+F:\Work Files\WebGameSource\GameServices\bin\Release\DBase.dll
+F:\Work Files\WebGameSource\GameServices\bin\Release\DBModel.dll
+F:\Work Files\WebGameSource\GameServices\bin\Release\EntityFramework.dll
+F:\Work Files\WebGameSource\GameServices\bin\Release\EntityFramework.SqlServer.dll
+F:\Work Files\WebGameSource\GameServices\bin\Release\GameLibrary.dll
+F:\Work Files\WebGameSource\GameServices\bin\Release\NETCommon.dll
+F:\Work Files\WebGameSource\GameServices\bin\Release\MemcachedProviders.dll
+F:\Work Files\WebGameSource\GameServices\bin\Release\Enyim.Caching.dll
+F:\Work Files\WebGameSource\GameServices\bin\Release\log4net.dll
+F:\Work Files\WebGameSource\GameServices\bin\Release\DBase.pdb
+F:\Work Files\WebGameSource\GameServices\bin\Release\DBModel.pdb
+F:\Work Files\WebGameSource\GameServices\bin\Release\GameLibrary.pdb
+F:\Work Files\WebGameSource\GameServices\bin\Release\NETCommon.pdb
+F:\Work Files\WebGameSource\GameServices\bin\Release\EntityFramework.xml
+F:\Work Files\WebGameSource\GameServices\bin\Release\EntityFramework.SqlServer.xml
+F:\Work Files\WebGameSource\GameServices\obj\Release\GameServices.csprojResolveAssemblyReference.cache
+F:\Work Files\WebGameSource\GameServices\obj\Release\GameServices.dll
+F:\Work Files\WebGameSource\GameServices\obj\Release\GameServices.pdb
+F:\工作区\WebGameSource\GameServices\bin\Release\GameServices.dll.config
+F:\工作区\WebGameSource\GameServices\bin\Release\GameServices.dll
+F:\工作区\WebGameSource\GameServices\bin\Release\GameServices.pdb
+F:\工作区\WebGameSource\GameServices\bin\Release\DBase.dll
+F:\工作区\WebGameSource\GameServices\bin\Release\DBModel.dll
+F:\工作区\WebGameSource\GameServices\bin\Release\EntityFramework.dll
+F:\工作区\WebGameSource\GameServices\bin\Release\EntityFramework.SqlServer.dll
+F:\工作区\WebGameSource\GameServices\bin\Release\GameLibrary.dll
+F:\工作区\WebGameSource\GameServices\bin\Release\NETCommon.dll
+F:\工作区\WebGameSource\GameServices\bin\Release\MemcachedProviders.dll
+F:\工作区\WebGameSource\GameServices\bin\Release\Enyim.Caching.dll
+F:\工作区\WebGameSource\GameServices\bin\Release\log4net.dll
+F:\工作区\WebGameSource\GameServices\bin\Release\DBase.pdb
+F:\工作区\WebGameSource\GameServices\bin\Release\DBModel.pdb
+F:\工作区\WebGameSource\GameServices\bin\Release\GameLibrary.pdb
+F:\工作区\WebGameSource\GameServices\bin\Release\NETCommon.pdb
+F:\工作区\WebGameSource\GameServices\bin\Release\EntityFramework.xml
+F:\工作区\WebGameSource\GameServices\bin\Release\EntityFramework.SqlServer.xml
+F:\工作区\WebGameSource\GameServices\obj\Release\GameServices.csprojResolveAssemblyReference.cache
+F:\工作区\WebGameSource\GameServices\obj\Release\GameServices.dll
+F:\工作区\WebGameSource\GameServices\obj\Release\GameServices.pdb
+D:\BaiduYunDownload\Game\GameServices\bin\Release\GameServices.dll.config
+D:\BaiduYunDownload\Game\GameServices\bin\Release\GameServices.dll
+D:\BaiduYunDownload\Game\GameServices\bin\Release\GameServices.pdb
+D:\BaiduYunDownload\Game\GameServices\bin\Release\DBase.dll
+D:\BaiduYunDownload\Game\GameServices\bin\Release\DBModel.dll
+D:\BaiduYunDownload\Game\GameServices\bin\Release\EntityFramework.dll
+D:\BaiduYunDownload\Game\GameServices\bin\Release\EntityFramework.SqlServer.dll
+D:\BaiduYunDownload\Game\GameServices\bin\Release\GameLibrary.dll
+D:\BaiduYunDownload\Game\GameServices\bin\Release\NETCommon.dll
+D:\BaiduYunDownload\Game\GameServices\bin\Release\MemcachedProviders.dll
+D:\BaiduYunDownload\Game\GameServices\bin\Release\Enyim.Caching.dll
+D:\BaiduYunDownload\Game\GameServices\bin\Release\log4net.dll
+D:\BaiduYunDownload\Game\GameServices\bin\Release\DBase.pdb
+D:\BaiduYunDownload\Game\GameServices\bin\Release\DBModel.pdb
+D:\BaiduYunDownload\Game\GameServices\bin\Release\GameLibrary.pdb
+D:\BaiduYunDownload\Game\GameServices\bin\Release\NETCommon.pdb
+D:\BaiduYunDownload\Game\GameServices\bin\Release\EntityFramework.xml
+D:\BaiduYunDownload\Game\GameServices\bin\Release\EntityFramework.SqlServer.xml
+D:\BaiduYunDownload\Game\GameServices\obj\Release\GameServices.csprojResolveAssemblyReference.cache
+D:\BaiduYunDownload\Game\GameServices\obj\Release\GameServices.dll
+D:\BaiduYunDownload\Game\GameServices\obj\Release\GameServices.pdb

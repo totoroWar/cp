@@ -1,0 +1,110 @@
+﻿* { font-family:Arial, Helvetica, Geneva, SunSans-Regular, sans-serif;}
+body { font-size:12px; color:#333333; background:#FFF;}
+a,a:visited,a:hover,a:link{ text-decoration:none; color:#00759F; }
+a:hover { color:#f00; }
+#ui-pc-body { padding:5px; }
+#ui-pc-body .ui-page-tab-padding { padding:10px; }
+#ui-pc-body .ui-page-content-body-header{ height:25px; line-height:25px; background:#fbfbfb; border:1px solid #E4E4E4; padding:0 5px; border-radius:0px; }
+#ui-pc-body .ui-page-content-body-block { border:1px solid #E4E4E4; padding:5px 5px; border-radius:0px; }
+#ui-pc-body .tools { background:#fff; padding-top:5px; line-height:20px;}
+#ui-pc-body .block_tools {  padding:10px;}
+.ui-page-content-body-header h1 { font-size:14px; font-weight:bold; width:150px; float:left; color:#00759F; color:#5f5f5f;}
+.ui-page-content-body-header .left-nav { float:left; display:inline-block; }
+.ui-page-content-body-header .left-nav a { text-decoration:underline; font-size:14px; margin-right:10px;}
+.left-nav a.item-select { color:#f00;}
+.ui-page-content-body-header .right-nav { float:left;}
+.ui-page-content-body-header .right-nav a { color:#606060;}
+.tools span { margin-left:10px; }
+#ui-pc-body .ui-page-dialog-panel { padding:5px; }
+#ui-page-bottom-function { padding:5px; line-height:100%; text-align:center; }
+.ui-page-bottom-first { text-align:center; background:#fefefe; height:35px; line-height:35px; border-radius:5px;}
+.ui-page-bottom-first a { padding:0 3px;}
+.user-nickname { padding:0 3px; color:#9a9a9a;}
+.ul-init-odds li { float:left; height:38px; line-height:17px; width:120px; padding:2px; cursor:pointer; border:1px solid #E0E0E0; margin:1px 1px 0 0;}
+.ul-init-odds li .item-name,.ul-init-odds li .item-odds { text-align:center;}
+.ul-init-odds li .item-name { font-size:13px;}
+.ul-init-odds li .item-odds input {width:50px; color:red;}
+.ul-init-odds li.click-selected,.ul-init-odds li.hover-selected{ background:#fafafa; border:1px solid #f00;}
+.content-block-title { font-size:14px; padding:2px 0; font-weight:bold;}
+.ui-page-tips-block { padding:3px; background:#fbfcec; }
+.ui-page-tips-block p { line-height:150%; color:red;}
+.ui-page-tips-block p span{ padding:0 2px; color:green; font-weight:bold;}
+#ui-page-post-loading-image{ width:125px; height:125px; position:fixed; left:45%; top:45%; background:url(/Images/Common/ui-page-_button_post_loading.gif);}
+
+/*一些输入框*/
+.input-text ,select,textarea{ border:none; padding:0; border:1px solid #f0f0f0; }
+.btn-normal{ border:0 none; border:1px solid #E0E0E0; height:20px; line-height:20px;}
+input[type="checkbox"] { border:none; border:1px solid #e0e0e0; padding:0; margin:0;}
+.input-text { padding:2px; border:1px solid #dedede;}
+.input-text-hover{ border-color:#00759F;}
+.input-text-update { color:red; }
+.i-t-fs14 { font-size:14px; padding:4px;}
+/*表格*/
+.table-pro { border-radius:5px; border-left: 1px solid #E0E0E0; border-top: 1px solid #E0E0E0; border-collapse: 0; border-spacing: 0; empty-cells:show; }
+.table-pro td, .table-pro tbody td ,.table-pro tfoot tr td, .table-pro-head th{ border-right: 1px solid #E0E0E0; border-bottom: 1px solid #E0E0E0; padding:2px; /*height:20px; line-height:20px;*/ }
+tr.table-pro-head th { background: #F8F8F8; background:#fff; text-align:left; color:#606060; padding:2px 2px; font-weight:bold; height:20px; line-height:20px;}
+.table-pro tbody td.title { text-align:right; color:#606060; font-weight:bold; width:90px; padding:4px; }
+.table-pro tfoot tr td{ background:#fbfbfb;}
+.table-pro tfoot tr td a { margin-right:5px; display:inline-block;}
+.table-color-row-even td { background:#fbfbfb;}
+.table-color-row-over td, .table-row-select td{ background:#ffffd1; }
+.table-pro td.link-tools a{ padding:0 2px; }
+.table-pro td .tips { padding:0 5px; color:#666;}
+.keep-line td{word-break:keep-all; }
+.table-pro .hide-col { display:none;}
+#ui-pc-body table.tp1 td,.ui-page-dialog-panel table.tp1 td { padding:1px;}
+#ui-pc-body table.tp2 td,.ui-page-dialog-panel table.tp2 td { padding:2px;}
+#ui-pc-body table.tp3 td,.ui-page-dialog-panel table.tp3 td { padding:3px;}
+#ui-pc-body table.tp4 td,.ui-page-dialog-panel table.tp4 td { padding:4px;}
+#ui-pc-body table.tp5 td,.ui-page-dialog-panel table.tp5 td { padding:5px;}
+#ui-pc-body table.tp6 td,.ui-page-dialog-panel table.tp6 td { padding:6px;}
+#ui-pc-body table.tp7 td,.ui-page-dialog-panel table.tp7 td{ padding:7px;}
+#ui-pc-body table.tp8 td,.ui-page-dialog-panel table.tp8 td{ padding:8px;}
+#ui-pc-body table.tp9 td,.ui-page-dialog-panel table.tp9 td { padding:9px;}
+#ui-pc-body table.tp10 td,.ui-page-dialog-panel table.tp10 td { padding:10px;}
+#ui-pc-body table.tp15 td,.ui-page-dialog-panel table.tp11 td { padding:15px;}
+
+div.page_list_block { padding:5px; text-align:center; }
+div.page_list_block a { display:inline-block; padding:2px;}
+a.page_index_number, a.page_index_select {margin:0 5px; }
+a.page_index_select { color:red; background:#eee;}
+
+/*重写EASYUI样式*/
+#ui-pc-body .panel-body { background:#fff;}
+#ui-pc-body .tabs-header { border:none;}
+#parent_tree .parent_tree_icon{ background:url(/Images/Default/AM/Icon/parent_tree_icon.gif) no-repeat;}
+
+/*一些通用*/
+.x_status_0, .x_status_1, .x_status_2 { display:inline-block; width:20px; height:15px;}
+.x_status_0 { background-color:red; }
+.x_status_1 { background-color:green; }
+.x_status_2 { background-color:gray; }
+#dlg_info .show_info { width:470px; height:320px; padding:5px; }
+
+/*通用*/
+.f-number { font-weight:bold;}
+.fc-red { color:red;}
+.fc-blue { color:blue;}
+.fc-green { color:green; }
+.fs14px{ font-size:14px;}
+.fs15px{ font-size:15px;}
+.fs16px{ font-size:16px;}
+.fs17px{ font-size:17px;}
+.fs18px{ font-size:18px;}
+.w20px { width:20px; }
+.w30px { width:30px; }
+.w40px { width:40px;}
+.w50px { width:50px; }
+.w80px { width:80px;}
+.w100px { width:100px;}
+.w120px { width:120px;}
+.w150px { width:150px;}
+.w200px { width:200px;}
+.w250px { width:250px;}
+.w300px { width:300px;}
+.dom-hide { display:none; }
+.text-left { text-align:left;}
+.text-cent { text-align:center;}
+.text-right { text-align:right;}
+.blank-line { clear:both; height:10px;}
+.clear-both { clear:both;}

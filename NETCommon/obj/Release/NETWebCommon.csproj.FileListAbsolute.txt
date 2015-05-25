@@ -1,0 +1,10 @@
+E:\Course\MyProject\WebGame\NETWebCommon\bin\Release\NETWebCommon.dll
+E:\Course\MyProject\WebGame\NETWebCommon\bin\Release\NETWebCommon.pdb
+E:\Course\MyProject\WebGame\NETWebCommon\obj\Release\NETWebCommon.csprojResolveAssemblyReference.cache
+E:\Course\MyProject\WebGame\NETWebCommon\obj\Release\NETWebCommon.dll
+E:\Course\MyProject\WebGame\NETWebCommon\obj\Release\NETWebCommon.pdb
+F:\Course\MyProject\WebGame\NETWebCommon\bin\Release\NETWebCommon.dll
+F:\Course\MyProject\WebGame\NETWebCommon\bin\Release\NETWebCommon.pdb
+F:\Course\MyProject\WebGame\NETWebCommon\obj\Release\NETWebCommon.csprojResolveAssemblyReference.cache
+F:\Course\MyProject\WebGame\NETWebCommon\obj\Release\NETWebCommon.dll
+F:\Course\MyProject\WebGame\NETWebCommon\obj\Release\NETWebCommon.pdb

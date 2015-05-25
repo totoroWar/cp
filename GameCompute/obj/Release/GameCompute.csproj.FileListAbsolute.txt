@@ -1,0 +1,170 @@
+F:\Course\MyProject\WebGame\GameCompute\bin\Release\GameCompute.exe.config
+F:\Course\MyProject\WebGame\GameCompute\bin\Release\GameCompute.exe
+F:\Course\MyProject\WebGame\GameCompute\bin\Release\GameCompute.pdb
+F:\Course\MyProject\WebGame\GameCompute\bin\Release\DBModel.dll
+F:\Course\MyProject\WebGame\GameCompute\bin\Release\EntityFramework.dll
+F:\Course\MyProject\WebGame\GameCompute\bin\Release\EntityFramework.SqlServer.dll
+F:\Course\MyProject\WebGame\GameCompute\bin\Release\GameLibrary.dll
+F:\Course\MyProject\WebGame\GameCompute\bin\Release\GameServices.dll
+F:\Course\MyProject\WebGame\GameCompute\bin\Release\NETCommon.dll
+F:\Course\MyProject\WebGame\GameCompute\bin\Release\DBase.dll
+F:\Course\MyProject\WebGame\GameCompute\bin\Release\DBModel.pdb
+F:\Course\MyProject\WebGame\GameCompute\bin\Release\GameLibrary.pdb
+F:\Course\MyProject\WebGame\GameCompute\bin\Release\GameServices.pdb
+F:\Course\MyProject\WebGame\GameCompute\bin\Release\NETCommon.pdb
+F:\Course\MyProject\WebGame\GameCompute\bin\Release\EntityFramework.xml
+F:\Course\MyProject\WebGame\GameCompute\bin\Release\EntityFramework.SqlServer.xml
+F:\Course\MyProject\WebGame\GameCompute\bin\Release\DBase.pdb
+F:\Course\MyProject\WebGame\GameCompute\obj\Release\GameCompute.csprojResolveAssemblyReference.cache
+F:\Course\MyProject\WebGame\GameCompute\obj\Release\GameCompute.FormMain.resources
+F:\Course\MyProject\WebGame\GameCompute\obj\Release\GameCompute.Properties.Resources.resources
+F:\Course\MyProject\WebGame\GameCompute\obj\Release\GameCompute.RandomResult.resources
+F:\Course\MyProject\WebGame\GameCompute\obj\Release\GameCompute.csproj.GenerateResource.Cache
+F:\Course\MyProject\WebGame\GameCompute\obj\Release\GameCompute.exe
+F:\Course\MyProject\WebGame\GameCompute\obj\Release\GameCompute.pdb
+F:\Course\MyProject\WebGame\GameCompute\bin\Release\GameCompute.exe.manifest
+F:\Course\MyProject\WebGame\GameCompute\bin\Release\GameCompute.application
+F:\Course\MyProject\WebGame\GameCompute\obj\Release\GameCompute.exe.manifest
+F:\Course\MyProject\WebGame\GameCompute\obj\Release\GameCompute.application
+F:\Course\MyProject\WebGame\GameCompute\obj\Release\GameCompute.Form3DCalc.resources
+F:\Course\MyProject\WebGame\GameCompute\obj\Release\GameCompute.FormSSCCalc.resources
+C:\GoogleDisk\MyOtherProject\WebGame\GameCompute\bin\Release\GameCompute.exe.config
+C:\GoogleDisk\MyOtherProject\WebGame\GameCompute\bin\Release\GameCompute.exe.manifest
+C:\GoogleDisk\MyOtherProject\WebGame\GameCompute\bin\Release\GameCompute.application
+C:\GoogleDisk\MyOtherProject\WebGame\GameCompute\bin\Release\GameCompute.exe
+C:\GoogleDisk\MyOtherProject\WebGame\GameCompute\bin\Release\GameCompute.pdb
+C:\GoogleDisk\MyOtherProject\WebGame\GameCompute\bin\Release\DBModel.dll
+C:\GoogleDisk\MyOtherProject\WebGame\GameCompute\bin\Release\EntityFramework.dll
+C:\GoogleDisk\MyOtherProject\WebGame\GameCompute\bin\Release\EntityFramework.SqlServer.dll
+C:\GoogleDisk\MyOtherProject\WebGame\GameCompute\bin\Release\GameLibrary.dll
+C:\GoogleDisk\MyOtherProject\WebGame\GameCompute\bin\Release\GameServices.dll
+C:\GoogleDisk\MyOtherProject\WebGame\GameCompute\bin\Release\NETCommon.dll
+C:\GoogleDisk\MyOtherProject\WebGame\GameCompute\bin\Release\DBase.dll
+C:\GoogleDisk\MyOtherProject\WebGame\GameCompute\bin\Release\DBModel.pdb
+C:\GoogleDisk\MyOtherProject\WebGame\GameCompute\bin\Release\GameLibrary.pdb
+C:\GoogleDisk\MyOtherProject\WebGame\GameCompute\bin\Release\GameServices.pdb
+C:\GoogleDisk\MyOtherProject\WebGame\GameCompute\bin\Release\NETCommon.pdb
+C:\GoogleDisk\MyOtherProject\WebGame\GameCompute\bin\Release\EntityFramework.xml
+C:\GoogleDisk\MyOtherProject\WebGame\GameCompute\bin\Release\EntityFramework.SqlServer.xml
+C:\GoogleDisk\MyOtherProject\WebGame\GameCompute\bin\Release\DBase.pdb
+C:\GoogleDisk\MyOtherProject\WebGame\GameCompute\obj\Release\GameCompute.csprojResolveAssemblyReference.cache
+C:\GoogleDisk\MyOtherProject\WebGame\GameCompute\obj\Release\GameCompute.Form3DCalc.resources
+C:\GoogleDisk\MyOtherProject\WebGame\GameCompute\obj\Release\GameCompute.Form11X5.resources
+C:\GoogleDisk\MyOtherProject\WebGame\GameCompute\obj\Release\GameCompute.FormAllCalc.resources
+C:\GoogleDisk\MyOtherProject\WebGame\GameCompute\obj\Release\GameCompute.FormSSCCalc.resources
+C:\GoogleDisk\MyOtherProject\WebGame\GameCompute\obj\Release\GameCompute.FormMain.resources
+C:\GoogleDisk\MyOtherProject\WebGame\GameCompute\obj\Release\GameCompute.Properties.Resources.resources
+C:\GoogleDisk\MyOtherProject\WebGame\GameCompute\obj\Release\GameCompute.RandomResult.resources
+C:\GoogleDisk\MyOtherProject\WebGame\GameCompute\obj\Release\GameCompute.csproj.GenerateResource.Cache
+C:\GoogleDisk\MyOtherProject\WebGame\GameCompute\obj\Release\GameCompute.exe.manifest
+C:\GoogleDisk\MyOtherProject\WebGame\GameCompute\obj\Release\GameCompute.application
+C:\GoogleDisk\MyOtherProject\WebGame\GameCompute\obj\Release\GameCompute.exe
+C:\GoogleDisk\MyOtherProject\WebGame\GameCompute\obj\Release\GameCompute.pdb
+C:\GoogleDisk\MyOtherProject\WebGame\GameCompute\bin\Release\MemcachedProviders.dll
+C:\GoogleDisk\MyOtherProject\WebGame\GameCompute\bin\Release\Enyim.Caching.dll
+C:\GoogleDisk\MyOtherProject\WebGame\GameCompute\bin\Release\log4net.dll
+F:\Work Files\WebGameSource\GameCompute\bin\Release\GameCompute.exe.config
+F:\Work Files\WebGameSource\GameCompute\obj\Release\GameCompute.exe
+F:\Work Files\WebGameSource\GameCompute\obj\Release\GameCompute.pdb
+F:\Work Files\WebGameSource\GameCompute\obj\Release\GameCompute.csprojResolveAssemblyReference.cache
+F:\Work Files\WebGameSource\GameCompute\obj\Release\GameCompute.Form3DCalc.resources
+F:\Work Files\WebGameSource\GameCompute\obj\Release\GameCompute.Form11X5.resources
+F:\Work Files\WebGameSource\GameCompute\obj\Release\GameCompute.FormAllCalc.resources
+F:\Work Files\WebGameSource\GameCompute\obj\Release\GameCompute.FormSSCCalc.resources
+F:\Work Files\WebGameSource\GameCompute\obj\Release\GameCompute.FormMain.resources
+F:\Work Files\WebGameSource\GameCompute\obj\Release\GameCompute.Properties.Resources.resources
+F:\Work Files\WebGameSource\GameCompute\obj\Release\GameCompute.RandomResult.resources
+F:\Work Files\WebGameSource\GameCompute\obj\Release\GameCompute.csproj.GenerateResource.Cache
+F:\Work Files\WebGameSource\GameCompute\bin\Release\GameCompute.exe.manifest
+F:\Work Files\WebGameSource\GameCompute\bin\Release\GameCompute.application
+F:\Work Files\WebGameSource\GameCompute\bin\Release\GameCompute.exe
+F:\Work Files\WebGameSource\GameCompute\bin\Release\GameCompute.pdb
+F:\Work Files\WebGameSource\GameCompute\bin\Release\DBModel.dll
+F:\Work Files\WebGameSource\GameCompute\bin\Release\EntityFramework.dll
+F:\Work Files\WebGameSource\GameCompute\bin\Release\EntityFramework.SqlServer.dll
+F:\Work Files\WebGameSource\GameCompute\bin\Release\GameLibrary.dll
+F:\Work Files\WebGameSource\GameCompute\bin\Release\GameServices.dll
+F:\Work Files\WebGameSource\GameCompute\bin\Release\NETCommon.dll
+F:\Work Files\WebGameSource\GameCompute\bin\Release\DBase.dll
+F:\Work Files\WebGameSource\GameCompute\bin\Release\MemcachedProviders.dll
+F:\Work Files\WebGameSource\GameCompute\bin\Release\Enyim.Caching.dll
+F:\Work Files\WebGameSource\GameCompute\bin\Release\log4net.dll
+F:\Work Files\WebGameSource\GameCompute\bin\Release\DBModel.pdb
+F:\Work Files\WebGameSource\GameCompute\bin\Release\GameLibrary.pdb
+F:\Work Files\WebGameSource\GameCompute\bin\Release\GameServices.pdb
+F:\Work Files\WebGameSource\GameCompute\bin\Release\NETCommon.pdb
+F:\Work Files\WebGameSource\GameCompute\bin\Release\EntityFramework.xml
+F:\Work Files\WebGameSource\GameCompute\bin\Release\EntityFramework.SqlServer.xml
+F:\Work Files\WebGameSource\GameCompute\bin\Release\DBase.pdb
+F:\Work Files\WebGameSource\GameCompute\obj\Release\GameCompute.exe.manifest
+F:\Work Files\WebGameSource\GameCompute\obj\Release\GameCompute.application
+F:\工作区\WebGameSource\GameCompute\bin\Release\GameCompute.exe.config
+F:\工作区\WebGameSource\GameCompute\bin\Release\GameCompute.exe.manifest
+F:\工作区\WebGameSource\GameCompute\bin\Release\GameCompute.application
+F:\工作区\WebGameSource\GameCompute\bin\Release\GameCompute.exe
+F:\工作区\WebGameSource\GameCompute\bin\Release\GameCompute.pdb
+F:\工作区\WebGameSource\GameCompute\bin\Release\DBModel.dll
+F:\工作区\WebGameSource\GameCompute\bin\Release\EntityFramework.dll
+F:\工作区\WebGameSource\GameCompute\bin\Release\EntityFramework.SqlServer.dll
+F:\工作区\WebGameSource\GameCompute\bin\Release\GameLibrary.dll
+F:\工作区\WebGameSource\GameCompute\bin\Release\GameServices.dll
+F:\工作区\WebGameSource\GameCompute\bin\Release\NETCommon.dll
+F:\工作区\WebGameSource\GameCompute\bin\Release\DBase.dll
+F:\工作区\WebGameSource\GameCompute\bin\Release\MemcachedProviders.dll
+F:\工作区\WebGameSource\GameCompute\bin\Release\Enyim.Caching.dll
+F:\工作区\WebGameSource\GameCompute\bin\Release\log4net.dll
+F:\工作区\WebGameSource\GameCompute\bin\Release\DBModel.pdb
+F:\工作区\WebGameSource\GameCompute\bin\Release\GameLibrary.pdb
+F:\工作区\WebGameSource\GameCompute\bin\Release\GameServices.pdb
+F:\工作区\WebGameSource\GameCompute\bin\Release\NETCommon.pdb
+F:\工作区\WebGameSource\GameCompute\bin\Release\EntityFramework.xml
+F:\工作区\WebGameSource\GameCompute\bin\Release\EntityFramework.SqlServer.xml
+F:\工作区\WebGameSource\GameCompute\bin\Release\DBase.pdb
+F:\工作区\WebGameSource\GameCompute\obj\Release\GameCompute.csprojResolveAssemblyReference.cache
+F:\工作区\WebGameSource\GameCompute\obj\Release\GameCompute.Form3DCalc.resources
+F:\工作区\WebGameSource\GameCompute\obj\Release\GameCompute.Form11X5.resources
+F:\工作区\WebGameSource\GameCompute\obj\Release\GameCompute.FormAllCalc.resources
+F:\工作区\WebGameSource\GameCompute\obj\Release\GameCompute.FormSSCCalc.resources
+F:\工作区\WebGameSource\GameCompute\obj\Release\GameCompute.FormMain.resources
+F:\工作区\WebGameSource\GameCompute\obj\Release\GameCompute.Properties.Resources.resources
+F:\工作区\WebGameSource\GameCompute\obj\Release\GameCompute.RandomResult.resources
+F:\工作区\WebGameSource\GameCompute\obj\Release\GameCompute.csproj.GenerateResource.Cache
+F:\工作区\WebGameSource\GameCompute\obj\Release\GameCompute.exe.manifest
+F:\工作区\WebGameSource\GameCompute\obj\Release\GameCompute.application
+F:\工作区\WebGameSource\GameCompute\obj\Release\GameCompute.exe
+F:\工作区\WebGameSource\GameCompute\obj\Release\GameCompute.pdb
+D:\BaiduYunDownload\Game\GameCompute\bin\Release\GameCompute.exe.config
+D:\BaiduYunDownload\Game\GameCompute\bin\Release\GameCompute.exe.manifest
+D:\BaiduYunDownload\Game\GameCompute\bin\Release\GameCompute.application
+D:\BaiduYunDownload\Game\GameCompute\bin\Release\GameCompute.exe
+D:\BaiduYunDownload\Game\GameCompute\bin\Release\GameCompute.pdb
+D:\BaiduYunDownload\Game\GameCompute\bin\Release\DBModel.dll
+D:\BaiduYunDownload\Game\GameCompute\bin\Release\EntityFramework.dll
+D:\BaiduYunDownload\Game\GameCompute\bin\Release\EntityFramework.SqlServer.dll
+D:\BaiduYunDownload\Game\GameCompute\bin\Release\GameLibrary.dll
+D:\BaiduYunDownload\Game\GameCompute\bin\Release\GameServices.dll
+D:\BaiduYunDownload\Game\GameCompute\bin\Release\NETCommon.dll
+D:\BaiduYunDownload\Game\GameCompute\bin\Release\DBase.dll
+D:\BaiduYunDownload\Game\GameCompute\bin\Release\MemcachedProviders.dll
+D:\BaiduYunDownload\Game\GameCompute\bin\Release\Enyim.Caching.dll
+D:\BaiduYunDownload\Game\GameCompute\bin\Release\log4net.dll
+D:\BaiduYunDownload\Game\GameCompute\bin\Release\DBModel.pdb
+D:\BaiduYunDownload\Game\GameCompute\bin\Release\GameLibrary.pdb
+D:\BaiduYunDownload\Game\GameCompute\bin\Release\GameServices.pdb
+D:\BaiduYunDownload\Game\GameCompute\bin\Release\NETCommon.pdb
+D:\BaiduYunDownload\Game\GameCompute\bin\Release\EntityFramework.xml
+D:\BaiduYunDownload\Game\GameCompute\bin\Release\EntityFramework.SqlServer.xml
+D:\BaiduYunDownload\Game\GameCompute\bin\Release\DBase.pdb
+D:\BaiduYunDownload\Game\GameCompute\obj\Release\GameCompute.csprojResolveAssemblyReference.cache
+D:\BaiduYunDownload\Game\GameCompute\obj\Release\GameCompute.Form3DCalc.resources
+D:\BaiduYunDownload\Game\GameCompute\obj\Release\GameCompute.Form11X5.resources
+D:\BaiduYunDownload\Game\GameCompute\obj\Release\GameCompute.FormAllCalc.resources
+D:\BaiduYunDownload\Game\GameCompute\obj\Release\GameCompute.FormSSCCalc.resources
+D:\BaiduYunDownload\Game\GameCompute\obj\Release\GameCompute.FormMain.resources
+D:\BaiduYunDownload\Game\GameCompute\obj\Release\GameCompute.Properties.Resources.resources
+D:\BaiduYunDownload\Game\GameCompute\obj\Release\GameCompute.RandomResult.resources
+D:\BaiduYunDownload\Game\GameCompute\obj\Release\GameCompute.csproj.GenerateResource.Cache
+D:\BaiduYunDownload\Game\GameCompute\obj\Release\GameCompute.exe.manifest
+D:\BaiduYunDownload\Game\GameCompute\obj\Release\GameCompute.application
+D:\BaiduYunDownload\Game\GameCompute\obj\Release\GameCompute.exe
+D:\BaiduYunDownload\Game\GameCompute\obj\Release\GameCompute.pdb

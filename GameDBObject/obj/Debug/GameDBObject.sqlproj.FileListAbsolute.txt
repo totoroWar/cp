@@ -1,0 +1,29 @@
+E:\Course\MyProject\WebGame\GameDBObject\bin\Debug\GameDBObject.dacpac
+E:\Course\MyProject\WebGame\GameDBObject\bin\Debug\GameDBObject.dll
+E:\Course\MyProject\WebGame\GameDBObject\bin\Debug\GameDBObject.pdb
+E:\Course\MyProject\WebGame\GameDBObject\obj\Debug\Model.xml
+E:\Course\MyProject\WebGame\GameDBObject\obj\Debug\refactor.xml
+E:\Course\MyProject\WebGame\GameDBObject\obj\Debug\postdeploy.sql
+E:\Course\MyProject\WebGame\GameDBObject\obj\Debug\predeploy.sql
+E:\Course\MyProject\WebGame\GameDBObject\obj\Debug\GameDBObject.dll
+E:\Course\MyProject\WebGame\GameDBObject\obj\Debug\GameDBObject.pdb
+F:\Course\MyProject\WebGame\GameDBObject\bin\Debug\GameDBObject.dacpac
+F:\Course\MyProject\WebGame\GameDBObject\bin\Debug\GameDBObject.dll
+F:\Course\MyProject\WebGame\GameDBObject\bin\Debug\GameDBObject.pdb
+F:\Course\MyProject\WebGame\GameDBObject\obj\Debug\Model.xml
+F:\Course\MyProject\WebGame\GameDBObject\obj\Debug\refactor.xml
+F:\Course\MyProject\WebGame\GameDBObject\obj\Debug\postdeploy.sql
+F:\Course\MyProject\WebGame\GameDBObject\obj\Debug\predeploy.sql
+F:\Course\MyProject\WebGame\GameDBObject\obj\Debug\GameDBObject.dll
+F:\Course\MyProject\WebGame\GameDBObject\obj\Debug\GameDBObject.pdb
+F:\Work Files\WebGameSource\GameDBObject\bin\Debug\GameDBObject.dacpac
+F:\Work Files\WebGameSource\GameDBObject\obj\Debug\GameDBObject.dll
+F:\Work Files\WebGameSource\GameDBObject\obj\Debug\GameDBObject.pdb
+F:\Work Files\WebGameSource\GameDBObject\bin\Debug\GameDBObject.dll
+F:\Work Files\WebGameSource\GameDBObject\bin\Debug\GameDBObject.pdb
+F:\Work Files\WebGameSource\GameDBObject\obj\Debug\Model.xml
+F:\Work Files\WebGameSource\GameDBObject\obj\Debug\refactor.xml
+F:\Work Files\WebGameSource\GameDBObject\obj\Debug\postdeploy.sql
+F:\Work Files\WebGameSource\GameDBObject\obj\Debug\predeploy.sql
+F:\Work Files\WebGameSource\GameDBObject\obj\Debug\MicrosoftComponentModels.dll
+F:\Work Files\WebGameSource\GameDBObject\obj\Debug\MicrosoftComponentModels.pdb

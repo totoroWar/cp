@@ -1,0 +1,8 @@
+﻿#function_bar{ width:100%; height:30px; padding:3px 0; margin:0 auto; }
+#function_bar_combuy{float:left; width:350px; height:30px;  line-height:30px; color:#fff; text-align:center;}
+#function_bar_right{ float:right; width:350px; height:30px; line-height:30px;}
+#prize_change_info{ float:right; width:150px; height:30px; line-height:30px; text-align:center; color:#fff;}
+#prize_silder_bar_c{ float:left; width:200px; height:30px; line-height:30px;}
+#prize_silder_bar{ width:200px; padding:10px;}
+#prize_silder_bar_c .slider-h{ padding-top:6px;}
+#lt_combuy_password{ width:100px;}

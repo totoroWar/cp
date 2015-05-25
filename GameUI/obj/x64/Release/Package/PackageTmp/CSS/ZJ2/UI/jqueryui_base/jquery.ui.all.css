@@ -1,0 +1,52 @@
+/*!
+ * jQuery UI CSS Framework 1.9.2
+ * http://jqueryui.com
+ *
+ * Copyright 2012 jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Theming
+ */
+@import "jquery.ui.base.css";
+@import "jquery.ui.theme.css";
+body{font-size: 9pt;background:#010101;background-image: url(/StaticGame/Theme/SSC_ZJ2/images/bg.png);
+background-repeat: repeat;
+background-position: bottom;
+background-attachment: fixed; }
+body,form,p,ol,ul,p,h2,h3,h4{margin:0;padding:0;}
+ul,li,dl,dd{list-style:none;}
+img,fieldset{border:0;}
+a:link,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+em{font-style:normal;}
+.left{float: left;}
+.right{float: right;}
+.clear{clear:both;}
+img{border:0px;}
+table{margin:0 auto;}
+
+.login_warp{background:#010101; width:100%; height:100%;}
+.login_top{background:url(/Images/ZJ2/UI/LoginZJ1/topbg.jpg) repeat top center; width:100%; height:194px; text-align:center; }
+.login_bg{background:#010101 url(/Images/ZJ2/UI/LoginZJ1/boxbg.jpg) no-repeat top center; width:100%; height:100%; }
+.loginform{width:395px; height:429px;padding-top:100px; padding-left:60px;background:url(/Images/ZJ2/UI/LoginZJ1/loginbg.png) no-repeat top center; background-position-y:90px; background-position:0 90px;}
+.loginform span{width:100%; padding-top:20px; display:block;padding-left:45px;}
+.logininput {
+	width:170px;
+	height:25px;
+	border:0;
+	color:#FFFFFF;
+	font-size:14px;
+	font-family:Arial;
+	font-weight:bold;
+	background-color: #100A0A;
+}
+.logininput2 { background: url(/Images/ZJ2/UI/LoginZJ1/verifycodebg.jpg) no-repeat left center; width:75px; border:0; height:25px; color:#FF9900; font-size:14px; font-family:microsoft yahei; font-weight:bold;}
+.login_button{margin-top:-40px; text-align:left;padding-left:224px; width:100%; line-height:30px; word-spacing:20px}
+.khddownload{padding-top:49.5px; width:100%; text-align:left; padding-left:109px;}
+#client_download{background:url(/Images/ZJ2/UI/LoginZJ1/bottonbg.png) no-repeat left center;border:0;}
+
+
+
+
+

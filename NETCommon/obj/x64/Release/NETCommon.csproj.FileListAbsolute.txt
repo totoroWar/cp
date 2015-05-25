@@ -1,0 +1,8 @@
+F:\Work Files\WebGameSource\NETCommon\bin\x64\Release\NETCommon.dll
+F:\Work Files\WebGameSource\NETCommon\bin\x64\Release\NETCommon.pdb
+F:\Work Files\WebGameSource\NETCommon\bin\x64\Release\Enyim.Caching.dll
+F:\Work Files\WebGameSource\NETCommon\bin\x64\Release\log4net.dll
+F:\Work Files\WebGameSource\NETCommon\bin\x64\Release\MemcachedProviders.dll
+F:\Work Files\WebGameSource\NETCommon\obj\x64\Release\NETCommon.csprojResolveAssemblyReference.cache
+F:\Work Files\WebGameSource\NETCommon\obj\x64\Release\NETCommon.dll
+F:\Work Files\WebGameSource\NETCommon\obj\x64\Release\NETCommon.pdb

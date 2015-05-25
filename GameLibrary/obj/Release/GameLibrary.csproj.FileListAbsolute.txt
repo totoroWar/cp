@@ -1,0 +1,40 @@
+F:\Course\MyProject\WebGame\GameLibrary\bin\Release\GameLibrary.dll
+F:\Course\MyProject\WebGame\GameLibrary\bin\Release\GameLibrary.pdb
+F:\Course\MyProject\WebGame\GameLibrary\obj\Release\GameLibrary.dll
+F:\Course\MyProject\WebGame\GameLibrary\obj\Release\GameLibrary.pdb
+C:\GoogleDisk\MyOtherProject\WebGame\GameLibrary\bin\Release\GameLibrary.dll
+C:\GoogleDisk\MyOtherProject\WebGame\GameLibrary\bin\Release\GameLibrary.pdb
+C:\GoogleDisk\MyOtherProject\WebGame\GameLibrary\obj\Release\GameLibrary.dll
+C:\GoogleDisk\MyOtherProject\WebGame\GameLibrary\obj\Release\GameLibrary.pdb
+D:\GoogleDisk\MyOtherProject\WebGame\GameLibrary\bin\Release\GameLibrary.dll
+D:\GoogleDisk\MyOtherProject\WebGame\GameLibrary\bin\Release\GameLibrary.pdb
+D:\GoogleDisk\MyOtherProject\WebGame\GameLibrary\obj\Release\GameLibrary.csprojResolveAssemblyReference.cache
+D:\GoogleDisk\MyOtherProject\WebGame\GameLibrary\obj\Release\GameLibrary.dll
+D:\GoogleDisk\MyOtherProject\WebGame\GameLibrary\obj\Release\GameLibrary.pdb
+C:\Work\MyOtherProject\WebGame\GameLibrary\bin\Release\GameLibrary.dll
+C:\Work\MyOtherProject\WebGame\GameLibrary\bin\Release\GameLibrary.pdb
+C:\Work\MyOtherProject\WebGame\GameLibrary\obj\Release\GameLibrary.csprojResolveAssemblyReference.cache
+C:\Work\MyOtherProject\WebGame\GameLibrary\obj\Release\GameLibrary.dll
+C:\Work\MyOtherProject\WebGame\GameLibrary\obj\Release\GameLibrary.pdb
+F:\Temp\WebGameSource\GameLibrary\bin\Release\GameLibrary.dll
+F:\Temp\WebGameSource\GameLibrary\bin\Release\GameLibrary.pdb
+F:\Temp\WebGameSource\GameLibrary\obj\Release\GameLibrary.dll
+F:\Temp\WebGameSource\GameLibrary\obj\Release\GameLibrary.pdb
+F:\WebGameSource\GameLibrary\obj\Release\GameLibrary.dll
+F:\WebGameSource\GameLibrary\obj\Release\GameLibrary.pdb
+F:\WebGameSource\GameLibrary\bin\Release\GameLibrary.dll
+F:\WebGameSource\GameLibrary\bin\Release\GameLibrary.pdb
+F:\Work Files\WebGameSource\GameLibrary\bin\Release\GameLibrary.dll
+F:\Work Files\WebGameSource\GameLibrary\bin\Release\GameLibrary.pdb
+F:\Work Files\WebGameSource\GameLibrary\obj\Release\GameLibrary.dll
+F:\Work Files\WebGameSource\GameLibrary\obj\Release\GameLibrary.pdb
+F:\Work Files\WebGameSource\GameLibrary\obj\Release\GameLibrary.csprojResolveAssemblyReference.cache
+F:\工作区\WebGameSource\GameLibrary\bin\Release\GameLibrary.dll
+F:\工作区\WebGameSource\GameLibrary\bin\Release\GameLibrary.pdb
+F:\工作区\WebGameSource\GameLibrary\obj\Release\GameLibrary.dll
+F:\工作区\WebGameSource\GameLibrary\obj\Release\GameLibrary.pdb
+F:\工作区\WebGameSource\GameLibrary\obj\Release\GameLibrary.csprojResolveAssemblyReference.cache
+D:\BaiduYunDownload\Game\GameLibrary\bin\Release\GameLibrary.dll
+D:\BaiduYunDownload\Game\GameLibrary\bin\Release\GameLibrary.pdb
+D:\BaiduYunDownload\Game\GameLibrary\obj\Release\GameLibrary.dll
+D:\BaiduYunDownload\Game\GameLibrary\obj\Release\GameLibrary.pdb

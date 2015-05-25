@@ -1,0 +1,32 @@
+﻿* { font-family:Arial, Helvetica, Geneva, SunSans-Regular, sans-serif;}
+* { font-family: "宋体",sans-serif; font-size: 12px; }
+#system-header { height: 30px;  background:url(/Images/Default/AM/am_logo.png) no-repeat; background-position:3px 1px; background-color:#eceadf; }
+#system-header h1 { color:#bc1616; line-height:30px; font-size:18px; float:left; font-weight:bold; padding-left:40px; color:#00759F; color:#505050;}
+.cjlsoft-header { }
+.cjlsoft-header-logo { width:250px; height:30px; float:left; width:0; }
+#system-left { width: 170px; padding-left:2px; }
+#system-left ul span { font-size:13px; }
+#system-left ul li a { text-decoration:none; color:#00759F; color:#3a3a3a; font-size:12px;}
+#system-left ul li a:hover{ color:#f00; background:none;}
+#navigation { width: 180px; }
+#navigation a { color: blue; font-size: 14px; }
+#show-content { padding:5px; }
+#system-bottom { height: 18px; line-height: 18px; background:#e3e3e3; background:#e4e9ec; background:#eceadf; }
+#system-header .right_info { display:inline-block; float:right; height:30px; line-height:30px; padding-right:10px; overflow:hidden; }
+#system-header .right_info .user_group { font-weight:bold;}
+#system-header .right_info .user_account { padding:0 3px; }
+#system-header .right_info a { color:#555; padding:0 5px; text-decoration:none;}
+#system-header .right_info a:hover { text-decoration:underline;}
+
+/*重写TABS*/
+/*
+#system-body-content .tabs-header { border:none; padding:0;}
+*/
+#system-left .layout-split-west { border-right:5px solid #e4e9ec;}
+#system-left .tree-node-selected { background:none; color:#000;}
+
+#system-left .tree-folder-open ,#system-left .tree-folder { background:url(/Images/Default/AM/Icon/left_m_root.gif) center no-repeat;}
+#system-left .tree-file{ background:url(/Images/Default/AM/Icon/left_m_sub.gif) center no-repeat;}
+#system-body-content .tabs-p-tool a.tab-base-window {background:url(/Images/Default/AM/Icon/left_m_sub.gif) no-repeat; }
+
+.f_number{ color:red; padding:0 2px;}

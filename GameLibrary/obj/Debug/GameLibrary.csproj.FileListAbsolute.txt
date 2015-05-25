@@ -1,0 +1,4 @@
+F:\Course\MyProject\WebGame\GameLibrary\bin\Debug\GameLibrary.dll
+F:\Course\MyProject\WebGame\GameLibrary\bin\Debug\GameLibrary.pdb
+F:\Course\MyProject\WebGame\GameLibrary\obj\Debug\GameLibrary.dll
+F:\Course\MyProject\WebGame\GameLibrary\obj\Debug\GameLibrary.pdb
