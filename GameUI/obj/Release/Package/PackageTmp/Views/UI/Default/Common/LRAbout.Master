@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta name="viewport" content="width=device-width" />
+    <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
+    <script type="text/javascript" src="/Scripts/jquery/jquery.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery/jquery.blockUI.js"></script>
+    <script type="text/javascript" src="/Scripts/Common/swfobject_modified.js"></script>
+    <style type="text/css">
+body,p,form,input,textarea,ul,li,h1,h2,h3,h4,dl,dt,dd,table,td,th{margin:0;padding:0;}table,td,th{border-collapse:collapse;}ul,li{list-style:none;}h1,h2,h3,h4{font-size:100%;}img,input,textarea{vertical-align:middle;border:0;}a{text-decoration:none;color:#787878;outline:none;}a:hover{text-decoration:underline;}body{font:12px/1.5 "微软雅黑","tahoma",Verdana,Geneva,sans-serif;color:#666;position:relative;}.clearfix:after{content:" ";display:block;height:0;clear:both;visibility:hidden;}.clearfix{zoom:1;}.fl{float:left;}.fr{float:right;}.main{margin:0 auto;width:600px;}.footer{height:auto;background:#fafafa;background:#fff;border-top:0px solid #f3f3f3;padding:28px 0 40px;}.footer p{line-height:23px;color:#c6c6c6;text-align:center;}.head-warp{background:#fbfbfb url(/Images/Default/UI/Login/navBg.gif) repeat-x 0 bottom;}.head-warp .head{width:600px;margin:0 auto;background-image:none;}.head{height:71px;background:url(/Images/Default/UI/Login/line01.png) no-repeat 50% bottom;}.head .logo_panel{background:url(/Images/Default/UI/top_logo.png) no-repeat;height:71px;width:200px;float:left;line-height:10em;overflow:hidden;}.head h1 a{display:block;width:100%;height:42px;}.nav-box{padding-top:15px;float:right;position:relative;}.nav-box ul{padding-top:8px;}.nav-box ul li{float:left;font-family:"微软雅黑";font-size:14px;padding:0 12px;height:41px;line-height:41px;}.nav-box ul li a{color:#4b4b4b;}.nav-box ul li a:hover{text-decoration:none; color:#f00;}.nav-box ul li.last{font-family:\5b8b\4f53;font-size:12px;padding-top:1px;}.nav-box ul li.last a{color:#a2a2a1;}.nav-box .nav-line{position:absolute;left:0;bottom:0;height:2px;line-height:2px;font-size:0;width:52px;background:#35C4FD;}a{blr:expression(this.onFocus=this.blur());}a{outline:none;}.main{padding:20px 0;}.table-pro{border-radius:5px;border-left:1px solid #fff;border-top:1px solid #fff;border-left:1px solid #f9f9f9;border-top:1px solid #f9f9f9;border-collapse:0;border-spacing:0;empty-cells:show;color:#555;}.table-pro td,.table-pro tbody td,.table-pro tfoot tr td,.table-pro-head th{border-right:1px solid #fff;border-bottom:1px solid #fff;padding:0 5px;border-radius:5px;border-radius:0px;border-right:1px solid #f9f9f9;border-bottom:1px solid #f9f9f9;}tr.table-pro-head th{background:#F8F8F8;background:#fff;background:none;text-align:left;color:#606060;color:#6b4724;padding:4px 4px;font-weight:bold;height:20px;line-height:20px;}.table-pro tbody td.title{text-align:right;color:#606060;color:#6b4724;color:#555;width:90px;padding:4px;}.table-pro tfoot tr td{background:#fbfbfb;}.table-pro tfoot tr td a{margin-right:5px;display:inline-block;}.table-color-row-even td{background:#fbfbfb;}.table-color-row-over td,.table-row-select td{background:#ffffef;}.table-pro td.link-tools a{padding:0 2px;}.table-pro td .tips{margin-left:2px;color:#666;font-size:12px;}.table-pro td .tipsline{padding:4px 15px;background:#ffffe7 url(/Images/Common/tips_icon.png) no-repeat;background-position:0 3px;margin-left:5px;}.keep-line td{word-break:keep-all;}.table-pro .hide-col{display:none;}.login_input{border:1px solid #eee;height:30px;font-size:16px;padding:2px; line-height:30px;}.login_button{border:none;background:url(/Images/Default/UI/Login/btnbg01.png);height:24px;width:73px;border:1px solid #eee;}.button_h{background-position:0px 24px;}table.tp1 td{padding:1px;}table.tp2 td{padding:2px;}table.tp3 td{padding:3px;}table.tp5 td{padding:5px;}.fs14px{font-size:14px;}.fs15px{font-size:15px;}.fs16px{font-size:16px;}.fs17px{font-size:17px;}.fs18px{font-size:18px;}.w20px{width:20px;}.w30px{width:30px;}.w40px{width:40px;}.w50px{width:50px;}.w80px{width:80px;}.w100px{width:100px;}.w120px{width:120px;}.w150px{width:150px;}.w200px{width:200px;}.w250px{width:250px;}.w300px{width:300px;}
+    </style>
+</head>
+<body>
+<div class="head-warp">
+        <div class="head">
+            <div class="logo_panel">
+            </div>
+            <div class="nav-box">
+                <ul>
+                    <li class="cur"><a href="/Login.html" title="平台登录">平台登录</a></li>
+                    <li><a href="/Public.html?method=checkURL" title="域名验证">域名验证</a></li>
+                    <li><a href="javascript:show_download();" title="客户端下载">客户端下载</a></li>
+                </ul>
+            </div>
+        </div>
+</div>
+<asp:ContentPlaceHolder ID="MainContent" runat="server">       
+</asp:ContentPlaceHolder>
+    <div class="footer">
+        <%=ViewData["SysUIBottom"] %>
+    </div>
+    <div style="display:none; width:200px; height:200px;" id="client_download">
+        <%=ViewData["SysClientDownload"] %>
+    </div>
+    <script type="text/javascript">
+        function show_download()
+        {
+            $.blockUI({ draggable: true, message: $("#client_download"), css: { border: "1px solid #eee", width: "500px", left: "33%", top: "10%", padding: 0, cursor: "default" }, overlayCSS: { cursor: "default" } });
+            $('.blockOverlay').click($.unblockUI);
+        }
+    </script>
+</body>
+</html>
