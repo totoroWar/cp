@@ -66,8 +66,8 @@
                 <th>提现金额</th>
                 <th>充值手续费</th>
                 <th>提现手续费</th>
-                <th>获取积分</th>
-                <th>消费积分</th>
+                <!--<th>获取积分</th>
+                <th>消费积分</th>-->
                 <th>盈利</th>
             </tr>
         </thead>
@@ -105,8 +105,8 @@
                 <td><%:item.dr010 %></td>
                 <td><%:item.dr014 %></td>
                 <td><%:item.dr015 %></td>
-                <td><%:item.dr008 %></td>
-                <td><%:item.dr013 %></td>
+                <!--<td><%:item.dr008 %></td>
+                <td><%:item.dr013 %></td>-->
                 <td><%:lineSum %></td>
             </tr>
             <%
@@ -126,8 +126,8 @@
                 <td><%:linedr010Sum %></td>
                 <td><%:linedr014Sum %></td>
                 <td><%:linedr015Sum %></td>
-                <td><%:linedr008Sum %></td>
-                <td><%:linedr013Sum %></td>
+                 <!--<td><%:linedr008Sum %></td>
+                <td><%:linedr013Sum %></td>-->
                 <td><%:lineSumTotal %></td>
             </tr>
         </tfoot>

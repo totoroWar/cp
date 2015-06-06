@@ -9,7 +9,7 @@
         <div class="left-nav">
             <a href="/UI/Record?method=orderDefault" title="游戏记录" <%=methodType == "orderDefault" ? "class='item-select'" : "" %>>游戏记录</a>
             <a href="/UI/Record?method=orderTrace" title="追号记录" <%=methodType == "orderTrace" ? "class='item-select'" : "" %>>追号记录</a>
-            <a href="/UI/Record?method=orderCombine" title="合买记录" <%=methodType == "orderCombine" ? "class='item-select'" : "" %>>合买记录</a>
+            <!--<a href="/UI/Record?method=orderCombine" title="合买记录" <%=methodType == "orderCombine" ? "class='item-select'" : "" %>>合买记录</a>-->
         </div>
     </div>
     <div class="blank-line"></div>
@@ -49,12 +49,15 @@
                       continue;
                   }
                   var haveGame = gc.gc004.Split(',');
+                  
                   foreach (var gameItem in haveGame)
-                  { 
+                  {
+                      if (gDicList.ContainsKey(int.Parse(gameItem)))
+                      {
             %>
             <option value="<%:gameItem %>" <%:orderGame==int.Parse(gameItem) ? "selected='selected'" : "" %> tourl="/UI/Record?method=orderDefault&orderGameClass=<%:gc.gc001 %>&orderGame=<%:gameItem %>"><%:gDicList[int.Parse(gameItem)].g003.Trim() %></option>
             <%
-                  }/*game*/
+            }}/*game*/
               }
             %>
         </select>
@@ -306,11 +309,12 @@
                   }
                   var haveGame = gc.gc004.Split(',');
                   foreach (var gameItem in haveGame)
-                  { 
+                  { if (gDicList.ContainsKey(int.Parse(gameItem)))
+                  {
             %>
             <option value="<%:gameItem %>" <%:orderGame==int.Parse(gameItem) ? "selected='selected'" : "" %> tourl="/UI/Record?method=orderTrace&orderGameClass=<%:gc.gc001 %>&orderGame=<%:gameItem %>"><%:gDicList[int.Parse(gameItem)].g003.Trim() %></option>
             <%
-                  }/*game*/
+            }}/*game*/
               }
             %>
         </select>
@@ -412,11 +416,13 @@
                   }
                   var haveGame = gc.gc004.Split(',');
                   foreach (var gameItem in haveGame)
-                  { 
+                  {
+                      if (gDicList.ContainsKey(int.Parse(gameItem)))
+                  {
             %>
             <option value="<%:gameItem %>" <%:orderGame==int.Parse(gameItem) ? "selected='selected'" : "" %> tourl="/UI/Record?method=orderCombine&orderGameClass=<%:gc.gc001 %>&orderGame=<%:gameItem %>"><%:gDicList[int.Parse(gameItem)].g003.Trim() %></option>
             <%
-                  }/*game*/
+            } }/*game*/
               }
             %>
         </select>

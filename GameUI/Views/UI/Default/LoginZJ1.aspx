@@ -53,7 +53,7 @@ table{margin:0 auto;}
    <input type="image" src="/Images/ZJ1/UI/LoginZJ1/login_ok.jpg"/>
    <input type="image" src="/Images/ZJ1/UI/LoginZJ1/login_clear.jpg" style="visibility:hidden;" />
    </div></form>
-   <div class="khddownload"><a href="javascript:download();"><img alt="客户端下载" title="客户端下载" src="/Images/ZJ1/UI/LoginZJ1/khd.png" /></a></div>
+   <!--<div class="khddownload"><a href="javascript:download();"><img alt="客户端下载" title="客户端下载" src="/Images/ZJ1/UI/LoginZJ1/khd.png" /></a></div>-->
    </div> 
    
 </div>

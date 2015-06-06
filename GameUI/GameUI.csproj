@@ -42,7 +42,7 @@
     <OutputPath>bin\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
+    <WarningLevel>3</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
@@ -4673,6 +4673,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\" />
+    <Folder Include="DevInfo\" />
     <Folder Include="Images\Shop\" />
     <Folder Include="UIResource\Temp\" />
     <Folder Include="Views\UI2\Default\Public\" />
@@ -4725,8 +4726,8 @@
     <Content Include="Images\ZJ2\UI\top_menu.psd" />
     <Content Include="Images\ZJ2\UI\top_menu_select.psd" />
     <Content Include="Images\ZJ2\UI\wc.psd" />
-    <Content Include="DevInfo\数据字典.xlsx" />
     <Content Include="CSS\ZJ3\UI\jqueryeasyui\default\images\Thumbs.db" />
+    <None Include="Properties\PublishProfiles\app.pubxml" />
     <None Include="Properties\PublishProfiles\Funcai518.pubxml" />
     <None Include="Properties\PublishProfiles\LOCAL_IIS.pubxml" />
     <Content Include="Views\AM\Default\Common\PageDefault.Master" />
@@ -4826,8 +4827,8 @@
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
-          <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>59309</DevelopmentServerPort>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>58871</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:58871/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>

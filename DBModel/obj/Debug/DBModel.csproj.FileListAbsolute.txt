@@ -16,3 +16,13 @@ F:\Course\MyProject\WebGame\DBModel\bin\Debug\EntityFramework.xml
 F:\Course\MyProject\WebGame\DBModel\bin\Debug\EntityFramework.SqlServer.xml
 F:\Course\MyProject\WebGame\DBModel\obj\Debug\DBModel.dll
 F:\Course\MyProject\WebGame\DBModel\obj\Debug\DBModel.pdb
+D:\BaiduYunDownload\Game\DBModel\bin\Debug\DBModel.dll.config
+D:\BaiduYunDownload\Game\DBModel\bin\Debug\DBModel.dll
+D:\BaiduYunDownload\Game\DBModel\bin\Debug\DBModel.pdb
+D:\BaiduYunDownload\Game\DBModel\bin\Debug\EntityFramework.dll
+D:\BaiduYunDownload\Game\DBModel\bin\Debug\EntityFramework.SqlServer.dll
+D:\BaiduYunDownload\Game\DBModel\bin\Debug\EntityFramework.xml
+D:\BaiduYunDownload\Game\DBModel\bin\Debug\EntityFramework.SqlServer.xml
+D:\BaiduYunDownload\Game\DBModel\obj\Debug\DBModel.csprojResolveAssemblyReference.cache
+D:\BaiduYunDownload\Game\DBModel\obj\Debug\DBModel.dll
+D:\BaiduYunDownload\Game\DBModel\obj\Debug\DBModel.pdb

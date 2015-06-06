@@ -311,7 +311,7 @@
             <td class="title">冻结金额</td>
             <td><%:string.Format("{0:N2}",ViewData["AGSHoldMoney"]) %></td>
         </tr>
-        <tr>
+      <!--<tr>
             <td class="title">可用积分</td>
             <td><%:string.Format("{0:N2}",ViewData["AGSPoint"]) %></td>
         </tr>
@@ -322,7 +322,7 @@
         <tr>
             <td class="title">军衔</td>
             <td><%=ViewData["AGPosName"] %></td>
-        </tr>
+        </tr>-->
         <tr>
             <td class="title">返点</td>
             <td>
@@ -350,9 +350,12 @@
                             <td><%:gcName %></td>
                             <td>
                                 <%foreach (var g in gameIDs)
-                                  {%>
+                                  {
+                                      if (gDicList.ContainsKey(int.Parse(g)))
+                                      {%>
+                                
                                 <span class="tips"><%:gDicList[int.Parse(g)].g003 %></span>
-                                <%} %>
+                                <%}} %>
                             </td>
                             <td><span class="fc-red"><%:string.Format("{0:N1}",agp.up003) %></span></td>
                             <td><a href="javascript:void(0);" gpkey="<%:gpkey %>" gckey="<%:gcKey %>" class="show_agp_detail" title="<%:gcName %>">[查看详细]</a></td>

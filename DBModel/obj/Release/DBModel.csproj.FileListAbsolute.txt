@@ -93,5 +93,6 @@ D:\BaiduYunDownload\Game\DBModel\bin\Release\EntityFramework.dll
 D:\BaiduYunDownload\Game\DBModel\bin\Release\EntityFramework.SqlServer.dll
 D:\BaiduYunDownload\Game\DBModel\bin\Release\EntityFramework.xml
 D:\BaiduYunDownload\Game\DBModel\bin\Release\EntityFramework.SqlServer.xml
+D:\BaiduYunDownload\Game\DBModel\obj\Release\DBModel.csprojResolveAssemblyReference.cache
 D:\BaiduYunDownload\Game\DBModel\obj\Release\DBModel.dll
 D:\BaiduYunDownload\Game\DBModel\obj\Release\DBModel.pdb

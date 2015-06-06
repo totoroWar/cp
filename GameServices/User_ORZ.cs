@@ -37,6 +37,27 @@ namespace GameServices
             
         }
 
+        public string IsPost(int uid, double uf001)
+        {
+
+            var transactionOptions = new TransactionOptions();
+            transactionOptions.IsolationLevel = IsolationLevel.ReadUncommitted;
+            using (TransactionScope ts = new TransactionScope(TransactionScopeOption.Required, transactionOptions))
+            {
+                using (UnitOfWork db = new UnitOfWork(true))
+                {
+                    string sql = "";
+
+                    sql += " select count(1) AS ispost from [dbo].[wgs014] where ";
+                    sql += " u001 = {0}";
+                    sql += " and uf001 = {1}"; 
+                    var mypost = db.SqlQuery<int>(sql, uid.ToString(), uf001.ToString());
+                    return mypost.First().ToString(); 
+                }
+            }
+
+        }
+
         public string IsOrderChange(int uid)
         {
             //换一个方式

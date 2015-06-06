@@ -583,6 +583,7 @@ D:\BaiduYunDownload\Game\GameUI\bin\System.Web.WebPages.Deployment.dll
 D:\BaiduYunDownload\Game\GameUI\bin\System.Web.WebPages.dll
 D:\BaiduYunDownload\Game\GameUI\bin\System.Web.WebPages.Razor.dll
 D:\BaiduYunDownload\Game\GameUI\bin\WebGrease.dll
+D:\BaiduYunDownload\Game\GameUI\bin\System.Data.SQLite.dll
 D:\BaiduYunDownload\Game\GameUI\bin\DBase.pdb
 D:\BaiduYunDownload\Game\GameUI\bin\DBModel.pdb
 D:\BaiduYunDownload\Game\GameUI\bin\GameLibrary.pdb

@@ -35,11 +35,11 @@
                 <td><input class="cw_vcode cvc h-point" type="text" style="width:150px; height:50px; border:none;" readonly="readonly" /><br /><span class="cvc h-point">[换一张]</span><br /><input type="text" class="input-text w200px" name="cw_vcode" value="" /></td>
             </tr>
             <%} %>
-            <tr>
+            <!--<tr>
                 <td class="title">资金密码</td>
                 <td>
                     <input type="password" class="input-text w200px" name="char_password" value="" /></td>
-            </tr>
+            </tr>-->
             <tr>
                 <td class="title"></td>
                 <td class="cn-money fs16px"></td>

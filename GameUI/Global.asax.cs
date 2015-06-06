@@ -56,20 +56,51 @@ namespace GameUI
         {
             if (true == NETCommon.ConfigHelper.GetConfigBool("ErrorToDB"))
             {
-                Exception error = Server.GetLastError();
+                //Exception error = Server.GetLastError();
+                //var httpContext = ((MvcApplication)sender).Context;
+                //var httpErrorCode = (error is HttpException) ? (error as HttpException).GetHttpCode() : 500;
+                //httpContext.ClearError();
+                //httpContext.Response.Clear();
+                //httpContext.Response.StatusCode = 200;
+                //HandleErrorInfo errorModel = null;
+                //RouteData routeData = new RouteData();
+                //routeData.Values["controller"] = "Error";
+                //routeData.Values["action"] = "Index";
+                //errorModel = new HandleErrorInfo(error, "Error", "Index");
+                //var errorController = new ErrorController(new GameServices.System());
+                //errorController.ViewData.Model = errorModel;
+                //(errorController as IController).Execute(new RequestContext(new HttpContextWrapper(httpContext), routeData));
+                var ex = Server.GetLastError(); 
+                var httpStatusCode = (ex is HttpException) ? (ex as HttpException).GetHttpCode() : 500; //这里仅仅区分两种错误  
                 var httpContext = ((MvcApplication)sender).Context;
-                var httpErrorCode = (error is HttpException) ? (error as HttpException).GetHttpCode() : 500;
                 httpContext.ClearError();
                 httpContext.Response.Clear();
-                httpContext.Response.StatusCode = 200;
-                HandleErrorInfo errorModel = null;
-                RouteData routeData = new RouteData();
+                httpContext.Response.StatusCode = httpStatusCode;
+                var shouldHandleException = true;
+                HandleErrorInfo errorModel;
+                
+                var routeData = new RouteData();
                 routeData.Values["controller"] = "Error";
-                routeData.Values["action"] = "Index";
-                errorModel = new HandleErrorInfo(error, "Error", "Index");
-                var errorController = new ErrorController(new GameServices.System());
-                errorController.ViewData.Model = errorModel;
-                (errorController as IController).Execute(new RequestContext(new HttpContextWrapper(httpContext), routeData));
+
+                switch (httpStatusCode)
+                {
+                    case 404: 
+                        routeData.Values["action"] = "P1";
+                        errorModel = new HandleErrorInfo(new Exception(string.Format("页面不存在！", httpContext.Request.UrlReferrer), ex), "Error", "P1");
+                        break;
+
+                    default:
+                         routeData.Values["action"] = "Index";  
+                        Exception exceptionToReplace = null; //这里使用了EntLib的异常处理模块的一些功能  
+                        errorModel = new HandleErrorInfo(new Exception("系统故障", ex), "Error", "Index"); 
+                        break;
+                }
+
+                
+                var controller = new ErrorController(); ;
+                controller.ViewData.Model = errorModel; //通过代码路由到指定的路径  
+               ((IController)controller).Execute(new RequestContext(new HttpContextWrapper(httpContext), routeData));
+                
             }
         }
     }

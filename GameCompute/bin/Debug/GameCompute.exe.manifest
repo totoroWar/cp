@@ -14,16 +14,16 @@
       </applicationRequestMinimum>
       <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
         <!--
-          UAC Manifest Options
-          If you want to change the Windows User Account Control level replace the 
-          requestedExecutionLevel node with one of the following.
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
 
         <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
         <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
         <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
 
-         If you want to utilize File and Registry Virtualization for backward 
-         compatibility then delete the requestedExecutionLevel node.
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
     -->
         <requestedExecutionLevel level="asInvoker" uiAccess="false" />
       </requestedPrivileges>
@@ -42,26 +42,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DBase.dll" size="30208">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DBase.dll" size="31232">
       <assemblyIdentity name="DBase" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>+KC+oltJ18s0oDMDVZVFsukZRFvA3gwauc+ZgFH1tJg=</dsig:DigestValue>
+        <dsig:DigestValue>41UiSuonrUXwB/+KbB4jKhgdodE2pK7h7KZNsvqBGnA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DBModel.dll" size="386560">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DBModel.dll" size="425984">
       <assemblyIdentity name="DBModel" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>QnVQseBmWCrEX+/fkJ7TkyM/CaJUz+I74Kyq+8z6kWs=</dsig:DigestValue>
+        <dsig:DigestValue>kkkFgRBBnIsnJOSU13s0csSelKsB4UiP0/3UPKJNNos=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -90,60 +90,108 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GameCompute.exe" size="22528">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Enyim.Caching.dll" size="66560">
+      <assemblyIdentity name="Enyim.Caching" version="1.2.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9b2fWX3tGcBvzMsQ3zqcwPQmswGpj8jjClz69efcIQ4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GameCompute.exe" size="40448">
       <assemblyIdentity name="GameCompute" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>aot7y91eSTWJipRUBFLPAXjJO5R7DkTI6y4/m1mljjk=</dsig:DigestValue>
+        <dsig:DigestValue>oJxsdUBv5PoO05PSnsbCgfbbWQ6b8SGFmXVhcCT6n0k=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GameLibrary.dll" size="91136">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GameLibrary.dll" size="101888">
       <assemblyIdentity name="GameLibrary" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>G/hn/rCNjE3K4bVpVdXkOFosI4fquGDbvAvjBuWYFfQ=</dsig:DigestValue>
+        <dsig:DigestValue>WSU6JvLpiIr30WjXjxMjbIOR8yLJrBAxnVMg6DqsSYM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GameServices.dll" size="264704">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GameServices.dll" size="349696">
       <assemblyIdentity name="GameServices" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>FGOgNJye0cIuU29D5Iur7EPeN+EzKwwp7hyPqnfya6I=</dsig:DigestValue>
+        <dsig:DigestValue>F2H8w5RVuaUhK3korQuC1KO49oYqyzC2z1UbpNMxot4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NETCommon.dll" size="20480">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="log4net.dll" size="270336">
+      <assemblyIdentity name="log4net" version="1.2.10.0" publicKeyToken="1B44E1D426115821" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>J9Jqq0L3yrNb9R0FNsZ+1VP8l7ZwImuGiAXnxpJ+XIc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MemcachedProviders.dll" size="28672">
+      <assemblyIdentity name="MemcachedProviders" version="1.2.3102.35569" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>5BJJtt/uQxqLBKQPPQVSCXy47TeHsgA+x1pVIIW9w00=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NETCommon.dll" size="31232">
       <assemblyIdentity name="NETCommon" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>prLm6oba7MzQ/ENgDeNEWH0LRAc8SvlCo5+e/CZLB+c=</dsig:DigestValue>
+        <dsig:DigestValue>WLgviMP734EFr3Lnw0wactuw6IpUfFLI0D+8bJIQuLI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="GameCompute.exe.config" size="3335">
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Data.SQLite.dll" size="967168">
+      <assemblyIdentity name="System.Data.SQLite" version="1.0.79.0" publicKeyToken="DB937BC2D44FF139" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>gq7Pm5Bk+6L9CNhZtmmD7WM4vKDjS4gn9kpopHtfLc8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="GameCompute.exe.config" size="3200">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>KZ6zEh+HF221dpKjJQ14HC9Cas/lUKo0zDkxhpOPoKA=</dsig:DigestValue>
+      <dsig:DigestValue>5nemr80aaiuzETvPv1V5/v0UnD3bdN4FLTv1q/fF5iI=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

@@ -145,6 +145,7 @@ D:\BaiduYunDownload\Game\GameCompute\bin\Release\GameLibrary.dll
 D:\BaiduYunDownload\Game\GameCompute\bin\Release\GameServices.dll
 D:\BaiduYunDownload\Game\GameCompute\bin\Release\NETCommon.dll
 D:\BaiduYunDownload\Game\GameCompute\bin\Release\DBase.dll
+D:\BaiduYunDownload\Game\GameCompute\bin\Release\System.Data.SQLite.dll
 D:\BaiduYunDownload\Game\GameCompute\bin\Release\MemcachedProviders.dll
 D:\BaiduYunDownload\Game\GameCompute\bin\Release\Enyim.Caching.dll
 D:\BaiduYunDownload\Game\GameCompute\bin\Release\log4net.dll
@@ -159,6 +160,7 @@ D:\BaiduYunDownload\Game\GameCompute\obj\Release\GameCompute.csprojResolveAssemb
 D:\BaiduYunDownload\Game\GameCompute\obj\Release\GameCompute.Form3DCalc.resources
 D:\BaiduYunDownload\Game\GameCompute\obj\Release\GameCompute.Form11X5.resources
 D:\BaiduYunDownload\Game\GameCompute\obj\Release\GameCompute.FormAllCalc.resources
+D:\BaiduYunDownload\Game\GameCompute\obj\Release\GameCompute.Formcj.resources
 D:\BaiduYunDownload\Game\GameCompute\obj\Release\GameCompute.FormSSCCalc.resources
 D:\BaiduYunDownload\Game\GameCompute\obj\Release\GameCompute.FormMain.resources
 D:\BaiduYunDownload\Game\GameCompute\obj\Release\GameCompute.Properties.Resources.resources
@@ -168,3 +170,4 @@ D:\BaiduYunDownload\Game\GameCompute\obj\Release\GameCompute.exe.manifest
 D:\BaiduYunDownload\Game\GameCompute\obj\Release\GameCompute.application
 D:\BaiduYunDownload\Game\GameCompute\obj\Release\GameCompute.exe
 D:\BaiduYunDownload\Game\GameCompute\obj\Release\GameCompute.pdb
+D:\BaiduYunDownload\Game\GameCompute\obj\Release\GameCompute.Formaddqs.resources

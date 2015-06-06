@@ -40,7 +40,7 @@
     </dl>
   </div>
   
-  <div class="logincomtent_download"><a href="javascript:download();">下载客户端 ></a></div>
+  <!--<div class="logincomtent_download"><a href="javascript:download();">下载客户端 ></a></div>-->
   </form>
 </div>
 

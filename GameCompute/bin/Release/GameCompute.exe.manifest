@@ -49,7 +49,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>5OGmOePkGcSZztsMn2JlLahF92JXQKMkdTkdIiBemMY=</dsig:DigestValue>
+        <dsig:DigestValue>IVvmB7ENg+k8vQ0IaXJUfAks3UJi5bBiogdSvCbaH3A=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -61,7 +61,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>1Yvw8f4o7ggeTXnJhiP+R5s52G7axqBhFh6O6eRpz8o=</dsig:DigestValue>
+        <dsig:DigestValue>SLmj624zK1eYPA4BYS4NFe3okxO4Rhhnxm11n2M0RDc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -102,14 +102,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GameCompute.exe" size="28160">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GameCompute.exe" size="37376">
       <assemblyIdentity name="GameCompute" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>fp7I7yqdCEBkowivxkOQK3kXg+w4WXNZZLpfYjhZJS0=</dsig:DigestValue>
+        <dsig:DigestValue>s1+4WsjeottENLwEuvSaxx4L3BxDWx6rscXAKh5KXHI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -121,19 +121,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>8MjbyM5blv2lEgTpBY94YWwzXB+5PH5OEMKM8nNB6qo=</dsig:DigestValue>
+        <dsig:DigestValue>v8o8RwoPXBv3/r8ERJ0P4V5XBD6A1jXvzx4hea+BODE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GameServices.dll" size="325120">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GameServices.dll" size="327680">
       <assemblyIdentity name="GameServices" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>0AnvE4EVkkLQKjB0J1tqfxnqxuO9yHeWdS9N1QFjlng=</dsig:DigestValue>
+        <dsig:DigestValue>uYabB/0RlCoIg1xG/4QLJhBFXRGzac3U/dGUZH+afm8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -169,7 +169,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>GsgT6hLD51tF3aryUTHOHq3UYpCiifouZv4CzIg6HqI=</dsig:DigestValue>
+        <dsig:DigestValue>7puio5R5awnVFvc97KMVIKwZfd1SZT1+sku3uwHDIZc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Data.SQLite.dll" size="967168">
+      <assemblyIdentity name="System.Data.SQLite" version="1.0.79.0" publicKeyToken="DB937BC2D44FF139" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>gq7Pm5Bk+6L9CNhZtmmD7WM4vKDjS4gn9kpopHtfLc8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

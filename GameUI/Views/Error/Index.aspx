@@ -10,10 +10,10 @@
 </head>
 
 <body>
-    <h1>是否有不正确操作？</h1>
-    <div>
+    <h1>无法正常工作，是否有不正确操作？</h1>
+    <!--<div>
         <p><strong>记录编号：</strong><%:ViewData["ID"] %></p>
         <p><strong>记录时间：</strong><%:ViewData["DateTime"] %></p>
-    </div>
+    </div>-->
 </body>
 </html>

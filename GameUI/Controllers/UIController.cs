@@ -749,12 +749,12 @@ namespace GameUI.Controllers
                 return ViewExPath("Public/Public", null, null);
             }
             var myInfo = serUser.GetAGU(UILoginUser.u001);
-            if (string.IsNullOrEmpty(myInfo.u010))
-            {
-                ViewData["Error"] = 1;
-                ViewData["Message"] = "请先设置资金密码，设置方法：“账户中心”－“修改密码”－“资金密码”，<a href=\"javascript:window.parent.parent.ui_show_tab('账户中心', '/UI/UCenter', true, false);\" title=\"账户中心\">点击转到账户中心</a>";
-                return ViewExPath("Public/Public", null, null);
-            }
+            //if (string.IsNullOrEmpty(myInfo.u010))
+            //{
+            //    ViewData["Error"] = 1;
+            //    ViewData["Message"] = "请先设置资金密码，设置方法：“账户中心”－“修改密码”－“资金密码”，<a href=\"javascript:window.parent.parent.ui_show_tab('账户中心', '/UI/UCenter', true, false);\" title=\"账户中心\">点击转到账户中心</a>";
+            //    return ViewExPath("Public/Public", null, null);
+            //}
             var ctList = serFinance.GetCTList();
             var bankList = serFinance.GetBankListByCache();
             ViewData["CTList"] = ctList.Where(exp => exp.ct011 != "SYS" && exp.ct012 == 1).OrderBy(exp => exp.ct001).ToList();
@@ -816,22 +816,22 @@ namespace GameUI.Controllers
                     return Json(ajax);
                 }
             }
-            if (_NWC.GeneralValidate.IsNullOrEmpty(UILoginUser.u010))
-            {
-                ajax.Message = "请先设置资金密码，设置方法：“账户中心”－“修改密码”－“资金密码”";
-                return Json(ajax);
-            }
-            if (_NWC.GeneralValidate.IsNullOrEmpty(_f_char_password))
-            {
-                ajax.Message = "密码不能为空";
-                return Json(ajax);
-            }
-            check_pwd = _NWC.SHA1.Get(_f_char_password + UILoginUser.u011, _NWC.SHA1Bit.L160);
-            if (0 != string.Compare(check_pwd, UILoginUser.u010.Trim(), true))
-            {
-                ajax.Message = "资金密码不正确";
-                return Json(ajax);
-            }
+           // if (_NWC.GeneralValidate.IsNullOrEmpty(UILoginUser.u010))
+           // {
+           //     ajax.Message = "请先设置资金密码，设置方法：“账户中心”－“修改密码”－“资金密码”";
+           //     return Json(ajax);
+           // }
+           // if (_NWC.GeneralValidate.IsNullOrEmpty(_f_char_password))
+           // {
+           //     ajax.Message = "密码不能为空";
+           //     return Json(ajax);
+           // }
+           // check_pwd = _NWC.SHA1.Get(_f_char_password + UILoginUser.u011, _NWC.SHA1Bit.L160);
+           // if (0 != string.Compare(check_pwd, UILoginUser.u010.Trim(), true))
+          //  {
+           //     ajax.Message = "资金密码不正确";
+            //    return Json(ajax);
+            //}
             if (_NWC.GeneralValidate.IsNullOrEmpty(_f_charge_type))
             {
                 ajax.Message = "没有选择充值类型";
@@ -2316,8 +2316,7 @@ namespace GameUI.Controllers
             if (Session["UILoginID"] != null)
             {
                 ajax.Data = new GameServices.User_ORZ().IsPost(Convert.ToInt32(Session["UILoginID"])
-                    , Convert.ToDouble(Request["001"])
-                    , Convert.ToDouble(Request["004"]));
+                    , Convert.ToDouble(Request["001"]));
             }
             else
             {

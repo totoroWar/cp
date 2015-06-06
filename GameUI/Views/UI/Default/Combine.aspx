@@ -33,10 +33,12 @@
                   var haveGame = gc.gc004.Split(',');
                   foreach (var gameItem in haveGame)
                   { 
+                      if (gDicList.ContainsKey(int.Parse(gameItem)))
+                  {
             %>
             <option value="<%:gameItem %>" <%:orderGame==int.Parse(gameItem) ? "selected='selected'" : "" %> tourl="/Combine.html?method=orderCombine&orderGameClass=<%:gc.gc001 %>&orderGame=<%:gameItem %>"><%:gDicList[int.Parse(gameItem)].g003.Trim() %></option>
             <%
-                  }/*game*/
+            } }/*game*/
               }
             %>
         </select>

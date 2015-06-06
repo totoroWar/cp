@@ -10,7 +10,7 @@
             <a href="/UI/Member?method=accountList" title="账号管理" <%=methodType == "accountList" ? "class='item-select'" : "" %>>账号管理</a>
             <a href="/UI/Member?method=createAccount" title="增加账号" <%=methodType == "createAccount" ? "class='item-select'" : "" %>>增加账号</a>
             <a href="/UI/Member?method=reportTotalMoney" title="团队余额" <%=methodType == "reportTotalMoney" ? "class='item-select'" : "" %>>团队余额</a>
-            <a href="/UI/Member?method=accountAuto" title="推广链接" <%=methodType == "accountAuto" ? "class='item-select'" : "" %>>推广链接</a>
+            <!--<a href="/UI/Member?method=accountAuto" title="推广链接" <%=methodType == "accountAuto" ? "class='item-select'" : "" %>>推广链接</a>-->
         </div>
     </div>
     <div class="blank-line"></div>
@@ -53,13 +53,13 @@
             <option value="3" <%=amtT==3? "selected='selected'" : "" %>>大于</option>
         </select>
         <input type="text" class="input-text w50px" name="amountTypeV" value="<%:amtV %>" />
-        积分
+        <!--积分
         <select name="pointType">
             <option value="0" <%=pntT==0? "selected='selected'" : "" %>>所有</option>
             <option value="1" <%=pntT==1? "selected='selected'" : "" %>>等于</option>
             <option value="2" <%=pntT==2? "selected='selected'" : "" %>>小于</option>
             <option value="3" <%=pntT==3? "selected='selected'" : "" %>>大于</option>
-        </select>
+        </select>-->
         <input type="text" class="input-text w50px" name="pointTypeV" value="<%:pntV %>" />
         <input type="submit" class="btn-normal ui-post-loading" value="查找" />
         <input type="button" id="reset_form" class="btn-normal" value="重置" />
@@ -74,12 +74,12 @@
                 <th>下级数</th>
                 <th>可用余额</th>
                 <th>冻结金额</th>
-                <th>积分</th>
+                <!--积分<th>积分</th>-->
                 <th>注册时间</th>
                 <th>登录时间/地址</th>
                 <th>状态</th>
-                <th>VIP</th>
-                <th>军衔</th>
+                <!--<th>VIP</th>
+                <th>军衔</th>-->
                 <th>分红比</th>
                 <th></th>
             </tr>
@@ -95,7 +95,7 @@
                 <td><%:item.ChildCount %></td>
                 <td class="fc-red"><%:item.User.wgs014.uf001.ToString("N2") %></td>
                 <td><%:item.User.wgs014.uf003.ToString("N2") %></td>
-                <td><%:item.User.wgs014.uf004.ToString("N2") %></td>
+                <!--<td><%:item.User.wgs014.uf004.ToString("N2") %></td>-->
                 <td><%:item.User.u005 %></td>
                 <td><%:item.User.u007 %>/<%:item.User.u022 %></td>
                 <td>
@@ -119,8 +119,8 @@
                     %>
                     <%=status %>
                 </td>
-                <td><%=vipDicList[item.User.u015] %></td>
-                <td><%=posDicList[item.User.u013].Name %></td>
+                <!--<td><%=vipDicList[item.User.u015] %></td>
+                <td><%=posDicList[item.User.u013].Name %></td>-->
                 <td><%=item.User.u024 * 100 %>%</td>
                 <td class="link-tools"><a href="javascript:void(0);" name="edit_user" data="<%:item.User.u001 %>" title="<%:item.User.u002.Trim() %>">修改</a><%if( item.ChildCount > 0){ %><a href="/UI/Member?method=accountList&parentID=<%:item.User.u001 %>" title="查看下级">下级</a><%} %></td>
             </tr>
@@ -283,10 +283,10 @@
                 <td class="title">团队余额</td>
                 <td><%:tAmt.ToString("N2") %></td>
             </tr>
-            <tr>
+            <!--<tr>
                 <td class="title">团队积分</td>
                 <td><%:tPnt.ToString("N2") %></td>
-            </tr>
+            </tr>-->
             <tr>
                 <td class="title">团队冻结</td>
                 <td><%:tHon.ToString("N2") %></td>

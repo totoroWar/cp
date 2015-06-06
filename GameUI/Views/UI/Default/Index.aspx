@@ -64,7 +64,7 @@
 <%} %>
         </div>
         <div class="right_info">
-            <a title="帮助中心" href="javascript:ui_show_tab('帮助中心', '/UI/Help', true, false);" class="help_general">
+            <!--<a title="帮助中心" href="javascript:ui_show_tab('帮助中心', '/UI/Help', true, false);" class="help_general">
                 <span></span>
             </a>
             <a title="账户中心" href="javascript:ui_show_tab('账户中心', '/UI/UCenter', true, false);" class="users_info">
@@ -84,7 +84,7 @@
             </a>
             <a title="平台大厅" href="javascript:ui_show_tab('系统公告', '/UI/Notify', false, false);" class="help_security">
                 <span></span>
-            </a>
+            </a>-->
         </div>
         <div id="ms_navigation">
             <%
@@ -104,11 +104,11 @@
             <%:Html.AntiForgeryToken() %>
             <div><img class="to_my_center" src="/Images/<%=UITheme%>/UI/_member_login.png" alt="<%:ViewData["UILoginNickname"] %>您好" title="<%:ViewData["UILoginNickname"] %>您好" />
             <span class="txt_account" title="<%:ViewData["UILoginNickname"] %>您好"><%:ViewData["UILoginNickname"] %></span>
-            <span class="refresh_uinfo any_link">刷新</span><span class="sign_today any_link">签到</span></div>
+            <span class="refresh_uinfo any_link">刷新</span><!--<span class="sign_today any_link">签到</span>--></div>
             
             <p class="money_line sag_money"><img src="/Images/Common/_num_mm.png" alt="余额" title="余额" class="sag_money" /><img alt="￥" title="￥" class="sag_money" src="/Images/Common/_num_m.png" /><span id="ag_money" title=""></span></p>
-            <p class="point_line">积分：<span class="point_amount"><%:ViewData["AGPoint"] %></span></p>
-            <div>军衔：<span class="pos_level"><%:ViewData["AGPosName"] %></span><span class="my_level_n">等级：</span><span class="my_level"><span id="set_my_level_img" title="<%:ViewData["AGLevelName"] %>"></span></span></div>
+            <!--<p class="point_line">积分：<span class="point_amount"><%:ViewData["AGPoint"] %></span></p>
+            <div>军衔：<span class="pos_level"><%:ViewData["AGPosName"] %></span><span class="my_level_n">等级：</span><span class="my_level"><span id="set_my_level_img" title="<%:ViewData["AGLevelName"] %>"></span></span></div>-->
             <div class="level_line"></div>
             <div class="clear_all"></div>
             <p class="p_l_btn"><a href="javascript:ui_show_tab('充值','/UI/Charge',true,false);" class="l_btn_wcw l_btn_wckkw" title="充值"></a><a href="javascript:ui_show_tab('提现','/UI/Withdraw?method=GetWit',true,false);" class="l_btn_wcc" title="提现"></a><a href="javascript:ui_show_tab('平台消息','/UI/Message',true,false);" class="l_btn_msg" id="l_btn_msg" title="消息"></a></p>
@@ -128,15 +128,20 @@
               var gDicList = (Dictionary<int, DBModel.wgs001>)ViewData["GDicList"];
               foreach (var gid in gids)
               {
-                  var game = gListDic[int.Parse(gid)];
-                  if (null == game)
+                  if (gListDic.ContainsKey(int.Parse(gid)))
                   {
-                      continue; 
-                  }
+                     
+                      var game = gListDic[int.Parse(gid)];
+                      if (null == game)
+                      {
+                          continue;
+                      }
+                 
         %>
             <li class="game_item" id="game_item_<%=gid %>"><a id="game_item_link_<%=gid %>" class="game_item_link" href="javascript:ui_show_tab('<%:gDicList[int.Parse(gid)].g003 %>','<%:Url.Action("Play", "UI", new {gameID=gid,gameClassID=gc.gc001 })%>',true,false);"><%=gDicList[int.Parse(gid)].g003 %></a></li>
         <%
-             } %>
+                  }
+              } %>
         <%
           } %>
         </ul>
@@ -198,9 +203,9 @@
 
          </script>
 
-        <span class="left_combuy_num" title="进行中的合买"><a href="javascript:ui_show_tab('合买大厅', '/UI/Combine', true, false);">可参与合买订单一共<strong id="allow_combuy">0</strong>笔</a></span>
+        <!--<span class="left_combuy_num" title="进行中的合买"><a href="javascript:ui_show_tab('合买大厅', '/UI/Combine', true, false);">可参与合买订单一共<strong id="allow_combuy">0</strong>笔</a></span>-->
         <span id="onlineservice"><a href="javascript:ui_show_tab('平台客服', '<%=(string)ViewData["customerServiceLink"] %>', true, false);" title="平台客服">平台客服</a></span>
-        <span id="changeline"><a href="javascript:ui_show_tab('切换线路','/UI/ChangeLine?Choose=OK', true, false);">不够快？切换线路</a></span>
+         <!--<span id="changeline"><a href="javascript:ui_show_tab('切换线路','/UI/ChangeLine?Choose=OK', true, false);">不够快？切换线路</a></span>-->
         <%--<span id="Span1">中奖了中奖了~~！@！#！@#</span>--%>
         <div id="current_datetime"></div>
     </div>
@@ -480,13 +485,13 @@
             
 
             window.setInterval(function () {
-                var hc = $(".l_btn_msg").hasClass("flash_word");
-                if (hc) {
-                    $("#l_btn_msg").toggleClass("l_btn_msg_read");
-                }
-                else {
-                    $(".l_btn_msg").removeClass("l_btn_msg_read");
-                }
+                //var hc = $(".l_btn_msg").hasClass("flash_word");
+                //if (hc) {
+                //    $("#l_btn_msg").toggleClass("l_btn_msg_read");
+                //}
+                //else {
+                //    $(".l_btn_msg").removeClass("l_btn_msg_read");
+                //}
             }, 500);
 
 

@@ -36,5 +36,6 @@ F:\工作区\WebGameSource\GameLibrary\obj\Release\GameLibrary.pdb
 F:\工作区\WebGameSource\GameLibrary\obj\Release\GameLibrary.csprojResolveAssemblyReference.cache
 D:\BaiduYunDownload\Game\GameLibrary\bin\Release\GameLibrary.dll
 D:\BaiduYunDownload\Game\GameLibrary\bin\Release\GameLibrary.pdb
+D:\BaiduYunDownload\Game\GameLibrary\obj\Release\GameLibrary.csprojResolveAssemblyReference.cache
 D:\BaiduYunDownload\Game\GameLibrary\obj\Release\GameLibrary.dll
 D:\BaiduYunDownload\Game\GameLibrary\obj\Release\GameLibrary.pdb

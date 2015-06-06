@@ -55,8 +55,8 @@
                 <th>分红金额</th>
                 <th>转账-入</th>
                 <th>转账-出</th>
-                <th>获取积分</th>
-                <th>消费积分</th>
+                <!--<th>获取积分</th> 
+                <th>消费积分</th>-->
                 <th>盈利</th>
             </tr>
         </thead>
@@ -95,8 +95,8 @@
                 <td class="<%:item.dr016>0 ? "fc-yellow" : "" %>"><%:item.dr016 %></td>
                 <td class="<%:item.dr017>0 ? "fc-yellow" : "" %>"><%:item.dr017 %></td>
                 <td class="<%:item.dr018>0 ? "fc-yellow" : "" %>"><%:item.dr018 %></td>
-                <td class="<%:item.dr008>0 ? "fc-yellow" : "" %>"><%:item.dr008 %></td>
-                <td class="<%:item.dr013>0 ? "fc-yellow" : "" %>"><%:item.dr013 %></td>
+                <!---<td class="<%:item.dr008>0 ? "fc-yellow" : "" %>"><%:item.dr008 %></td>
+                <td class="<%:item.dr013>0 ? "fc-yellow" : "" %>"><%:item.dr013 %></td>-->
                 <td class="<%:lineSum>0 ? "fc-yellow" : "" %>"><%:lineSum %></td>
             </tr>
             <%
@@ -116,8 +116,8 @@
                 <td class="<%:linedr016Sum>0 ? "fc-yellow" : "" %>"><%:linedr016Sum %></td>
                 <td class="<%:linedr017Sum>0 ? "fc-yellow" : "" %>"><%:linedr017Sum %></td>
                 <td class="<%:linedr018Sum>0 ? "fc-yellow" : "" %>"><%:linedr018Sum %></td>
-                <td class="<%:linedr008Sum>0 ? "fc-yellow" : "" %>"><%:linedr008Sum %></td>
-                <td class="<%:linedr013Sum>0 ? "fc-yellow" : "" %>"><%:linedr013Sum %></td>
+                <!---<td class="<%:linedr008Sum>0 ? "fc-yellow" : "" %>"><%:linedr008Sum %></td>
+                <td class="<%:linedr013Sum>0 ? "fc-yellow" : "" %>"><%:linedr013Sum %></td>-->
                 <td class="<%:lineSumTotal>0 ? "fc-yellow" : "" %>"><%:lineSumTotal %></td>
             </tr>
         </tfoot>
@@ -173,9 +173,9 @@
                 <th>变动后金额</th>
                 <th>变动前冻结金额</th>
                 <th>变动后冻结金额</th>
-                <th>变动积分</th>
+                <!--<th>变动积分</th>
                 <th>变动前积分</th>
-                <th>变动后积分</th>
+                <th>变动后积分</th>-->
                 <th>时间</th>
             </tr>
         </thead>
@@ -201,9 +201,9 @@
                 <td><%:item.uxf007.ToString("N4") %></td>
                 <td class="fc-blue"><%:item.uxf010.ToString("N4") %></td>
                 <td><%:item.uxf009.ToString("N4") %></td>
-                <td class="fc-red"><%:item.uxf005.ToString("N4") %></td>
+                <!--<td class="fc-red"><%:item.uxf005.ToString("N4") %></td>
                 <td class="fc-blue"><%:item.uxf004.ToString("N4") %></td>
-                <td><%:item.uxf008.ToString("N4") %></td>
+                <td><%:item.uxf008.ToString("N4") %></td>-->
                 <td><%:item.uxf014 %></td>
             </tr>
             <%
@@ -367,8 +367,8 @@
                 <th>分红金额</th>
                 <th>转账-入</th>
                 <th>转账-出</th>
-                <th>获取积分</th>
-                <th>消费积分</th>
+               <!-- <th>获取积分</th>
+                <th>消费积分</th>-->
                 <th>盈利</th>
             </tr>
         </thead>
@@ -417,8 +417,8 @@
                 <td class="<%:item.dr016>0 ? "fc-yellow" : "" %>"><%:item.dr016.ToString("N4") %></td>
                 <td class="<%:item.dr017>0 ? "fc-yellow" : "" %>"><%:item.dr017.ToString("N4") %></td>
                 <td class="<%:item.dr018>0 ? "fc-yellow" : "" %>"><%:item.dr018.ToString("N4") %></td>
-                <td class="<%:item.dr008>0 ? "fc-yellow" : "" %>"><%:item.dr008.ToString("N4") %></td>
-                <td class="<%:item.dr013>0 ? "fc-yellow" : "" %>"><%:item.dr013.ToString("N4") %></td>
+               <!-- <td class="<%:item.dr008>0 ? "fc-yellow" : "" %>"><%:item.dr008.ToString("N4") %></td>
+                <td class="<%:item.dr013>0 ? "fc-yellow" : "" %>"><%:item.dr013.ToString("N4") %></td>-->
                 <td class="<%:lineSum>0 ? "fc-yellow" : "" %>"><%:lineSum %></td>
             </tr>
             <%
@@ -438,8 +438,8 @@
                 <td class="<%:coldr016>0 ? "fc-yellow" : "" %>"><%:coldr016.ToString("N4") %></td>
                 <td class="<%:coldr017>0 ? "fc-yellow" : "" %>"><%:coldr017.ToString("N4") %></td>
                 <td class="<%:coldr018>0 ? "fc-yellow" : "" %>"><%:coldr018.ToString("N4") %></td>
-                <td class="<%:coldr008>0 ? "fc-yellow" : "" %>"><%:coldr008.ToString("N4") %></td>
-                <td class="<%:coldr013>0 ? "fc-yellow" : "" %>"><%:coldr013.ToString("N4") %></td>
+                <!--<td class="<%:coldr008>0 ? "fc-yellow" : "" %>"><%:coldr008.ToString("N4") %></td>
+                <td class="<%:coldr013>0 ? "fc-yellow" : "" %>"><%:coldr013.ToString("N4") %></td>-->
                 <td class="<%:collinesum>0 ? "fc-yellow" : "" %>"><%:collinesum %></td>
             </tr>
         </tfoot>

@@ -55,9 +55,9 @@
                     <th>冻结金额</th>
                     <th>改变前冻结金额</th>
                     <th>改变后冻结金额</th>
-                    <th>积分</th>
+                    <!--<th>积分</th>
                     <th>改变前积分</th>
-                    <th>改变后积分</th>
+                    <th>改变后积分</th>-->
                     <th>订单编号</th>
                     <th>游戏</th>
                     <th>玩法</th>
@@ -83,9 +83,9 @@
                     <td><%:item.uxf012.ToString(ViewContext.ViewData["SysMoneyFormat"].ToString()) %></td>
                     <td><%:item.uxf010.ToString(ViewContext.ViewData["SysMoneyFormat"].ToString()) %></td>
                     <td><%:item.uxf009.ToString(ViewContext.ViewData["SysMoneyFormat"].ToString()) %></td>
-                    <td><%:item.uxf005.ToString(ViewContext.ViewData["SysMoneyFormat"].ToString()) %></td>
+                    <!--<td><%:item.uxf005.ToString(ViewContext.ViewData["SysMoneyFormat"].ToString()) %></td>
                     <td><%:item.uxf004.ToString(ViewContext.ViewData["SysMoneyFormat"].ToString()) %></td>
-                    <td><%:item.uxf008.ToString(ViewContext.ViewData["SysMoneyFormat"].ToString()) %></td>
+                    <td><%:item.uxf008.ToString(ViewContext.ViewData["SysMoneyFormat"].ToString()) %></td>-->
                     <td><%:item.so001 %></td>
                     <td><%=item.g001 == 0 ? "0" : gDicList[item.g001].g003.Trim() %></td>
                     <td><%=item.gm001 == 0 ? "0" : gmDicList[item.gm001].gm004.Trim() %></td>

@@ -202,7 +202,7 @@
 									</div>
                                     <%--<div id="__show_choose_prize">
                                         <table border="0" width="100%" cellpadding="0" cellspacing="0">
-                                            <tr>
+                                            <tr
                                                 <td class="__td_first_blank"></td>
                                                 <td class="__td_silder_ctrl"><span id="__prize_silder_bar"></span></td>
                                                 <td class="__td_silder_value"><span id="__prize_change_info">0/0%</span></td>
@@ -210,9 +210,9 @@
                                         </table>
                                     </div>--%>
                                     <div id="function_bar">
-                                        <div id="function_bar_combuy">
+                                        <!--<div id="function_bar_combuy">
                                             <label for="lt_combuy_check">合买<input id="lt_combuy_check" name="lt_combuy_check" type="checkbox" value="1" class="ut_zh input" /></label>注金比例：<select name="lt_self_percent" id="lt_self_percent"></select>&nbsp;参与密码：<input title="参与者需要输入密码方可进行合买，如果公开请留空" type="text" name="lt_combuy_password" id="lt_combuy_password" />
-                                        </div>
+                                        </div>-->
                                         <div id="function_bar_right">
                                             <div id="prize_silder_bar_c"><span id="prize_silder_bar"></span></div>
                                             <div id="prize_change_info">0/0%</div>

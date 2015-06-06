@@ -190,6 +190,7 @@ D:\BaiduYunDownload\Game\GameServices\bin\Release\EntityFramework.dll
 D:\BaiduYunDownload\Game\GameServices\bin\Release\EntityFramework.SqlServer.dll
 D:\BaiduYunDownload\Game\GameServices\bin\Release\GameLibrary.dll
 D:\BaiduYunDownload\Game\GameServices\bin\Release\NETCommon.dll
+D:\BaiduYunDownload\Game\GameServices\bin\Release\System.Data.SQLite.dll
 D:\BaiduYunDownload\Game\GameServices\bin\Release\MemcachedProviders.dll
 D:\BaiduYunDownload\Game\GameServices\bin\Release\Enyim.Caching.dll
 D:\BaiduYunDownload\Game\GameServices\bin\Release\log4net.dll

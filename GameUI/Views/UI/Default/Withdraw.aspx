@@ -14,7 +14,7 @@
         <div class="left-nav">
             <a href="/UI/Withdraw?method=GetWit" title="余额提现" <%=methodType == "GetWit" ? "class='item-select'" : "" %>>余额提现</a>
             <a href="/UI/Withdraw?method=FHWit" title="分红提现" <%=methodType == "FHWit" ? "class='item-select'" : "" %>>分红提现</a>
-            <a href="/UI/Withdraw?method=YJWit" title="佣金提现" <%=methodType == "YJWit" ? "class='item-select'" : "" %>>佣金提现</a>
+            <!--<a href="/UI/Withdraw?method=YJWit" title="佣金提现" <%=methodType == "YJWit" ? "class='item-select'" : "" %>>佣金提现</a>-->
         </div>
     </div>
     
@@ -67,12 +67,12 @@
                                                                       document.write(_global_D2B(<%:ViewData["LockMoney"] %>));
                                                                        </script></span></td>
             </tr>
-            <tr>
+            <!--<tr>
                 <td class="title">可用佣金</td>
                 <td><%:((decimal)ViewData["CommissionMoney"]).ToString("N2") %><span class="tips"><script type="text/javascript">
                                                                                                       document.write(_global_D2B(<%:ViewData["CommissionMoney"] %>));
                                                                        </script></span></td>
-            </tr>
+            </tr>-->
             <tr>
                 <td class="title">资金密码</td>
                 <td>
@@ -84,7 +84,7 @@
             </tr>
             <tr>
                 <td class="title">提现金额</td>
-                <td><input type="text" class="input-text w200px  fc-yellow" id="wc_money" name="wc_money" value="" /><span class="tipsline"><%:ViewData["WCMin"]  %></span></td>
+                <td><input type="text" class="input-text w200px" id="wc_money" name="wc_money" value="" /><span class="tipsline"><%:ViewData["WCMin"]  %></span></td>
             </tr>
             <tr>
                 <td class="title">提现金类型</td>
@@ -251,7 +251,7 @@
             </tr>
             <tr>
                 <td class="title">提现金额</td>
-                <td><input type="text" class="input-text w200px  fc-yellow" id="wc_money" name="wc_money" value="" /><span class="tipsline"><%:ViewData["WCMin"]  %></span></td>
+                <td><input type="text" class="input-text w200px" id="wc_money" name="wc_money" value="" /><span class="tipsline"><%:ViewData["WCMin"]  %></span></td>
             </tr>
             <tr>
                 <td class="title">提现金类型</td>

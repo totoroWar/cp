@@ -108,5 +108,6 @@ namespace GameServices
         void ClearGameClassPrizeListCache();
         void ClearGPDDataListCache();
         decimal CheckWinLose(string result, List<DBModel.wgs045> order);
+        MR Gamecj();
     }
 }

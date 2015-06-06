@@ -51,6 +51,18 @@ namespace GameCompute
             //form11x5.Show();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Formcj r = new Formcj();
+            r.Show();
+        }
+
+        private void addqs_Click(object sender, EventArgs e)
+        {
+            Formaddqs r = new Formaddqs();
+            r.Show();
+        }
+
         
 
     }

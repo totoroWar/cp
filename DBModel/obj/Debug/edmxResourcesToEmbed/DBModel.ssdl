@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="WebGameModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+<Schema Namespace="WebGameModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
   <EntityType Name="sysdiagrams">
     <Key>
       <PropertyRef Name="diagram_id" />
@@ -222,6 +222,7 @@
     <Property Name="u021" Type="nchar" MaxLength="10" />
     <Property Name="u022" Type="char" MaxLength="64" />
     <Property Name="u023" Type="int" Nullable="false" />
+    <Property Name="u024" Type="float" StoreGeneratedPattern="Computed" />
   </EntityType>
   <EntityType Name="wgs013">
     <Key>
@@ -255,6 +256,9 @@
     <Property Name="uf009" Type="datetime2" Precision="7" />
     <Property Name="uf010" Type="datetime2" Precision="7" />
     <Property Name="uf011" Type="datetime2" Precision="7" />
+    <Property Name="uf012" Type="decimal" Precision="18" Scale="4" Nullable="false" />
+    <Property Name="uf013" Type="decimal" Precision="18" Scale="4" Nullable="false" />
+    <Property Name="uf014" Type="decimal" Precision="18" Scale="4" Nullable="false" />
   </EntityType>
   <EntityType Name="wgs015">
     <Key>
@@ -383,6 +387,7 @@
     <Property Name="uw017" Type="varchar" MaxLength="1024" />
     <Property Name="mu001" Type="int" Nullable="false" />
     <Property Name="mu002" Type="char" MaxLength="32" />
+    <Property Name="uw018" Type="int" Nullable="false" />
   </EntityType>
   <EntityType Name="wgs021">
     <Key>
@@ -417,6 +422,8 @@
     <Property Name="uxf015" Type="char" MaxLength="32" />
     <Property Name="uxf016" Type="tinyint" Nullable="false" />
     <Property Name="uxf017" Type="char" MaxLength="128" />
+    <Property Name="uxf018" Type="decimal" Precision="18" Scale="4" Nullable="false" />
+    <Property Name="uxf019" Type="decimal" Precision="18" Scale="4" Nullable="false" />
   </EntityType>
   <EntityType Name="wgs022">
     <Key>
@@ -468,6 +475,7 @@
     <Property Name="so030" Type="char" MaxLength="32" />
     <Property Name="so031" Type="char" MaxLength="12" />
     <Property Name="so032" Type="char" MaxLength="32" />
+    <Property Name="so033" Type="bit" />
   </EntityType>
   <EntityType Name="wgs023">
     <Key>
@@ -633,7 +641,7 @@
     <Property Name="sco010" Type="char" MaxLength="64" />
     <Property Name="sco011" Type="int" Nullable="false" />
     <Property Name="sco012" Type="int" Nullable="false" />
-    <Property Name="sco013" Type="char" MaxLength="256" Nullable="false" />
+    <Property Name="sco013" Type="varchar(max)" Nullable="false" />
     <Property Name="sco014" Type="varchar(max)" />
     <Property Name="sco015" Type="varchar" MaxLength="512" />
     <Property Name="sco016" Type="int" Nullable="false" />
@@ -822,6 +830,8 @@
     <Property Name="u001" Type="int" Nullable="false" />
     <Property Name="u002" Type="char" MaxLength="32" Nullable="false" />
     <Property Name="u003" Type="nchar" MaxLength="10" />
+    <Property Name="dr019" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="dr020" Type="decimal" Precision="18" Scale="4" />
   </EntityType>
   <EntityType Name="wgs043">
     <Key>
@@ -913,6 +923,7 @@
     <Property Name="so030" Type="char" MaxLength="32" />
     <Property Name="so031" Type="char" MaxLength="12" />
     <Property Name="so032" Type="char" MaxLength="32" />
+    <Property Name="so033" Type="bit" />
   </EntityType>
   <EntityType Name="wgs046">
     <Key>
@@ -927,6 +938,7 @@
     <Property Name="u001" Type="int" Nullable="false" />
     <Property Name="u002" Type="char" MaxLength="32" Nullable="false" />
     <Property Name="u003" Type="nchar" MaxLength="10" />
+    <Property Name="sign007" Type="int" Nullable="false" />
   </EntityType>
   <EntityType Name="wgs047">
     <Key>
@@ -1001,6 +1013,7 @@
     <Property Name="u021" Type="nchar" MaxLength="10" />
     <Property Name="u022" Type="char" MaxLength="64" />
     <Property Name="u023" Type="int" Nullable="false" />
+    <Property Name="u024" Type="float" Nullable="false" />
   </EntityType>
   <EntityType Name="wgs050">
     <Key>
@@ -1052,6 +1065,7 @@
     <Property Name="so030" Type="char" MaxLength="32" />
     <Property Name="so031" Type="char" MaxLength="12" />
     <Property Name="so032" Type="char" MaxLength="32" />
+    <Property Name="so033" Type="bit" />
   </EntityType>
   <EntityType Name="wgs051">
     <Key>
@@ -1090,6 +1104,9 @@
     <Property Name="uf009" Type="datetime2" Precision="7" />
     <Property Name="uf010" Type="datetime2" Precision="7" />
     <Property Name="uf011" Type="datetime2" Precision="7" />
+    <Property Name="uf012" Type="decimal" Precision="18" Scale="4" Nullable="false" />
+    <Property Name="uf013" Type="decimal" Precision="18" Scale="4" Nullable="false" />
+    <Property Name="uf014" Type="decimal" Precision="18" Scale="4" Nullable="false" />
   </EntityType>
   <EntityType Name="wgs053">
     <Key>
@@ -1099,7 +1116,7 @@
     <Property Name="tpi002" Type="int" Nullable="false" />
     <Property Name="tpi003" Type="char" MaxLength="32" />
     <Property Name="tpi004" Type="nchar" MaxLength="10" />
-    <Property Name="tpi005" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="tpi005" Type="varchar(max)" Nullable="false" />
     <Property Name="tpi006" Type="decimal" Precision="18" Scale="4" Nullable="false" />
     <Property Name="tpi007" Type="decimal" Precision="18" Scale="4" Nullable="false" />
     <Property Name="tpi008" Type="decimal" Precision="18" Scale="4" Nullable="false" />
@@ -1109,6 +1126,82 @@
     <Property Name="so001" Type="bigint" Nullable="false" />
     <Property Name="g001" Type="int" Nullable="false" />
     <Property Name="gs002" Type="char" MaxLength="64" />
+  </EntityType>
+  <EntityType Name="wgs054">
+    <Key>
+      <PropertyRef Name="err001" />
+    </Key>
+    <Property Name="err001" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="err002" Type="varchar(max)" />
+    <Property Name="err003" Type="varchar(max)" />
+    <Property Name="err004" Type="varchar(max)" />
+    <Property Name="err005" Type="varchar(max)" />
+    <Property Name="err006" Type="datetime2" Precision="7" />
+  </EntityType>
+  <EntityType Name="wgs055">
+    <Key>
+      <PropertyRef Name="f001" />
+    </Key>
+    <Property Name="f001" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="u001" Type="int" Nullable="false" />
+    <Property Name="u002" Type="varchar" MaxLength="500" Nullable="false" />
+    <Property Name="f002" Type="float" Nullable="false" />
+    <Property Name="f003" Type="int" Nullable="false" />
+    <Property Name="f004" Type="datetime" Nullable="false" />
+    <Property Name="f005" Type="int" Nullable="false" />
+    <Property Name="f006" Type="datetime" Nullable="false" />
+    <Property Name="f007" Type="datetime" Nullable="false" />
+    <Property Name="f008" Type="datetime" Nullable="false" />
+    <Property Name="f009" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="wgs056">
+    <Key>
+      <PropertyRef Name="s001" />
+    </Key>
+    <Property Name="s001" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="s002" Type="money" Nullable="false" />
+    <Property Name="s003" Type="float" StoreGeneratedPattern="Computed" />
+    <Property Name="s004" Type="int" Nullable="false" />
+    <Property Name="s005" Type="int" Nullable="false" />
+    <Property Name="u001" Type="int" Nullable="false" />
+    <Property Name="u002" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="f002" Type="float" Nullable="false" />
+    <Property Name="s006" Type="datetime" Nullable="false" />
+    <Property Name="s007" Type="datetime" Nullable="false" />
+    <Property Name="s008" Type="varchar" MaxLength="500" Nullable="false" />
+    <Property Name="s009" Type="datetime" Nullable="false" />
+    <Property Name="s010" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="s011" Type="datetime" Nullable="false" />
+    <Property Name="s012" Type="money" Nullable="false" />
+    <Property Name="s013" Type="money" Nullable="false" />
+    <Property Name="s014" Type="money" Nullable="false" />
+    <Property Name="s015" Type="money" Nullable="false" />
+    <Property Name="s016" Type="money" />
+  </EntityType>
+  <EntityType Name="wgs057">
+    <Key>
+      <PropertyRef Name="c001" />
+    </Key>
+    <Property Name="c001" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="u001" Type="char" MaxLength="32" Nullable="false" />
+    <Property Name="u002" Type="char" MaxLength="32" Nullable="false" />
+    <Property Name="u003" Type="char" MaxLength="32" Nullable="false" />
+    <Property Name="u004" Type="char" MaxLength="32" Nullable="false" />
+    <Property Name="cm001" Type="decimal" Precision="18" Scale="4" Nullable="false" />
+    <Property Name="cm002" Type="decimal" Precision="18" Scale="4" Nullable="false" />
+    <Property Name="cm003" Type="decimal" Precision="18" Scale="4" Nullable="false" />
+    <Property Name="cm004" Type="decimal" Precision="18" Scale="4" Nullable="false" />
+    <Property Name="cm005" Type="decimal" Precision="18" Scale="4" Nullable="false" />
+    <Property Name="cm006" Type="decimal" Precision="18" Scale="4" Nullable="false" />
+    <Property Name="cm007" Type="decimal" Precision="18" Scale="4" Nullable="false" />
+    <Property Name="cm008" Type="decimal" Precision="18" Scale="4" Nullable="false" />
+    <Property Name="cm009" Type="decimal" Precision="18" Scale="4" Nullable="false" />
+    <Property Name="c002" Type="decimal" Precision="18" Scale="4" Nullable="false" />
+    <Property Name="c003" Type="decimal" Precision="18" Scale="4" Nullable="false" />
+    <Property Name="c004" Type="datetime2" Precision="7" Nullable="false" />
+    <Property Name="c005" Type="char" MaxLength="32" Nullable="false" />
+    <Property Name="c006" Type="char" MaxLength="32" Nullable="false" />
+    <Property Name="c007" Type="bit" />
   </EntityType>
   <Association Name="FK_wgs014_wgs012">
     <End Role="wgs012" Type="Self.wgs012" Multiplicity="1">
@@ -1126,6 +1219,72 @@
   </Association>
   <Function Name="CLR_USP_CleanUserOnline" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
   <Function Name="CLR_USP_GameSessionOtherClose" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="CLR_USP_GetSumReport" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="type" Type="int" Mode="In" />
+    <Parameter Name="userID" Type="int" Mode="In" />
+    <Parameter Name="level" Type="int" Mode="In" />
+    <Parameter Name="debug" Type="int" Mode="In" />
+    <Parameter Name="dts" Type="datetime2" Mode="In" />
+    <Parameter Name="dte" Type="datetime2" Mode="In" />
+  </Function>
+  <Function Name="CLR_USP_GetWeekRange" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="dts" Type="datetime2" Mode="InOut" />
+    <Parameter Name="dte" Type="datetime2" Mode="InOut" />
+    <Parameter Name="dtcur" Type="datetime2" Mode="In" />
+    <Parameter Name="debug" Type="int" Mode="In" />
+  </Function>
+  <Function Name="CLR_USP_LineSignPayPoint" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="count" Type="int" Mode="In" />
+    <Parameter Name="dts" Type="datetime2" Mode="In" />
+    <Parameter Name="dte" Type="datetime2" Mode="In" />
+    <Parameter Name="debug" Type="int" Mode="In" />
+  </Function>
+  <Function Name="CLR_USP_RefreshLevel" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="dts" Type="datetime2" Mode="In" />
+    <Parameter Name="dte" Type="datetime2" Mode="In" />
+    <Parameter Name="deleteBefor" Type="int" Mode="In" />
+    <Parameter Name="debug" Type="int" Mode="In" />
+  </Function>
+  <Function Name="CLR_USP_StockByLevel" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="dts" Type="datetime2" Mode="In" />
+    <Parameter Name="dte" Type="datetime2" Mode="In" />
+    <Parameter Name="reStock" Type="int" Mode="In" />
+    <Parameter Name="debug" Type="int" Mode="In" />
+  </Function>
+  <Function Name="DayForFH" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="s001" Type="int" Mode="In" />
+  </Function>
+  <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
   <EntityContainer Name="WebGameModelStoreContainer">
     <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="wgs001" EntityType="Self.wgs001" Schema="dbo" store:Type="Tables" />
@@ -1181,6 +1340,10 @@
     <EntitySet Name="wgs051" EntityType="Self.wgs051" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="wgs052" EntityType="Self.wgs052" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="wgs053" EntityType="Self.wgs053" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="wgs054" EntityType="Self.wgs054" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="wgs055" EntityType="Self.wgs055" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="wgs056" EntityType="Self.wgs056" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="wgs057" EntityType="Self.wgs057" Schema="dbo" store:Type="Tables" />
     <AssociationSet Name="FK_wgs014_wgs012" Association="Self.FK_wgs014_wgs012">
       <End Role="wgs012" EntitySet="wgs012" />
       <End Role="wgs014" EntitySet="wgs014" />

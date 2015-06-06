@@ -804,7 +804,7 @@ namespace GameServices
             }
             if (0 == type)
             {
-                query = query.And(exp => exp.uxf016 > type);
+                query = query.And(exp => exp.uxf016 > type && exp.uxf016 != 17 && exp.uxf016 != 18);
             }
             else
             {
@@ -1086,7 +1086,7 @@ namespace GameServices
                     uwiEntity = db.Repositorywgs023.GetByPrimaryKey(wcType);
                     if (null == uwiEntity)
                     {
-                        mr.Message = "提现信息不存在";
+                        mr.Message = "提现银行不存在";
                         return mr;
                     }
                     else
@@ -1094,7 +1094,7 @@ namespace GameServices
                         uwtEntity = db.Repositorywgs024.GetByPrimaryKey(uwiEntity.uwt001);
                         if (null == uwtEntity)
                         {
-                            mr.Message = "提现信息存在，但提现类型不存在";
+                            mr.Message = "提现银行存在，但提现类型不存在";
                             return mr;
                         }
                         else

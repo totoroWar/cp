@@ -62,6 +62,75 @@
       <End Role="wgs012" EntitySet="wgs012" />
       <End Role="wgs014" EntitySet="wgs014" />
     </AssociationSet>
+    <EntitySet Name="wgs054" EntityType="WebGameModel.wgs054" />
+    <EntitySet Name="wgs055" EntityType="WebGameModel.wgs055" />
+    <EntitySet Name="wgs056" EntityType="WebGameModel.wgs056" />
+    <FunctionImport Name="CLR_USP_GetSumReport">
+      <Parameter Name="type" Mode="In" Type="Int32" />
+      <Parameter Name="userID" Mode="In" Type="Int32" />
+      <Parameter Name="level" Mode="In" Type="Int32" />
+      <Parameter Name="debug" Mode="In" Type="Int32" />
+      <Parameter Name="dts" Mode="In" Type="DateTime" />
+      <Parameter Name="dte" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="CLR_USP_GetWeekRange">
+      <Parameter Name="dts" Mode="InOut" Type="DateTime" />
+      <Parameter Name="dte" Mode="InOut" Type="DateTime" />
+      <Parameter Name="dtcur" Mode="In" Type="DateTime" />
+      <Parameter Name="debug" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="CLR_USP_LineSignPayPoint">
+      <Parameter Name="count" Mode="In" Type="Int32" />
+      <Parameter Name="dts" Mode="In" Type="DateTime" />
+      <Parameter Name="dte" Mode="In" Type="DateTime" />
+      <Parameter Name="debug" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="CLR_USP_RefreshLevel">
+      <Parameter Name="dts" Mode="In" Type="DateTime" />
+      <Parameter Name="dte" Mode="In" Type="DateTime" />
+      <Parameter Name="deleteBefor" Mode="In" Type="Int32" />
+      <Parameter Name="debug" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="CLR_USP_StockByLevel">
+      <Parameter Name="dts" Mode="In" Type="DateTime" />
+      <Parameter Name="dte" Mode="In" Type="DateTime" />
+      <Parameter Name="reStock" Mode="In" Type="Int32" />
+      <Parameter Name="debug" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="DayForFH">
+      <Parameter Name="s001" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(WebGameModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(WebGameModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+    <EntitySet Name="wgs057" EntityType="WebGameModel.wgs057" />
   </EntityContainer>
   <EntityType Name="sysdiagrams">
     <Key>
@@ -286,6 +355,7 @@
     <Property Name="u022" Type="String" MaxLength="64" FixedLength="true" Unicode="false" />
     <Property Name="u023" Type="Int32" Nullable="false" />
     <NavigationProperty Name="wgs014" Relationship="WebGameModel.FK_wgs014_wgs012" FromRole="wgs012" ToRole="wgs014" />
+    <Property Name="u024" Type="Double" a:StoreGeneratedPattern="Computed" xmlns:a="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
   </EntityType>
   <EntityType Name="wgs013">
     <Key>
@@ -320,6 +390,9 @@
     <Property Name="uf010" Type="DateTime" Precision="7" />
     <Property Name="uf011" Type="DateTime" Precision="7" />
     <NavigationProperty Name="wgs012" Relationship="WebGameModel.FK_wgs014_wgs012" FromRole="wgs014" ToRole="wgs012" />
+    <Property Name="uf012" Type="Decimal" Precision="18" Scale="4" Nullable="false" />
+    <Property Type="Decimal" Name="uf013" Nullable="false" Precision="18" Scale="4" />
+    <Property Type="Decimal" Name="uf014" Nullable="false" Precision="18" Scale="4" />
   </EntityType>
   <EntityType Name="wgs015">
     <Key>
@@ -448,6 +521,7 @@
     <Property Name="uw017" Type="String" MaxLength="1024" FixedLength="false" Unicode="false" />
     <Property Name="mu001" Type="Int32" Nullable="false" />
     <Property Name="mu002" Type="String" MaxLength="32" FixedLength="true" Unicode="false" />
+    <Property Name="uw018" Type="Int32" Nullable="false" />
   </EntityType>
   <EntityType Name="wgs021">
     <Key>
@@ -482,6 +556,8 @@
     <Property Name="uxf015" Type="String" MaxLength="32" FixedLength="true" Unicode="false" />
     <Property Name="uxf016" Type="Byte" Nullable="false" />
     <Property Name="uxf017" Type="String" MaxLength="128" FixedLength="true" Unicode="false" />
+    <Property Type="Decimal" Name="uxf018" Nullable="false" Precision="18" Scale="4" />
+    <Property Type="Decimal" Name="uxf019" Nullable="false" Precision="18" Scale="4" />
   </EntityType>
   <EntityType Name="wgs022">
     <Key>
@@ -533,6 +609,7 @@
     <Property Name="so030" Type="String" MaxLength="32" FixedLength="true" Unicode="false" />
     <Property Name="so031" Type="String" MaxLength="12" FixedLength="true" Unicode="false" />
     <Property Name="so032" Type="String" MaxLength="32" FixedLength="true" Unicode="false" />
+    <Property Name="so033" Type="Boolean" />
   </EntityType>
   <EntityType Name="wgs023">
     <Key>
@@ -698,7 +775,7 @@
     <Property Name="sco010" Type="String" MaxLength="64" FixedLength="true" Unicode="false" />
     <Property Name="sco011" Type="Int32" Nullable="false" />
     <Property Name="sco012" Type="Int32" Nullable="false" />
-    <Property Name="sco013" Type="String" Nullable="false" MaxLength="256" FixedLength="true" Unicode="false" />
+    <Property Name="sco013" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
     <Property Name="sco014" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
     <Property Name="sco015" Type="String" MaxLength="512" FixedLength="false" Unicode="false" />
     <Property Name="sco016" Type="Int32" Nullable="false" />
@@ -887,6 +964,8 @@
     <Property Name="u001" Type="Int32" Nullable="false" />
     <Property Name="u002" Type="String" Nullable="false" MaxLength="32" FixedLength="true" Unicode="false" />
     <Property Name="u003" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="dr019" Type="Decimal" Precision="18" Scale="4" />
+    <Property Name="dr020" Type="Decimal" Precision="18" Scale="4" />
   </EntityType>
   <EntityType Name="wgs043">
     <Key>
@@ -978,6 +1057,7 @@
     <Property Name="so030" Type="String" MaxLength="32" FixedLength="true" Unicode="false" />
     <Property Name="so031" Type="String" MaxLength="12" FixedLength="true" Unicode="false" />
     <Property Name="so032" Type="String" MaxLength="32" FixedLength="true" Unicode="false" />
+    <Property Name="so033" Type="Boolean" />
   </EntityType>
   <EntityType Name="wgs046">
     <Key>
@@ -992,6 +1072,7 @@
     <Property Name="u001" Type="Int32" Nullable="false" />
     <Property Name="u002" Type="String" Nullable="false" MaxLength="32" FixedLength="true" Unicode="false" />
     <Property Name="u003" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="sign007" Type="Int32" Nullable="false" />
   </EntityType>
   <EntityType Name="wgs047">
     <Key>
@@ -1066,6 +1147,7 @@
     <Property Name="u021" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
     <Property Name="u022" Type="String" MaxLength="64" FixedLength="true" Unicode="false" />
     <Property Name="u023" Type="Int32" Nullable="false" />
+    <Property Name="u024" Type="Double" Nullable="false" />
   </EntityType>
   <EntityType Name="wgs050">
     <Key>
@@ -1117,6 +1199,7 @@
     <Property Name="so030" Type="String" MaxLength="32" FixedLength="true" Unicode="false" />
     <Property Name="so031" Type="String" MaxLength="12" FixedLength="true" Unicode="false" />
     <Property Name="so032" Type="String" MaxLength="32" FixedLength="true" Unicode="false" />
+    <Property Name="so033" Type="Boolean" />
   </EntityType>
   <EntityType Name="wgs051">
     <Key>
@@ -1155,6 +1238,9 @@
     <Property Name="uf009" Type="DateTime" Precision="7" />
     <Property Name="uf010" Type="DateTime" Precision="7" />
     <Property Name="uf011" Type="DateTime" Precision="7" />
+    <Property Name="uf012" Type="Decimal" Precision="18" Scale="4" Nullable="false" />
+    <Property Type="Decimal" Name="uf013" Nullable="false" Precision="18" Scale="4" />
+    <Property Type="Decimal" Name="uf014" Nullable="false" Precision="18" Scale="4" />
   </EntityType>
   <EntityType Name="wgs053">
     <Key>
@@ -1164,7 +1250,7 @@
     <Property Name="tpi002" Type="Int32" Nullable="false" />
     <Property Name="tpi003" Type="String" MaxLength="32" FixedLength="true" Unicode="false" />
     <Property Name="tpi004" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
-    <Property Name="tpi005" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="tpi005" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
     <Property Name="tpi006" Type="Decimal" Nullable="false" Precision="18" Scale="4" />
     <Property Name="tpi007" Type="Decimal" Nullable="false" Precision="18" Scale="4" />
     <Property Name="tpi008" Type="Decimal" Nullable="false" Precision="18" Scale="4" />
@@ -1189,4 +1275,91 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <EntityType Name="wgs054">
+    <Key>
+      <PropertyRef Name="err001" />
+    </Key>
+    <Property Name="err001" Type="Int64" Nullable="false" a:StoreGeneratedPattern="Identity" xmlns:a="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Name="err002" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="err003" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="err004" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="err005" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="err006" Type="DateTime" Precision="7" />
+  </EntityType>
+  <EntityType Name="wgs055">
+    <Key>
+      <PropertyRef Name="f001" />
+    </Key>
+    <Property Type="Int32" Name="f001" Nullable="false" a:StoreGeneratedPattern="Identity" xmlns:a="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Type="Int32" Name="u001" Nullable="false" />
+    <Property Type="String" Name="u002" Nullable="false" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="Double" Name="f002" Nullable="false" />
+    <Property Type="Int32" Name="f003" Nullable="false" />
+    <Property Type="DateTime" Name="f004" Nullable="false" Precision="3" />
+    <Property Type="Int32" Name="f005" Nullable="false" />
+    <Property Type="DateTime" Name="f006" Nullable="false" Precision="3" />
+    <Property Type="DateTime" Name="f007" Nullable="false" Precision="3" />
+    <Property Type="DateTime" Name="f008" Nullable="false" Precision="3" />
+    <Property Type="Int32" Name="f009" Nullable="false" />
+  </EntityType>
+  <EntityType Name="wgs056">
+    <Key>
+      <PropertyRef Name="s001" />
+    </Key>
+    <Property Type="Int32" Name="s001" Nullable="false" a:StoreGeneratedPattern="Identity" xmlns:a="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Type="Decimal" Name="s002" Nullable="false" Precision="19" Scale="4" />
+    <Property Type="Double" Name="s003" a:StoreGeneratedPattern="Computed" xmlns:a="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Type="Int32" Name="s004" Nullable="false" />
+    <Property Type="Int32" Name="s005" Nullable="false" />
+    <Property Type="Int32" Name="u001" Nullable="false" />
+    <Property Type="String" Name="u002" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Double" Name="f002" Nullable="false" />
+    <Property Type="DateTime" Name="s006" Nullable="false" Precision="3" />
+    <Property Type="DateTime" Name="s007" Nullable="false" Precision="3" />
+    <Property Type="String" Name="s008" Nullable="false" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="s009" Nullable="false" Precision="3" />
+    <Property Type="String" Name="s010" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="s011" Nullable="false" Precision="3" />
+    <Property Name="s012" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="s013" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="s014" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="s015" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="s016" Type="Decimal" Precision="19" Scale="4" />
+  </EntityType>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+  <EntityType Name="wgs057">
+    <Key>
+      <PropertyRef Name="c001" />
+    </Key>
+    <Property Name="c001" Type="Int32" Nullable="false" a:StoreGeneratedPattern="Identity" xmlns:a="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Name="u001" Type="String" Nullable="false" MaxLength="32" FixedLength="true" Unicode="false" />
+    <Property Name="u002" Type="String" Nullable="false" MaxLength="32" FixedLength="true" Unicode="false" />
+    <Property Name="u003" Type="String" Nullable="false" MaxLength="32" FixedLength="true" Unicode="false" />
+    <Property Name="u004" Type="String" Nullable="false" MaxLength="32" FixedLength="true" Unicode="false" />
+    <Property Name="cm001" Type="Decimal" Nullable="false" Precision="18" Scale="4" />
+    <Property Name="cm002" Type="Decimal" Nullable="false" Precision="18" Scale="4" />
+    <Property Name="cm003" Type="Decimal" Nullable="false" Precision="18" Scale="4" />
+    <Property Name="cm004" Type="Decimal" Nullable="false" Precision="18" Scale="4" />
+    <Property Name="cm005" Type="Decimal" Nullable="false" Precision="18" Scale="4" />
+    <Property Name="cm006" Type="Decimal" Nullable="false" Precision="18" Scale="4" />
+    <Property Name="cm007" Type="Decimal" Nullable="false" Precision="18" Scale="4" />
+    <Property Name="cm008" Type="Decimal" Nullable="false" Precision="18" Scale="4" />
+    <Property Name="cm009" Type="Decimal" Nullable="false" Precision="18" Scale="4" />
+    <Property Name="c002" Type="Decimal" Nullable="false" Precision="18" Scale="4" />
+    <Property Name="c003" Type="Decimal" Nullable="false" Precision="18" Scale="4" />
+    <Property Name="c004" Type="DateTime" Nullable="false" Precision="7" />
+    <Property Name="c005" Type="String" MaxLength="32" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="c006" Type="String" MaxLength="32" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="c007" Type="Boolean" />
+  </EntityType>
 </Schema>

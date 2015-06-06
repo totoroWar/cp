@@ -213,6 +213,7 @@
     <EntitySetMapping Name="wgs012">
       <EntityTypeMapping TypeName="WebGameModel.wgs012">
         <MappingFragment StoreEntitySet="wgs012">
+          <ScalarProperty Name="u024" ColumnName="u024" />
           <ScalarProperty Name="u023" ColumnName="u023" />
           <ScalarProperty Name="u022" ColumnName="u022" />
           <ScalarProperty Name="u021" ColumnName="u021" />
@@ -257,6 +258,9 @@
     <EntitySetMapping Name="wgs014">
       <EntityTypeMapping TypeName="WebGameModel.wgs014">
         <MappingFragment StoreEntitySet="wgs014">
+          <ScalarProperty Name="uf014" ColumnName="uf014" />
+          <ScalarProperty Name="uf013" ColumnName="uf013" />
+          <ScalarProperty Name="uf012" ColumnName="uf012" />
           <ScalarProperty Name="uf011" ColumnName="uf011" />
           <ScalarProperty Name="uf010" ColumnName="uf010" />
           <ScalarProperty Name="uf009" ColumnName="uf009" />
@@ -379,6 +383,7 @@
     <EntitySetMapping Name="wgs020">
       <EntityTypeMapping TypeName="WebGameModel.wgs020">
         <MappingFragment StoreEntitySet="wgs020">
+          <ScalarProperty Name="uw018" ColumnName="uw018" />
           <ScalarProperty Name="mu002" ColumnName="mu002" />
           <ScalarProperty Name="mu001" ColumnName="mu001" />
           <ScalarProperty Name="uw017" ColumnName="uw017" />
@@ -408,6 +413,8 @@
     <EntitySetMapping Name="wgs021">
       <EntityTypeMapping TypeName="WebGameModel.wgs021">
         <MappingFragment StoreEntitySet="wgs021">
+          <ScalarProperty Name="uxf019" ColumnName="uxf019" />
+          <ScalarProperty Name="uxf018" ColumnName="uxf018" />
           <ScalarProperty Name="uxf017" ColumnName="uxf017" />
           <ScalarProperty Name="uxf016" ColumnName="uxf016" />
           <ScalarProperty Name="uxf015" ColumnName="uxf015" />
@@ -443,6 +450,7 @@
     <EntitySetMapping Name="wgs022">
       <EntityTypeMapping TypeName="WebGameModel.wgs022">
         <MappingFragment StoreEntitySet="wgs022">
+          <ScalarProperty Name="so033" ColumnName="so033" />
           <ScalarProperty Name="so032" ColumnName="so032" />
           <ScalarProperty Name="so031" ColumnName="so031" />
           <ScalarProperty Name="so030" ColumnName="so030" />
@@ -842,6 +850,8 @@
     <EntitySetMapping Name="wgs042">
       <EntityTypeMapping TypeName="WebGameModel.wgs042">
         <MappingFragment StoreEntitySet="wgs042">
+          <ScalarProperty Name="dr020" ColumnName="dr020" />
+          <ScalarProperty Name="dr019" ColumnName="dr019" />
           <ScalarProperty Name="u003" ColumnName="u003" />
           <ScalarProperty Name="u002" ColumnName="u002" />
           <ScalarProperty Name="u001" ColumnName="u001" />
@@ -911,6 +921,7 @@
     <EntitySetMapping Name="wgs045">
       <EntityTypeMapping TypeName="WebGameModel.wgs045">
         <MappingFragment StoreEntitySet="wgs045">
+          <ScalarProperty Name="so033" ColumnName="so033" />
           <ScalarProperty Name="so032" ColumnName="so032" />
           <ScalarProperty Name="so031" ColumnName="so031" />
           <ScalarProperty Name="so030" ColumnName="so030" />
@@ -963,6 +974,7 @@
     <EntitySetMapping Name="wgs046">
       <EntityTypeMapping TypeName="WebGameModel.wgs046">
         <MappingFragment StoreEntitySet="wgs046">
+          <ScalarProperty Name="sign007" ColumnName="sign007" />
           <ScalarProperty Name="u003" ColumnName="u003" />
           <ScalarProperty Name="u002" ColumnName="u002" />
           <ScalarProperty Name="u001" ColumnName="u001" />
@@ -1024,6 +1036,7 @@
     <EntitySetMapping Name="wgs049">
       <EntityTypeMapping TypeName="WebGameModel.wgs049">
         <MappingFragment StoreEntitySet="wgs049">
+          <ScalarProperty Name="u024" ColumnName="u024" />
           <ScalarProperty Name="u023" ColumnName="u023" />
           <ScalarProperty Name="u022" ColumnName="u022" />
           <ScalarProperty Name="u021" ColumnName="u021" />
@@ -1053,6 +1066,7 @@
     <EntitySetMapping Name="wgs050">
       <EntityTypeMapping TypeName="WebGameModel.wgs050">
         <MappingFragment StoreEntitySet="wgs050">
+          <ScalarProperty Name="so033" ColumnName="so033" />
           <ScalarProperty Name="so032" ColumnName="so032" />
           <ScalarProperty Name="so031" ColumnName="so031" />
           <ScalarProperty Name="so030" ColumnName="so030" />
@@ -1127,6 +1141,9 @@
     <EntitySetMapping Name="wgs052">
       <EntityTypeMapping TypeName="WebGameModel.wgs052">
         <MappingFragment StoreEntitySet="wgs052">
+          <ScalarProperty Name="uf014" ColumnName="uf014" />
+          <ScalarProperty Name="uf013" ColumnName="uf013" />
+          <ScalarProperty Name="uf012" ColumnName="uf012" />
           <ScalarProperty Name="uf011" ColumnName="uf011" />
           <ScalarProperty Name="uf010" ColumnName="uf010" />
           <ScalarProperty Name="uf009" ColumnName="uf009" />
@@ -1159,6 +1176,116 @@
           <ScalarProperty Name="tpi003" ColumnName="tpi003" />
           <ScalarProperty Name="tpi002" ColumnName="tpi002" />
           <ScalarProperty Name="tpi001" ColumnName="tpi001" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="wgs054">
+      <EntityTypeMapping TypeName="WebGameModel.wgs054">
+        <MappingFragment StoreEntitySet="wgs054">
+          <ScalarProperty Name="err006" ColumnName="err006" />
+          <ScalarProperty Name="err005" ColumnName="err005" />
+          <ScalarProperty Name="err004" ColumnName="err004" />
+          <ScalarProperty Name="err003" ColumnName="err003" />
+          <ScalarProperty Name="err002" ColumnName="err002" />
+          <ScalarProperty Name="err001" ColumnName="err001" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="wgs055">
+      <EntityTypeMapping TypeName="WebGameModel.wgs055">
+        <MappingFragment StoreEntitySet="wgs055">
+          <ScalarProperty Name="f009" ColumnName="f009" />
+          <ScalarProperty Name="f008" ColumnName="f008" />
+          <ScalarProperty Name="f007" ColumnName="f007" />
+          <ScalarProperty Name="f006" ColumnName="f006" />
+          <ScalarProperty Name="f005" ColumnName="f005" />
+          <ScalarProperty Name="f004" ColumnName="f004" />
+          <ScalarProperty Name="f003" ColumnName="f003" />
+          <ScalarProperty Name="f002" ColumnName="f002" />
+          <ScalarProperty Name="u002" ColumnName="u002" />
+          <ScalarProperty Name="u001" ColumnName="u001" />
+          <ScalarProperty Name="f001" ColumnName="f001" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="wgs056">
+      <EntityTypeMapping TypeName="WebGameModel.wgs056">
+        <MappingFragment StoreEntitySet="wgs056">
+          <ScalarProperty Name="s016" ColumnName="s016" />
+          <ScalarProperty Name="s015" ColumnName="s015" />
+          <ScalarProperty Name="s014" ColumnName="s014" />
+          <ScalarProperty Name="s013" ColumnName="s013" />
+          <ScalarProperty Name="s012" ColumnName="s012" />
+          <ScalarProperty Name="s011" ColumnName="s011" />
+          <ScalarProperty Name="s010" ColumnName="s010" />
+          <ScalarProperty Name="s009" ColumnName="s009" />
+          <ScalarProperty Name="s008" ColumnName="s008" />
+          <ScalarProperty Name="s007" ColumnName="s007" />
+          <ScalarProperty Name="s006" ColumnName="s006" />
+          <ScalarProperty Name="f002" ColumnName="f002" />
+          <ScalarProperty Name="u002" ColumnName="u002" />
+          <ScalarProperty Name="u001" ColumnName="u001" />
+          <ScalarProperty Name="s005" ColumnName="s005" />
+          <ScalarProperty Name="s004" ColumnName="s004" />
+          <ScalarProperty Name="s003" ColumnName="s003" />
+          <ScalarProperty Name="s002" ColumnName="s002" />
+          <ScalarProperty Name="s001" ColumnName="s001" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="CLR_USP_GetSumReport" FunctionName="WebGameModel.Store.CLR_USP_GetSumReport" />
+    <FunctionImportMapping FunctionImportName="CLR_USP_GetWeekRange" FunctionName="WebGameModel.Store.CLR_USP_GetWeekRange" />
+    <FunctionImportMapping FunctionImportName="CLR_USP_LineSignPayPoint" FunctionName="WebGameModel.Store.CLR_USP_LineSignPayPoint" />
+    <FunctionImportMapping FunctionImportName="CLR_USP_RefreshLevel" FunctionName="WebGameModel.Store.CLR_USP_RefreshLevel" />
+    <FunctionImportMapping FunctionImportName="CLR_USP_StockByLevel" FunctionName="WebGameModel.Store.CLR_USP_StockByLevel" />
+    <FunctionImportMapping FunctionImportName="DayForFH" FunctionName="WebGameModel.Store.DayForFH" />
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="WebGameModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="WebGameModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="WebGameModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="WebGameModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="WebGameModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="WebGameModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="WebGameModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="WebGameModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="WebGameModel.Store.sp_upgraddiagrams" />
+    <EntitySetMapping Name="wgs057">
+      <EntityTypeMapping TypeName="WebGameModel.wgs057">
+        <MappingFragment StoreEntitySet="wgs057">
+          <ScalarProperty Name="c007" ColumnName="c007" />
+          <ScalarProperty Name="c006" ColumnName="c006" />
+          <ScalarProperty Name="c005" ColumnName="c005" />
+          <ScalarProperty Name="c004" ColumnName="c004" />
+          <ScalarProperty Name="c003" ColumnName="c003" />
+          <ScalarProperty Name="c002" ColumnName="c002" />
+          <ScalarProperty Name="cm009" ColumnName="cm009" />
+          <ScalarProperty Name="cm008" ColumnName="cm008" />
+          <ScalarProperty Name="cm007" ColumnName="cm007" />
+          <ScalarProperty Name="cm006" ColumnName="cm006" />
+          <ScalarProperty Name="cm005" ColumnName="cm005" />
+          <ScalarProperty Name="cm004" ColumnName="cm004" />
+          <ScalarProperty Name="cm003" ColumnName="cm003" />
+          <ScalarProperty Name="cm002" ColumnName="cm002" />
+          <ScalarProperty Name="cm001" ColumnName="cm001" />
+          <ScalarProperty Name="u004" ColumnName="u004" />
+          <ScalarProperty Name="u003" ColumnName="u003" />
+          <ScalarProperty Name="u002" ColumnName="u002" />
+          <ScalarProperty Name="u001" ColumnName="u001" />
+          <ScalarProperty Name="c001" ColumnName="c001" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

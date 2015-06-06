@@ -138,11 +138,23 @@
     <Compile Include="Form11X5.Designer.cs">
       <DependentUpon>Form11X5.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formaddqs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formaddqs.Designer.cs">
+      <DependentUpon>Formaddqs.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormAllCalc.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormAllCalc.Designer.cs">
       <DependentUpon>FormAllCalc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formcj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formcj.Designer.cs">
+      <DependentUpon>Formcj.cs</DependentUpon>
     </Compile>
     <Compile Include="FormSSCCalc.cs">
       <SubType>Form</SubType>
@@ -171,8 +183,14 @@
     <EmbeddedResource Include="Form11X5.resx">
       <DependentUpon>Form11X5.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formaddqs.resx">
+      <DependentUpon>Formaddqs.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormAllCalc.resx">
       <DependentUpon>FormAllCalc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formcj.resx">
+      <DependentUpon>Formcj.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormSSCCalc.resx">
       <DependentUpon>FormSSCCalc.cs</DependentUpon>
@@ -242,6 +260,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

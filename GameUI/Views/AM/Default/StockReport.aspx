@@ -157,8 +157,8 @@
                 <th>分红金额</th>
                 <th>转账-入</th>
                 <th>转账-出</th>
-                <th>获取积分</th>
-                <th>消费积分</th>
+                <!--<th>获取积分</th>-->
+                <!--<th>消费积分</th>-->
                 <th>盈利</th>
             </tr>
         </thead>
@@ -220,8 +220,8 @@
                 <td class="<%:item.dr016>0 ? "fc-red" : "fc-green" %>"><%:item.dr016.ToString("N4") %></td>
                 <td class="<%:item.dr017>0 ? "fc-red" : "fc-green" %>"><%:item.dr017.ToString("N4") %></td>
                 <td class="<%:item.dr018>0 ? "fc-red" : "fc-green" %>"><%:item.dr018.ToString("N4") %></td>
-                <td class="<%:item.dr008>0 ? "fc-red" : "fc-green" %>"><%:item.dr008.ToString("N4") %></td>
-                <td class="<%:item.dr013>0 ? "fc-red" : "fc-green" %>"><%:item.dr013.ToString("N4") %></td>
+                <!--<td class="<%:item.dr008>0 ? "fc-red" : "fc-green" %>"><%:item.dr008.ToString("N4") %></td>-->
+                <!--<td class="<%:item.dr013>0 ? "fc-red" : "fc-green" %>"><%:item.dr013.ToString("N4") %></td>-->
                 <td class="<%:lineSum>0 ? "fc-red" : "fc-green" %>"><%:lineSum %></td>
             </tr>
             <%
@@ -241,8 +241,8 @@
                 <td class="<%:coldr016>0 ? "fc-red" : "fc-green" %>"><%:coldr016.ToString("N4") %></td>
                 <td class="<%:coldr017>0 ? "fc-red" : "fc-green" %>"><%:coldr017.ToString("N4") %></td>
                 <td class="<%:coldr018>0 ? "fc-red" : "fc-green" %>"><%:coldr018.ToString("N4") %></td>
-                <td class="<%:coldr008>0 ? "fc-red" : "fc-green" %>"><%:coldr008.ToString("N4") %></td>
-                <td class="<%:coldr013>0 ? "fc-red" : "fc-green" %>"><%:coldr013.ToString("N4") %></td>
+                <!--<td class="<%:coldr008>0 ? "fc-red" : "fc-green" %>"><%:coldr008.ToString("N4") %></td>-->
+                <!--<td class="<%:coldr013>0 ? "fc-red" : "fc-green" %>"><%:coldr013.ToString("N4") %></td>-->
                 <td class="<%:collinesum>0 ? "fc-red" : "fc-green" %>"><%:collinesum %></td>
             </tr>
         </tfoot>

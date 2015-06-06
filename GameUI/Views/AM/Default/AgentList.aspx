@@ -86,9 +86,9 @@
                     <th>分红金额</th>
                     <th>登录时间/地址</th>
                     <th>开下级</th>
-                    <th>积分</th>
+                    <!--<th>积分</th>
                     <th>VIP</th>
-                    <th>军衔</th>
+                    <th>军衔</th>-->
                     <th>分红</th>
                     <th>状态</th>
                     <th></th>
@@ -122,9 +122,9 @@
                     <td><%:item.User.wgs014.uf013.ToString(ViewContext.ViewData["SysMoneyFormat"].ToString()) %></td>
                     <td><%:item.User.u007 %>/<%:item.User.u022 %></td>
                     <td><%:item.User.u020 == 1 ? "允许" : "不允许" %></td>
-                    <td><%:item.User.wgs014.uf004.ToString(ViewContext.ViewData["SysMoneyFormat"].ToString()) %></td>
+                    <!--<td><%:item.User.wgs014.uf004.ToString(ViewContext.ViewData["SysMoneyFormat"].ToString()) %></td>
                     <td><%:item.User.u015 %></td>
-                    <td><%:posDicList[item.User.u013].Name %></td>
+                    <td><%:posDicList[item.User.u013].Name %></td>-->
                     <td><%:item.User.u024 * 100 %>%</td>
                     <td>
                         <%
@@ -169,7 +169,7 @@
                 <td class="<%:lineus002Sum>0 ? "fc-yellow" : "" %>"><%:lineus005Sum%></td>
                 <td></td>
                 <td></td>
-                <td class="<%:lineus004Sum>0 ? "fc-yellow" : "" %>"><%:lineus004Sum%></td>
+                 <!--<td><td class="<%:lineus004Sum>0 ? "fc-yellow" : "" %>"><%:lineus004Sum%></td>-->
                 <td></td>
                 <td></td>
                 <td></td><td></td>

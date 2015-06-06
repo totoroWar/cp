@@ -62,5 +62,6 @@ D:\BaiduYunDownload\Game\NETCommon\bin\Release\NETCommon.pdb
 D:\BaiduYunDownload\Game\NETCommon\bin\Release\Enyim.Caching.dll
 D:\BaiduYunDownload\Game\NETCommon\bin\Release\log4net.dll
 D:\BaiduYunDownload\Game\NETCommon\bin\Release\MemcachedProviders.dll
+D:\BaiduYunDownload\Game\NETCommon\obj\Release\NETCommon.csprojResolveAssemblyReference.cache
 D:\BaiduYunDownload\Game\NETCommon\obj\Release\NETCommon.dll
 D:\BaiduYunDownload\Game\NETCommon\obj\Release\NETCommon.pdb

@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBase", "DBase\DBase.csproj", "{085D8445-131F-46CB-82D1-C326D4C269DD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBModel", "DBModel\DBModel.csproj", "{AD49F0E4-C27B-4C02-9520-039CE6AE48F9}"
@@ -17,69 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameCompute", "GameCompute\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameLibrary", "GameLibrary\GameLibrary.csproj", "{4D467559-E35D-45BE-924C-2FC195DD8931}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WAPService", "http://localhost:16070", "{ACCCEF25-4893-42E4-8CFD-9897D2758A9B}"
-	ProjectSection(WebsiteProperties) = preProject
-		UseIISExpress = "true"
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		ProjectReferences = "{ad49f0e4-c27b-4c02-9520-039ce6ae48f9}|DBModel.dll;{644a9acc-8dad-4cd0-a0b4-786a470bd5db}|GameServices.dll;{085D8445-131F-46CB-82D1-C326D4C269DD}|DBase.dll;{4D467559-E35D-45BE-924C-2FC195DD8931}|GameLibrary.dll;{D997DE7A-0962-48BB-B52E-EB7937286DD1}|NETCommon.dll;"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_16070"
-		Debug.AspNetCompiler.PhysicalPath = "WAPService\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_16070\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_16070"
-		Release.AspNetCompiler.PhysicalPath = "WAPService\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_16070\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "WAPService\"
-	EndProjectSection
-EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 7
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://123.1.175.170:8080/tfs/defaultcollection
-		SccProjectUniqueName0 = DBModel\\DBModel.csproj
-		SccProjectName0 = DBModel
-		SccAuxPath0 = http://123.1.175.170:8080/tfs/defaultcollection
-		SccLocalPath0 = DBModel
-		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName1 = GameLibrary\\GameLibrary.csproj
-		SccProjectName1 = GameLibrary
-		SccAuxPath1 = http://123.1.175.170:8080/tfs/defaultcollection
-		SccLocalPath1 = GameLibrary
-		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName2 = DBase\\DBase.csproj
-		SccProjectName2 = DBase
-		SccAuxPath2 = http://123.1.175.170:8080/tfs/defaultcollection
-		SccLocalPath2 = DBase
-		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName3 = NETCommon\\NETCommon.csproj
-		SccProjectName3 = NETCommon
-		SccAuxPath3 = http://123.1.175.170:8080/tfs/defaultcollection
-		SccLocalPath3 = NETCommon
-		SccProvider3 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName4 = GameServices\\GameServices.csproj
-		SccProjectName4 = GameServices
-		SccAuxPath4 = http://123.1.175.170:8080/tfs/defaultcollection
-		SccLocalPath4 = GameServices
-		SccProvider4 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName5 = GameUI\\GameUI.csproj
-		SccProjectName5 = GameUI
-		SccAuxPath5 = http://123.1.175.170:8080/tfs/defaultcollection
-		SccLocalPath5 = GameUI
-		SccProvider5 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName6 = GameCompute\\GameCompute.csproj
-		SccProjectName6 = GameCompute
-		SccAuxPath6 = http://123.1.175.170:8080/tfs/defaultcollection
-		SccLocalPath6 = GameCompute
-		SccProvider6 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -199,18 +135,6 @@ Global
 		{4D467559-E35D-45BE-924C-2FC195DD8931}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{4D467559-E35D-45BE-924C-2FC195DD8931}.Release|Win32.ActiveCfg = Release|Any CPU
 		{4D467559-E35D-45BE-924C-2FC195DD8931}.Release|x64.ActiveCfg = Release|Any CPU
-		{ACCCEF25-4893-42E4-8CFD-9897D2758A9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ACCCEF25-4893-42E4-8CFD-9897D2758A9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ACCCEF25-4893-42E4-8CFD-9897D2758A9B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{ACCCEF25-4893-42E4-8CFD-9897D2758A9B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{ACCCEF25-4893-42E4-8CFD-9897D2758A9B}.Debug|Win32.ActiveCfg = Debug|Any CPU
-		{ACCCEF25-4893-42E4-8CFD-9897D2758A9B}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{ACCCEF25-4893-42E4-8CFD-9897D2758A9B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{ACCCEF25-4893-42E4-8CFD-9897D2758A9B}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{ACCCEF25-4893-42E4-8CFD-9897D2758A9B}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{ACCCEF25-4893-42E4-8CFD-9897D2758A9B}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
-		{ACCCEF25-4893-42E4-8CFD-9897D2758A9B}.Release|Win32.ActiveCfg = Debug|Any CPU
-		{ACCCEF25-4893-42E4-8CFD-9897D2758A9B}.Release|x64.ActiveCfg = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -64,6 +64,7 @@ namespace GameCompute
 
         public void DoIt()
         {
+
             int count =0;
             var processMessage = game.ProcessOrder(Go.GameClassID, 0, string.Empty, 0, 0, out count);
             if( chkDebug.Checked )

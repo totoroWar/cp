@@ -17,7 +17,7 @@
 <div class="cjlsoft-body-header tools">
     <a href="/AM/Order?method=defaultOrder">普通订单</a>
     <a href="/AM/Order?method=traceOrder">追号订单</a>
-    <a href="/AM/Order?method=combineOrder">合买订单</a>
+    <!--<a href="/AM/Order?method=combineOrder">合买订单</a>-->
     <a href="/AM/Order?method=manageOrder">多功能撤单</a>
 </div>
 <div class="blank-line"></div>
@@ -62,11 +62,13 @@
                   }
                   var haveGame = gc.gc004.Split(',');
                   foreach (var gameItem in haveGame)
-                  { 
+                  {
+                  if (gDicList.ContainsKey(int.Parse(gameItem)))
+                  {
             %>
             <option value="<%:gameItem %>" <%:orderGame==int.Parse(gameItem) ? "selected='selected'" : "" %> tourl="/AM/Order?method=defaultOrder&orderGameClass=<%:gc.gc001 %>&orderGame=<%:gameItem %>"><%:gDicList[int.Parse(gameItem)].g003.Trim() %></option>
             <%
-                  }/*game*/
+            } }/*game*/
               }
             %>
         </select>
@@ -322,11 +324,13 @@
                   }
                   var haveGame = gc.gc004.Split(',');
                   foreach (var gameItem in haveGame)
-                  { 
+                  {
+                      if (gDicList.ContainsKey(int.Parse(gameItem)))
+                  {
             %>
             <option value="<%:gameItem %>" <%:orderGame==int.Parse(gameItem) ? "selected='selected'" : "" %> tourl="/AM/Order?method=traceOrder&orderGameClass=<%:gc.gc001 %>&orderGame=<%:gameItem %>"><%:gDicList[int.Parse(gameItem)].g003.Trim() %></option>
             <%
-                  }/*game*/
+            } }/*game*/
               }
             %>
         </select>

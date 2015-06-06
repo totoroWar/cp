@@ -9,6 +9,8 @@ using _NWC = NETCommon;
 using System.Reflection;
 using System.Text.RegularExpressions;
 using System.Data.SqlClient;
+using System.Data.SQLite;
+using System.IO;
 
 namespace GameServices
 {
@@ -93,16 +95,16 @@ namespace GameServices
             return list;
         }
         public List<DBModel.wgs001> GetGameListByCache()
-        {
+        { 
             List<DBModel.wgs001> list = (List<DBModel.wgs001>)NETCommon.GeneralCache.Get(gameCacheKey);
             if (null == list)
             {
                 using (UnitOfWork db = new UnitOfWork(true))
                 {
-                    list = db.Repositorywgs001.GetAll().OrderBy(exp => exp.g009).ToList();
+                    list = db.Repositorywgs001.GetAll().Where(exp => exp.g010 == true).OrderBy(exp => exp.g009).ToList();
                     NETCommon.GeneralCache.Set(gameCacheKey, list);
                 }
-            }
+            } 
             return list;
         }
         public DBModel.wgs001 GetGame(int key)
@@ -1896,6 +1898,138 @@ namespace GameServices
             }
             return result;
         }
+
+        public MR Gamecj(){
+                     MR mr = new MR();
+                     try
+                     {
+
+                         List<int> Gamesid = new List<int>();
+                         Gamesid = GetGameListByCache().Select(exp => exp.g001).ToList();
+                         if (0 == Gamesid.Count)
+                         {
+                             mr.Message = "没有需要采集的游戏";
+                             mr.Code = 1;
+                             return mr;
+                         }
+
+                         Expression<Func<DBModel.wgs038, bool>> query038 = PredicateExtensionses.True<DBModel.wgs038>();
+                         query038 = query038.And(exp => exp.gsr004 != 3);
+                         query038 = query038.And(exp => exp.gs005 < DateTime.Now);
+                         query038 = query038.And(exp => Gamesid.Contains(exp.g001));
+
+                         using (UnitOfWork db = new UnitOfWork())
+                         {
+
+                             var wgs038List = db.Repositorywgs038.IQueryable(query038).ToList();
+                             string messs = "";
+                             SQLiteConnection conn = null;
+                             for (int j = 0; j < Gamesid.Count; j++)
+                             {
+
+                                 string num = "1";
+                                 switch (Gamesid[j])
+                                 {
+                                     case 3://广西快乐十分
+                                         num = "1";
+                                         break;
+                                     case 2://广东快乐十分
+                                         num = "2";
+                                         break;
+                                     case 8://重庆快乐十分
+                                         num = "3";
+                                         break;
+                                     case 6://新疆时时彩
+                                         num = "4";
+                                         break;
+                                     case 7://江西时时彩
+                                         num = "5";
+                                         break;
+                                     case 23://上海时时彩
+                                         num = "6";
+                                         break;
+                                     case 1://广东11选5
+                                         num = "7";
+                                         break;
+                                     case 4://重庆时时彩
+                                         num = "8";
+                                         break;
+                                     case 20://福彩3D
+                                         num = "10";
+                                         break;
+                                     case 10://七乐彩
+                                         num = "11";
+                                         break;
+                                     case 16://湖南快乐十分
+                                         num = "12";
+                                         break;
+                                     case 5://天津时时彩
+                                         num = "13";
+                                         break;
+                                     case 9://PK拾
+                                         num = "14";
+                                         break;
+                                     case 26://体彩排列3
+                                         num = "15";
+                                         break;
+                                     case 21://体彩排列5
+                                         num = "17";
+                                         break;
+                                     case 19://十一运夺金
+                                         num = "18";
+                                         break;
+                                     case 14://重庆11选5
+                                         num = "19";
+                                         break;
+                                 }
+
+                                 var wgs038byganmeid = wgs038List.Where(o => o.g001 == Gamesid[j]).ToList();
+                                 int recordCount = wgs038byganmeid.Count;
+                                 if (recordCount > 0)
+                                 {
+                                     string rootpath = Environment.CurrentDirectory.Substring(0, Environment.CurrentDirectory.LastIndexOf("\\"));
+                                     rootpath = rootpath.Substring(0, rootpath.LastIndexOf("\\")) + "\\Release-DS613\\" + num;
+                                     conn = new SQLiteConnection("Data Source=" + rootpath);//创建数据库实例，指定文件位置    
+                                     conn.Open();//打开数据库，若文件不存在会自动创建    
+
+                                     for (int i = 0; i < recordCount; i++)
+                                     {
+                                         var item = wgs038byganmeid[i];
+                                         string sql = "select * from CJLSoftGameResult where ResultSN = '" + item.gs002.Trim() + "'";
+                                         SQLiteCommand cmdQ = new SQLiteCommand(sql, conn);
+                                         SQLiteDataReader reader = cmdQ.ExecuteReader();
+                                         while (reader.Read())
+                                         {
+                                             string jg = reader.GetString(4);
+                                             if (!string.IsNullOrEmpty(jg))
+                                             {
+                                                 item.gsr002 = DateTime.Now;
+                                                 item.gsr004 = 3;
+                                                 item.gs007 = jg;
+                                                 db.Repositorywgs038.Update(item);
+                                                 db.SaveChanges();
+                                             }
+                                             messs += item.g001 + " : " + item.gs001 + "期结果 " + jg;
+                                         }
+
+                                     }
+                                     conn.Close();
+                                     conn.Dispose();
+                                 } 
+                             }
+                             mr.Code = 1;
+                             mr.Message = messs;
+                         }
+                     }
+                     catch (Exception error)
+                     {
+                         mr.Code = 0;
+                         mr.Message = error.Message;
+                         return mr;
+                     }
+                return mr; 
+        }
+
         public MR ProcessOrder(int gameClassID, int gameID, string issue, int pageIndex, int pageSize, out int recordCount)
         {
             recordCount = 0;
@@ -1941,6 +2075,14 @@ namespace GameServices
                     mr.Code = 1;
                     return mr;
                 }
+                for (int i = 0; i < issueList.Count; i++)
+                {
+                    DBModel.wgs038 wgs038Data = GetGameResult(issueList[i],1);
+                    wgs038Data.gsr005 = 1;
+                    db.Repositorywgs038.Update(wgs038Data);
+                    db.SaveChanges();//修改结果为已结算
+                }
+
                 query022 = query022.And(exp => issueList.Contains(exp.gs001));
                 recordCount = db.Repositorywgs022.Count(query022);
                 if (0 == recordCount)
@@ -2138,16 +2280,20 @@ namespace GameServices
                             for (var i = 0; i < gameIDSplit.Length; i++)
                             {
                                 DBModel.SysGameResultInfo infoSub = new DBModel.SysGameResultInfo();
-                                infoSub.Regex = itemSplit[1];
-                                infoSub.RangeMin = int.Parse(itemSplit[5].Split('-')[0]);
-                                infoSub.RangeMax = int.Parse(itemSplit[5].Split('-')[1]);
-                                infoSub.Length = int.Parse(itemSplit[4]);
-                                infoSub.IsNormal = int.Parse(itemSplit[3]);
-                                infoSub.Comment = itemSplit[2];
                                 infoSub.GameID = int.Parse(gameIDSplit[i]);
-                                infoSub.GameName = GetGameListByCache().Where(exp => exp.g001 == infoSub.GameID).Take(1).FirstOrDefault().g003;
-                                infoSub.Same = int.Parse(itemSplit[6]) == 0 ? false : true;
-                                result.Add(infoSub.GameID, infoSub);
+                                if (GetGameListByCache().Where(exp => exp.g001 == infoSub.GameID).Count() > 0)
+                                {
+                                    infoSub.GameName = GetGameListByCache().Where(exp => exp.g001 == infoSub.GameID).Take(1).FirstOrDefault().g003;
+                                   
+                                    infoSub.Regex = itemSplit[1];
+                                    infoSub.RangeMin = int.Parse(itemSplit[5].Split('-')[0]);
+                                    infoSub.RangeMax = int.Parse(itemSplit[5].Split('-')[1]);
+                                    infoSub.Length = int.Parse(itemSplit[4]);
+                                    infoSub.IsNormal = int.Parse(itemSplit[3]);
+                                    infoSub.Comment = itemSplit[2];
+                                    infoSub.Same = int.Parse(itemSplit[6]) == 0 ? false : true;
+                                    result.Add(infoSub.GameID, infoSub);
+                                }                                 
                             }
                         }
                         else

@@ -13,20 +13,28 @@ namespace GameUI.Controllers
         {
             serSys = sys;
         }
-        public ActionResult Index()
-        {
-            var result = serSys.AddErrorLog((ViewData.Model as HandleErrorInfo).Exception);
-            ViewData["Message"] = result.Message;
-            ViewData["ID"] = result.LongData;
-            ViewData["DateTime"] = DateTime.Now;
-            return View();
+
+        public ErrorController()
+        { 
         }
+        //public ActionResult Index()
+        //{
+        //    var result = serSys.AddErrorLog((ViewData.Model as HandleErrorInfo).Exception);
+        //    ViewData["Message"] = result.Message;
+        //    ViewData["ID"] = result.LongData;
+        //    ViewData["DateTime"] = DateTime.Now;
+        //    return View();
+        //}
         public ActionResult P1()
         {
             return View();
         }
         public ActionResult P2()
         {
+            return View();
+        }
+        public ActionResult Index()
+        { 
             return View();
         }
     }
