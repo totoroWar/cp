@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Games> 
+     <!--重庆时时彩 共添加三次-->
+     <Gamesssion> 
+     <gameID>4</gameID>
+     <Start_no>1</Start_no>
+     <End_no>24</End_no>
+     <Start_time>00:00:00</Start_time>
+     <Start_time2>300</Start_time2>
+     <Close_time>00:03:30</Close_time>
+     <Close_time2>300</Close_time2>
+     <Open_time>00:05:00</Open_time>
+     <Open_time2>300</Open_time2>
+     </Gamesssion>  
+     
+     <Gamesssion> 
+     <gameID>4</gameID>
+     <Start_no>25</Start_no>
+     <End_no>96</End_no>
+     <Start_time>10:00:00</Start_time>
+     <Start_time2>600</Start_time2>
+     <Close_time>10:08:30</Close_time>
+     <Close_time2>600</Close_time2>
+     <Open_time>10:10:00</Open_time>
+     <Open_time2>600</Open_time2>
+     </Gamesssion>   
+ 
+     <Gamesssion> 
+     <gameID>4</gameID>
+     <Start_no>97</Start_no>
+     <End_no>120</End_no>
+     <Start_time>22:00:00</Start_time>
+     <Start_time2>300</Start_time2>
+     <Close_time>22:03:30</Close_time>
+     <Close_time2>300</Close_time2>
+     <Open_time>22:05:00</Open_time>
+     <Open_time2>300</Open_time2>
+     </Gamesssion>    
+
+     <!--天津时时彩-->
+     <Gamesssion> 
+     <gameID>5</gameID>
+     <Start_no>1</Start_no>
+     <End_no>84</End_no>
+     <Start_time>09:00:00</Start_time>
+     <Start_time2>600</Start_time2>
+     <Close_time>09:08:30</Close_time>
+     <Close_time2>600</Close_time2>
+     <Open_time>09:10:00</Open_time>
+     <Open_time2>600</Open_time2>
+     </Gamesssion> 
+
+     <!--江西时时彩-->
+     <Gamesssion> 
+     <gameID>7</gameID>
+     <Start_no>1</Start_no>
+     <End_no>84</End_no>
+     <Start_time>09:05:00</Start_time>
+     <Start_time2>600</Start_time2>
+     <Close_time>09:13:30</Close_time>
+     <Close_time2>600</Close_time2>
+     <Open_time>09:15:00</Open_time>
+     <Open_time2>600</Open_time2>
+     </Gamesssion> 
+
+     <!--新疆时时彩-->
+     <Gamesssion> 
+     <gameID>6</gameID>
+     <Start_no>1</Start_no>
+     <End_no>96</End_no>
+     <Start_time>10:00:00</Start_time>
+     <Start_time2>600</Start_time2>
+     <Close_time>10:08:30</Close_time>
+     <Close_time2>600</Close_time2>
+     <Open_time>10:10:00</Open_time>
+     <Open_time2>600</Open_time2>
+     </Gamesssion> 
+ 
+     <!--分分彩-->
+     <Gamesssion> 
+     <gameID>24</gameID>
+     <Start_no>1</Start_no>
+     <End_no>1200</End_no>
+     <Start_time>07:59:00</Start_time>
+     <Start_time2>60</Start_time2>
+     <Close_time>07:59:40</Close_time>
+     <Close_time2>60</Close_time2>
+     <Open_time>08:00:00</Open_time>
+     <Open_time2>60</Open_time2>
+     </Gamesssion>
+
+     <!--三分彩-->
+     <Gamesssion> 
+     <gameID>25</gameID>
+     <Start_no>1</Start_no>
+     <End_no>400</End_no>
+     <Start_time>07:57:00</Start_time>
+     <Start_time2>180</Start_time2>
+     <Close_time>07:59:00</Close_time>
+     <Close_time2>180</Close_time2>
+     <Open_time>08:00:00</Open_time>
+     <Open_time2>180</Open_time2>
+     </Gamesssion>
+
+ </Games> 

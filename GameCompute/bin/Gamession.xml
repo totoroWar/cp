@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Games>  
+     <!--分分彩-->
+     <Gamesssion> 
+     <gameID>24</gameID>
+     <Start_no>1</Start_no>
+     <End_no>1439</End_no>
+     <Start_time>0:00:00</Start_time>
+     <Start_time2>60</Start_time2>
+     <Close_time>0:01:00</Close_time>
+     <Close_time2>60</Close_time2>
+     <Open_time>0:01:00</Open_time>
+     <Open_time2>60</Open_time2>
+     <Start_type>0</Start_type>
+     </Gamesssion>       
+ </Games> 
